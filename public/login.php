@@ -75,7 +75,7 @@ if(isset($_POST['username'])){
 
                     <div class="form-group ">
                         <div class="col-xs-12">
-                            <input class="form-control" name="username" type="text" ng-model="form_login.username" required placeholder="E-mail">
+                            <input class="form-control" name="username" type="text" ng-model="form_login.username" required placeholder="Username">
                         </div>
                     </div>
 
