@@ -29,7 +29,7 @@ if($Session->isLogged()==false){
 
     <div class="row-fluid">
         <div class="pull-right">
-            Hello, <b><?php echo $_SESSION['user_name']; ?></b>
+            Hello, <b><?php echo $_SESSION['user_name']; ?></b> <small><a href="logout.php">Logout</a></small>
         </div>
         <h1><?php echo $config['app']['name']; ?></h1>
         <p><?php echo $config['app']['desc']; ?></p>
