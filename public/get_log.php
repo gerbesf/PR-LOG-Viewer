@@ -31,7 +31,7 @@ foreach($config['servers_list'] as $server_list){
             $index++;
             $line = explode('performed by', $linha);
             $line_command = trim(substr($line [0], 21));
-            $data = trim(substr($line [0], 0, 20));
+            $data = trim(substr($line [0], 0, 19));
             $data_format = date_create(str_replace("'", '', $data));
             $message_e = explode("': ", $line[1]);
             if ($line_command == $command_search) {
