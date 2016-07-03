@@ -3,7 +3,7 @@ session_start();
 require "app/Session.php";
 $config['app'] = [
     'name'=>'PR LOG Viewer',
-    'desc'=>'The tool you can se the log by ONLY one CLICK!'
+    'desc'=>'The tool you can se the log by ONLY one CLICK! (actually with three clicks)'
 ];
 $config['with_md5']=false;
 $config['date_format']="Y-m-d";

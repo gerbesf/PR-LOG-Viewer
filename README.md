@@ -1,5 +1,5 @@
 # PR-Logviwer
-The tool you can se the log by ONLY one CLICK!
+The tool you can se the log by ONLY one CLICK! (actually with three clicks)
 
 ## How to Configure (config.php)
 
