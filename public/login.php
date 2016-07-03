@@ -81,7 +81,7 @@ if(isset($_POST['username'])){
 
                     <div class="form-group ">
                         <div class="col-xs-12">
-                            <input class="form-control" name="password" type="password" ng-model="form_login.password" required placeholder="Senha">
+                            <input class="form-control" name="password" type="password" ng-model="form_login.password" required placeholder="Password">
                         </div>
                     </div>
 
