@@ -2,7 +2,6 @@
 
 session_start();
 include "../config.php";
-include "../vendor/autoload.php";
 header('Content-Type: application/json');
 
 // set command name on result
