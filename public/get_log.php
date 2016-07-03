@@ -24,7 +24,8 @@ foreach($config['servers_list'] as $server_list){
 
         $res = [];
 
-        $file = explode ( '<br />', nl2br($curl) );
+        $file = explode ( '
+', (mb_convert_encoding($curl, 'HTML-ENTITIES', "UTF-8")) );
         $index=0;
         foreach ( $file as $linha ) {
             $index++;

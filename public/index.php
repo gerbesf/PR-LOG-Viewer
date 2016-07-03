@@ -1,7 +1,6 @@
 <?php
 
 require '../config.php';
-
 $Session = new \App\Session();
 if($Session->isLogged()==false){
     return header('Location: login.php');
