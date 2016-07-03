@@ -23,7 +23,7 @@ $config['servers_list'][] = [
 #### Passwors with MD5
 When you configure the 'password' with MD5, need to be encrypted and configure on the 'password' line.
 ```php
-$config['with_md5']=false;
+$config['with_md5']=true;
 $config['auth'] = [
     0 => [
         'id' => 1,
