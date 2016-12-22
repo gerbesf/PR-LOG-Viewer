@@ -38,7 +38,7 @@ if($Session->isLogged()==false){
 
             <div class="col-md-6">
 
-                    <h2>Choose the Server</h2>
+                    <h2>Choose the Server - ({{ active_server }})</h2>
 
                         <ul class="list-group">
                             <li  class="list-group-item" ng-click="setServer(server.id)" ng-class="{'active':active_server==server.id}" ng-repeat="server in server_list">
@@ -50,7 +50,7 @@ if($Session->isLogged()==false){
 
             </div>
             <div class="col-md-6">
-                    <h2>Choose the Command</h2>
+                    <h2>Choose the Command - ({{ active_command }})</h2>
                         <ul class="list-group" >
                             <li  class="list-group-item"  ng-click="setCommand(command.value)" ng-class="{'active':active_command==command.value}" ng-repeat="command in server_commands">
                                 <label>
