@@ -14,7 +14,7 @@ $config['auth'] = [
     0 => [
         'id' => 1,
         'username' => 'admin',
-        'password' => 'admin',
+        'password' => 'admin312',
         'name'=>'Administrator'
     ],
     1 => [

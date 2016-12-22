@@ -35,5 +35,20 @@ Application.controller('ApplicationController',['$scope','$filter','$http',funct
          });
 
      }
+     
+     $scope.download_button_css = 'btn-default';
+     $scope.download_button = 'Update Log';
+     $scope.downloadLog = function(){
+         $scope.download_button = "Updating..";
+        $scope.download_button_css = 'btn-warning';
+         $http.get('download.php?server_id='+$scope.active_server).success(function(data){
+            $scope.download_button = "Updated";
+            $scope.download_button_css = 'btn-success';
+         }).error(function(data,status){
+            $scope.download_button = "Error";
+            $scope.download_button_css = 'btn-danger';
+             console.log('Error: '+status);
+         });
+     };
 
  }]);

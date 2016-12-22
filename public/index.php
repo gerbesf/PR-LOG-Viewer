@@ -45,6 +45,7 @@ if($Session->isLogged()==false){
                                 <label>
                                     {{ server.name }}
                                 </label>
+                                <button class="btn btn-xs {{ download_button_css }} pull-right" ng-click="setServer(server.id);downloadLog()">{{ download_button }}</button>
                             </li>
                         </ul>
 
