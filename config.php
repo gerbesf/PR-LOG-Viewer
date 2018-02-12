@@ -14,6 +14,8 @@ $config['date_format']="d/m/Y";
 $config['hour_format']="H:i:s";
 
 
+$config['need_login'] = false;
+
 /* --------- USERS --------- */
 $config['auth'] = [
     0 => [
@@ -98,3 +100,5 @@ $config['server_commands'] = [
             'value' => 'SWITCH'
         ]
 ];
+
+$GLOBALS['config'] = $config;

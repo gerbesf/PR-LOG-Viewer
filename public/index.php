@@ -2,7 +2,7 @@
 
 require '../config.php';
 $Session = new \App\Session();
-if($Session->isLogged()==false){
+if($Session->isLogged()==false && $GLOBALS['config']['need_login']==true){
     return header('Location: login.php');
 }
 ?><!DOCTYPE html>
@@ -37,9 +37,11 @@ if($Session->isLogged()==false){
 <div class="container" ng-init="loadContents()">
 
     <div class="row-fluid">
+        <?php if( $GLOBALS['config']['need_login'] == true ) { ?>
         <div class="pull-right">
             Hello, <b><?php echo $_SESSION['user_name']; ?></b> <small><a href="logout.php">Logout</a></small>
         </div>
+        <?php } ?>
         <h1><?php echo $config['app']['name']; ?></h1>
         <p><?php echo $config['app']['desc']; ?></p>
 
