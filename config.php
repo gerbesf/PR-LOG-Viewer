@@ -34,24 +34,11 @@ $config['auth'] = [
 $config['servers_list'][] = [
         'id' => 1,
         'name' => 'DIVSUL - BR',
-        'path' => 'http://logs.divsul.com:666/PRServer/logs/ra_adminlog_main.txt',
+        'path' => 'http://logs.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // for complete log, after restart
+        'active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // for active log, before restart
         'local_name' => 'divsul_01_main.txt',
     ];
 
-/*
- * 
-$config['servers_list'][] = [
-    'id' => 2,
-    'name' => 'SERVER 02',
-    'path' => 'http://server02.divsul.com:666/ra_adminlog.txt'
-];
-
-$config['servers_list'][] = [
-    'id' => 3,
-    'name' => 'SERVER 03',
-    'path' => 'http://149.56.165.176:666/logs/ra_adminlog.txt'
-];
- */
 
 /* --------- COMMANDS --------- */
 $config['server_commands'] = [

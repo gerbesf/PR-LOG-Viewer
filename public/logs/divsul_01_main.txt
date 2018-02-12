@@ -1876,3 +1876,16 @@
 [2018-02-12 20:11] !REPORT         performed by '|ALC| LUCASH4MM3R': fabiano n sabe jogar d cas
 [2018-02-12 20:12] !WARN           performed by ' LF*' on '[FODA] Fabiano_': Voce desperdicou Asset! Vai treinar em CO-OP! - Desperdiciaste Asset! Vaya a entrenar en CO-OP!
 [2018-02-12 20:12] !REPORT         performed by '[BAD] kaisertyr': o que esta escrito ... ele nao sabe jogar
+[2018-02-12 20:19] !KICK           performed by 'SERVER' on 'GOATs EduTXD': Creating too many early squads!
+[2018-02-12 20:22] !SETNEXT        performed by '[FODA] Fabiano_': Kashan Desert (AAS, Alt)
+[2018-02-12 20:23] !REPORT         performed by '[NOOB] xandedamata1010': marcao da runxt
+[2018-02-12 20:26] !RUNNEXT        performed by '[FODA] Fabiano_': 
+[2018-02-12 20:44] !MAPVOTE        performed by '[BAD] Sniper-JP': Mapvote:    1: Karbala    2: Iroridge    3: Sbeneh   | Type '1', '2' or '3' in squad chat!
+[2018-02-12 20:47] !SETNEXT        performed by '[BAD] Sniper-JP': Karbala (Insurgency, Std)
+[2018-02-12 20:50] !REPORT         performed by '[BAD] GustavoP': swith please
+[2018-02-12 20:50] !SWITCH         performed by '[BAD] Sniper-JP' on '[BAD] GustavoP': Instantly
+[2018-02-12 20:53] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] GustavoP': Instantly
+[2018-02-12 21:26] !REPORT         performed by '[RONE] MaxBr': tm comp passar o balboa pra car? jogar com o clan ?
+[2018-02-12 21:26] !REPORT         performed by '[RONE] MaxBr': pfvr
+[2018-02-12 21:27] !SWITCH         performed by '[BAD] kaisertyr' on '[RONE] Balboa': Instantly
+[2018-02-12 21:29] !REPORTP        performed by '=1BIM= Pastel' on '=1BIM= COREA_': ta trollando com a anti aerea
