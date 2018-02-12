@@ -19,9 +19,10 @@ foreach($config['servers_list'] as $server_list){
     if($server_list['id']==$_GET['server_id']){
 
         // Execute Request on Server
-        $curl = file_get_contents( $server_list['path'] );
+        #$curl = file_get_contents( $server_list['path'] );
 
-        #$curl = file_get_contents( 'logs/'.$server_list['local_name']);
+        // Read on server
+        $curl = file_get_contents( 'logs/'.$server_list['local_name']);
                 
         $command_search = $_GET['command'];
 
