@@ -28,6 +28,9 @@ if($Session->isLogged()==false){
             font-size:25px;
             line-height: 40px;
         }
+        .authors_td {
+            white-space: nowrap;
+        }
     </style>
 </head>
 <body ng-controller="ApplicationController">
@@ -112,7 +115,7 @@ if($Session->isLogged()==false){
                                 <td class="col-md-1">
                                     <span class="text-{{ item.color }}">{{ item.command }}</span>
                                 </td>
-                                <td class="col-md-3">
+                                <td class="col-md-3 authors_td">
                                     <b>'{{ item.players }}'</b>
                                 </td>
                                 <td>
