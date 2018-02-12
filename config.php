@@ -6,15 +6,20 @@ $config['app'] = [
     'desc'=>'The tool you can se the log by ONLY one CLICK! (actually with three clicks)'
 ];
 $config['with_md5']=false;
-$config['date_format']="Y-m-d";
+#$config['date_format']="Y-m-d";
+#$config['hour_format']="H:i:s";
+
+// Brazilian time
+$config['date_format']="d/m/Y";
 $config['hour_format']="H:i:s";
+
 
 /* --------- USERS --------- */
 $config['auth'] = [
     0 => [
         'id' => 1,
         'username' => 'admin',
-        'password' => 'admin312',
+        'password' => 'admin',
         'name'=>'Administrator'
     ],
     1 => [
@@ -29,9 +34,10 @@ $config['auth'] = [
 $config['servers_list'][] = [
         'id' => 1,
         'name' => 'DIVSUL - BR',
-        'path' => 'http://server01.divsul.com:666/ServerPR/Server01/logs/ra_adminlog_main.txt',
-        'local_name' => 'divsul_01_main.txt'
+        'path' => 'http://logs.divsul.com:666/PRServer/logs/ra_adminlog_main.txt',
+        'local_name' => 'divsul_01_main.txt',
     ];
+
 /*
  * 
 $config['servers_list'][] = [
@@ -65,6 +71,11 @@ $config['server_commands'] = [
             'value' => 'REPORT'
         ],
         [
+            'name' => 'REPORT PLAYER',
+            'color' => 'danger',
+            'value' => 'REPORTP'
+        ],
+        [
             'name' => 'WARNING',
             'color' => 'warning',
             'value' => 'WARN'
@@ -74,24 +85,29 @@ $config['server_commands'] = [
             'color' => 'danger',
             'value' => 'KICK'
         ],
-    [
-        'name' => 'TEMP BAN',
-        'color' => 'danger',
-        'value' => 'TB'
-    ],
-    [
-        'name' => 'PERM BAN',
-        'color' => 'danger',
-        'value' => 'B'
-    ],
+        [
+            'name' => 'TEMP BAN',
+            'color' => 'danger',
+            'value' => 'TEMPBAN'
+        ],
+        [
+            'name' => 'PERM BAN',
+            'color' => 'danger',
+            'value' => 'BAN'
+        ],
+        [
+            'name' => 'RESIGN',
+            'color' => 'danger',
+            'value' => 'RESIGN'
+        ],
         [
             'name' => 'SAY',
             'color' => 'danger',
             'value' => 'SAY'
         ],
         [
-            'name' => 'RESIGN',
+            'name' => 'SWITCH',
             'color' => 'danger',
-            'value' => 'RESIGN'
+            'value' => 'SWITCH'
         ]
 ];

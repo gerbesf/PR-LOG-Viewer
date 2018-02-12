@@ -4,8 +4,6 @@ session_start();
 include "../config.php";
 //header('Content-Type: application/json');
 
-file_put_contents("Tmpfile.zip", fopen("http://someurl/file.zip", 'r'));
-
 
 foreach($config['servers_list'] as $server_list){
 
@@ -17,7 +15,17 @@ foreach($config['servers_list'] as $server_list){
         file_put_contents('logs/'.$server_list['local_name'],$curlData);
         
         echo 'Saved';
+
+        $content = date('Y-m-d H:i:s');
+        $fp = fopen( getenv("DOCUMENT_ROOT") . 'logs/'.$server_list['local_name'].'.timestamp',"wb");
+        fwrite($fp,$content);
+        fclose($fp);
         
     }
     
 }
+/*
+ *
+
+
+ */

@@ -11,6 +11,7 @@ if($Session->isLogged()==false){
     <meta charset="UTF-8">
     <title><?php echo $config['app']['name']; ?>Login Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/ApplicationController.js"></script>
@@ -22,6 +23,12 @@ if($Session->isLogged()==false){
         echo "var server_commands = ". $server_commands . ";\n";
         ?>
     </script>
+    <style>
+        .labelServer {
+            font-size:25px;
+            line-height: 40px;
+        }
+    </style>
 </head>
 <body ng-controller="ApplicationController">
 <div class="container" ng-init="loadContents()">
@@ -34,6 +41,7 @@ if($Session->isLogged()==false){
         <p><?php echo $config['app']['desc']; ?></p>
 
     </div>
+
         <div class="row">
 
             <div class="col-md-6">
@@ -42,10 +50,13 @@ if($Session->isLogged()==false){
 
                         <ul class="list-group">
                             <li  class="list-group-item" ng-click="setServer(server.id)" ng-class="{'active':active_server==server.id}" ng-repeat="server in server_list">
-                                <label>
+                                <label class="labelServer">
                                     {{ server.name }}
                                 </label>
-                                <button class="btn btn-xs {{ download_button_css }} pull-right" ng-click="setServer(server.id);downloadLog()">{{ download_button }}</button>
+                                <button class="btn btn-xs {{ download_button_css }} pull-right" ng-click="setServer(server.id);downloadLog()">
+                                    {{ download_button }}<br>
+                                    <small><span class="fa fa-time"> </span> Last Update: <span ng-if="!server.timestamp">loading...</span> {{ server.timestamp }}</small>
+                                </button>
                             </li>
                         </ul>
 
