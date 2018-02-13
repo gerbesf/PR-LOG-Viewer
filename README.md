@@ -41,6 +41,11 @@ $config['servers_list'][] = [
 /* ---------- AUTH ---------- */
 $config['require_login'] = false;
 ```
+#### Display / Hide Full IP
+This feature change ip to 999.999.000.000
+```php
+$config['hide_ips'] = true;
+```
 
 
 #### Passwors with MD5

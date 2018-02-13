@@ -52,12 +52,18 @@ function explodeLine($line){
     $hash = substr($line,19,32);
     $nick_ip = explode('  ',substr($line,52,100));
 
+    $ip = $nick_ip[1];
+    if($GLOBALS['config']['hide_ips']==true){
+        $eIp = explode('.',$nick_ip[1]);
+        $ip = $eIp[0].'.'.$eIp['1'].'.'.str_repeat('0',strlen($eIp['2'])).'.'.str_repeat('0',strlen($eIp['2']));
+    }
+
     return [
         'data_index'=>date($GLOBALS['config']['date_format'],strtotime($data)),
         'data'=>date($GLOBALS['config']['date_format'].' '.$GLOBALS['config']['hour_format'],strtotime($data)),
         'hash'=>$hash,
         'nick'=>$nick_ip[0],
-        'ip'=>$nick_ip[1],
+        'ip'=>$ip,
     ];
 
 }

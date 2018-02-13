@@ -11,13 +11,14 @@ $config['app'] = [
 /* ---------- DATE ---------- */
 $config['date_format']="Y-m-d";
 $config['hour_format']="H:i:s";
-// Brazilian time
-#$config['date_format']="d/m/Y";
 
 
 /* ---------- AUTH ---------- */
 $config['require_login'] = false;
 $config['with_md5']=false;
+
+// Hide Full IP
+$config['hide_ips'] = true;
 
 /* --------- USERS --------- */
 $config['auth'] = [
