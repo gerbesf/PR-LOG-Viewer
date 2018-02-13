@@ -135,7 +135,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                     </label>
 
                     <form ng-submit="searchHash()">
-                       <p>Search anything on hash log: <b>{{ search }}</b></p>
+                       <p>Search anything on Hash log</p>
                        <div class="input-group input-group-lg">
                            <input type="text" class="form-control"  ng-click="results_hash=[]" ng-model="search" placeholder="Search for...">
                            <span class="input-group-btn">

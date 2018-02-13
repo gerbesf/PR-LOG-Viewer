@@ -23,14 +23,12 @@ foreach($config['servers_list'] as $server_list){
         $search = strtolower($_GET['search']);
         $file = file(__DIR__ . '/logs/hash_' . $server_list['local_name']);
         foreach($file as $line) {
-            $line = trim($line);
 
-            $pattern = "/^.*$search.*\$/m";
             $line_original = $line;
-            if(preg_match_all($pattern, strtolower($line), $matches)){
-                 implode("\n", $matches[0]);
-                $hash[] = explodeLine(implode("\n", $matches[0]));
-                #$results[]['line'] = $this->explodeLine(implode("\n", $matches[0]));
+            $line = trim(strtolower($line));
+            $pattern = "/^.*$search.*\$/m";
+            if (strpos($line, $search) !== false) {
+                $hash[] = explodeLine($line_original);
             }
 
         }
@@ -50,11 +48,11 @@ function explodeLine($line){
     $nick_ip = explode('  ',substr($line,52,100));
 
     return [
+        's'=>$_GET['search'],
         'data'=>date($GLOBALS['config']['date_format'].' '.$GLOBALS['config']['hour_format'],strtotime($data)),
         'hash'=>$hash,
-        'nick'=>strtoupper($nick_ip[0]),
+        'nick'=>($nick_ip[0]),
         'ip'=>$nick_ip[1],
-       # 'line'=>$line
     ];
 
 }

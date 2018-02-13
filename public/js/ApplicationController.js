@@ -7,8 +7,8 @@ Application.controller('ApplicationController',['$scope','$filter','$http',funct
     $scope.active_command = null;
     $scope.results_hash = [];
     $scope.group_by = 'nick';
-    $scope.tab = 'player';
-    $scope.search = 'Ferre';
+    $scope.tab = 'default';
+    $scope.search = '';
 
 
     // Load content from html
