@@ -18,7 +18,23 @@ foreach($config['servers_list'] as $server_list){
             $curlDataActiveServer = file_get_contents( $server_list['active_log'] );
         }
 
+        // save active log
         file_put_contents('logs/'.$server_list['local_name'],$curlData.$curlDataActiveServer);
+
+
+
+        // download full hash players
+        $curlDataHash = file_get_contents( $server_list['path_hash'] );
+
+        // download active hash players
+        $curlDataActiveServerHash = '';
+        if( $server_list['hash_active_log'] ) {
+            $curlDataActiveServerHash = file_get_contents( $server_list['hash_active_log'] );
+        }
+
+        // save active log
+        file_put_contents('logs/hash_'.$server_list['local_name'],$curlDataHash.$curlDataActiveServerHash);
+
         
         echo 'Saved';
 

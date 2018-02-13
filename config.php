@@ -14,7 +14,7 @@ $config['date_format']="d/m/Y";
 $config['hour_format']="H:i:s";
 
 
-$config['need_login'] = false;
+$config['need_login'] = true;
 
 /* --------- USERS --------- */
 $config['auth'] = [
@@ -36,8 +36,15 @@ $config['auth'] = [
 $config['servers_list'][] = [
         'id' => 1,
         'name' => 'DIVSUL - BR',
+
+        // log files
         'path' => 'http://logs.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // for complete log, after restart
         'active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // for active log, before restart
+
+        // hash files
+        'path_hash' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash_main.txt', // for complete log, after restart
+        'hash_active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash.txt', // for active log, before restart
+
         'local_name' => 'divsul_01_main.txt',
     ];
 

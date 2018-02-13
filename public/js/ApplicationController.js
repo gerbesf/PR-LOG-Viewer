@@ -5,6 +5,10 @@ Application.controller('ApplicationController',['$scope','$filter','$http',funct
     // items for search
     $scope.active_server = null;
     $scope.active_command = null;
+    $scope.results_hash = [];
+    $scope.tab = 'default';
+    $scope.search = '';
+
 
     // Load content from html
     $scope.loadContents = function(){
@@ -12,67 +16,83 @@ Application.controller('ApplicationController',['$scope','$filter','$http',funct
         $scope.server_commands = server_commands;
     };
 
-     // set server
-     $scope.setServer = function(server) {
+    // set server
+    $scope.setServer = function(server) {
         $scope.active_server = server;
-     };
+    };
 
-     // set command
-     $scope.setCommand = function(command) {
+    // set command
+    $scope.setCommand = function(command) {
         $scope.active_command = command;
-     };
+    };
 
-     // show log
-     $scope.showLog = function() {
+    // show log
+    $scope.showLog = function() {
 
-         $scope.loading = true;
+        $scope.loading = true;
 
-         // request json data
-         $http.get('get_log.php?server_id='+$scope.active_server+'&command='+$scope.active_command).success(function(data){
-             console.log(data);
-             $scope.results = data;
-             $scope.loading = false;
-         }).error(function(data,status){
-             console.log('Error: '+status);
-         });
+        // request json data
+        $http.get('get_log.php?server_id='+$scope.active_server+'&command='+$scope.active_command).success(function(data){
+            console.log(data);
+            $scope.results = data;
+            $scope.loading = false;
+        }).error(function(data,status){
+            console.log('Error: '+status);
+        });
 
-     }
+    }
 
-     // timeout to set timestamp
-     setTimeout( function () {
-         $scope.timeStamp();
-     },100);
+    // search on hash
+    $scope.searchHash = function() {
 
-     $scope.timeStamp = function() {
+        $scope.loading_hash = true;
 
-         // each servers to increment timestamp
-         _.each( $scope.server_list , function( server ) {
-             $http.get('get_timestamp.php?server_id='+server.id).success(function(data){
-                 server.timestamp = data.timestamp;
-             }).error(function(data,status){
-                 console.log('Error: '+status);
-             });
+        // request json data
+        $http.get('get_player.php?server_id='+$scope.active_server+'&search='+$scope.search).success(function(data){
+            console.log(data);
+            $scope.results_hash = data;
+            $scope.loading_hash = false;
+        }).error(function(data,status){
+            console.log('Error: '+status);
+        });
 
-         });
+    }
 
-     }
-     
-     $scope.download_button_css = 'btn-default';
-     $scope.download_button = 'Update Log';
+    // timeout to set timestamp
+    setTimeout( function () {
+        $scope.timeStamp();
+    },100);
 
-     // execute download of log file
-     $scope.downloadLog = function(){
+    $scope.timeStamp = function() {
+
+        // each servers to increment timestamp
+        _.each( $scope.server_list , function( server ) {
+            $http.get('get_timestamp.php?server_id='+server.id).success(function(data){
+                server.timestamp = data.timestamp;
+            }).error(function(data,status){
+                console.log('Error: '+status);
+            });
+
+        });
+
+    }
+
+    $scope.download_button_css = 'btn-default';
+    $scope.download_button = 'Update Log';
+
+    // execute download of log file
+    $scope.downloadLog = function(){
         $scope.download_button = "Updating..";
         $scope.download_button_css = 'btn-warning';
-         $http.get('download.php?server_id='+$scope.active_server).success(function(data){
+        $http.get('download.php?server_id='+$scope.active_server).success(function(data){
             $scope.download_button = "Updated";
             $scope.download_button_css = 'btn-success';
-             $scope.timeStamp();
-         }).error(function(data,status){
+            $scope.timeStamp();
+        }).error(function(data,status){
             $scope.download_button = "Error";
             $scope.download_button_css = 'btn-danger';
-             console.log('Error: '+status);
-         });
-     };
+            console.log('Error: '+status);
+        });
+    };
 
- }]);
+}]);

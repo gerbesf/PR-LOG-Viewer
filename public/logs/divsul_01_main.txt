@@ -1889,3 +1889,18 @@
 [2018-02-12 21:26] !REPORT         performed by '[RONE] MaxBr': pfvr
 [2018-02-12 21:27] !SWITCH         performed by '[BAD] kaisertyr' on '[RONE] Balboa': Instantly
 [2018-02-12 21:29] !REPORTP        performed by '=1BIM= Pastel' on '=1BIM= COREA_': ta trollando com a anti aerea
+[2018-02-12 21:35] !REPORT         performed by '[RONE] KubraHH': precisamos de scramble time aqui ninguem joga
+[2018-02-12 21:38] !REPORT         performed by ' marcaoweb': alguem ai vai dar scramble?
+[2018-02-12 21:38] !REPORT         performed by '[RONE] MaxBr': votemap?
+[2018-02-12 21:38] !SAY            performed by '[BAD] Sniper-JP': Folha volte com o Caminhao. - [BAD] Sniper-JP
+[2018-02-12 21:43] !REPORT         performed by ' VASiliPR': windows spam
+[2018-02-12 21:43] !REPORT         performed by 'FAA DrellaA': windows spam mumble
+[2018-02-12 21:44] !RESIGN         performed by ' marcaoweb' on ' Ricck.?': nome squad
+[2018-02-12 21:50] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Assault on Grozny    2: Iron Ridge    3: Operation Archer   | Type '1', '2' or '3' in squad chat!
+[2018-02-12 21:55] !SETNEXT        performed by '[FODA] Fabiano_': Assault on Grozny (AAS, Std)
+[2018-02-12 22:06] !REPORT         performed by '[RONE] KubraHH': proximo mapa da scramble
+[2018-02-12 22:11] !REPORT         performed by 'FAA DrellaA': xibata atirando no heli aliado
+[2018-02-12 22:20] !REPORT         performed by ' marcaoweb': por favor veja quem esta em golf 7
+[2018-02-12 22:21] !REPORT         performed by '[BAD] kaisertyr': squad do criis
+[2018-02-12 22:21] !SAY            performed by '[BAD] Sniper-JP': Proibido fazer BC! Saia dai imediatamente! - Prohibido hacer BC! Salga de ahi inmediatamente! - [BAD] Sniper-JP
+[2018-02-12 22:44] !REPORT         performed by 'M-26-3 SlipKnoT': humano normal tk intencional

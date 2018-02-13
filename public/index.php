@@ -1,6 +1,9 @@
 <?php
 
+// config file
 require '../config.php';
+
+// sux session class and redirect
 $Session = new \App\Session();
 if($Session->isLogged()==false && $GLOBALS['config']['need_login']==true){
     return header('Location: login.php');
@@ -9,7 +12,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['need_login']==true){
 <html lang="en" ng-app="App">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $config['app']['name']; ?>Login Page</title>
+    <title><?php echo $config['app']['name']; ?></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
@@ -17,31 +20,49 @@ if($Session->isLogged()==false && $GLOBALS['config']['need_login']==true){
     <script src="js/ApplicationController.js"></script>
     <script>
         <?php
+        // servers lists
         $servers_list = json_encode($config['servers_list']);
         echo "var server_list = ". $servers_list . ";\n";
+
+        // servers commands
         $server_commands = json_encode($config['server_commands']);
         echo "var server_commands = ". $server_commands . ";\n";
         ?>
     </script>
     <style>
+        /* Label of name server */
         .labelServer {
             font-size:25px;
             line-height: 40px;
         }
+
+        /* no break line on author collum */
         .authors_td {
             white-space: nowrap;
         }
+
+        /* block padding fix */
+        .tab-block {
+            padding:10px 0;
+        }
     </style>
 </head>
+
+<!-- Starting Angular Controller -->
 <body ng-controller="ApplicationController">
+
+<!-- load contents on angular js -->
 <div class="container" ng-init="loadContents()">
 
     <div class="row-fluid">
+        <?php /* if login is required */ ?>
         <?php if( $GLOBALS['config']['need_login'] == true ) { ?>
+
         <div class="pull-right">
             Hello, <b><?php echo $_SESSION['user_name']; ?></b> <small><a href="logout.php">Logout</a></small>
         </div>
         <?php } ?>
+
         <h1><?php echo $config['app']['name']; ?></h1>
         <p><?php echo $config['app']['desc']; ?></p>
 
@@ -51,34 +72,60 @@ if($Session->isLogged()==false && $GLOBALS['config']['need_login']==true){
 
             <div class="col-md-6">
 
-                    <h2>Choose the Server - ({{ active_server }})</h2>
+                <h3>Choose the Server</h3>
 
-                        <ul class="list-group">
-                            <li  class="list-group-item" ng-click="setServer(server.id)" ng-class="{'active':active_server==server.id}" ng-repeat="server in server_list">
-                                <label class="labelServer">
-                                    {{ server.name }}
-                                </label>
-                                <button class="btn btn-xs {{ download_button_css }} pull-right" ng-click="setServer(server.id);downloadLog()">
-                                    {{ download_button }}<br>
-                                    <small><span class="fa fa-time"> </span> Last Update: <span ng-if="!server.timestamp">loading...</span> {{ server.timestamp }}</small>
-                                </button>
-                            </li>
-                        </ul>
+                <ul class="list-group">
+                    <li  class="list-group-item" ng-click="setServer(server.id)" ng-class="{'active':active_server==server.id}" ng-repeat="server in server_list">
+                        <label class="labelServer">
+                            {{ server.name }}
+                        </label>
+                        <button class="btn btn-xs {{ download_button_css }} pull-right" ng-click="setServer(server.id);downloadLog()">
+                            {{ download_button }}<br>
+                            <small><span class="fa fa-time"> </span> Last Update: <span ng-if="!server.timestamp">loading...</span> {{ server.timestamp }}</small>
+                        </button>
+                    </li>
+                </ul>
 
             </div>
-            <div class="col-md-6">
-                    <h2>Choose the Command - ({{ active_command }})</h2>
-                        <ul class="list-group" >
-                            <li  class="list-group-item"  ng-click="setCommand(command.value)" ng-class="{'active':active_command==command.value}" ng-repeat="command in server_commands">
-                                <label>
-                                    {{ command.name }}
-                                </label>
-                            </li>
-                        </ul>
+            <div class="col-md-6" ng-hide="active_server==null">
+
+                <!-- tabs -->
+                    <label ng-click="tab='default';results=[];results_hash=[]" >
+                        <input type="radio" name="tab" ng-checked="tab=='default'" >
+                        Choose the Command
+                    </label>
+                    <label  ng-click="tab='player';results=[];results_hash=[]">
+                        <input  type="radio"  name="tab"  ng-checked="tab=='player'" >
+                        Choose the Player
+                    </label>
+
+                <div class="tab-block" ng-show="tab=='default'">
+                    <ul class="list-group" >
+                        <li  class="list-group-item"  ng-click="setCommand(command.value)" ng-class="{'active':active_command==command.value}" ng-repeat="command in server_commands">
+                            <label>
+                                {{ command.name }}
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-block" ng-show="tab=='player'">
+
+                   <form ng-submit="searchHash()">
+                       <p>Search anything on hash log:{{ search }}</p>
+                       <div class="input-group input-group-lg">
+                           <input type="text" class="form-control"  ng-click="results_hash=[]" ng-model="search" placeholder="Search for...">
+                           <span class="input-group-btn">
+                        <button class="btn btn-default" ng-click="searchHash()" ng-disabled="active_server==null || search.length==0"  type="button">Search!</button>
+                      </span>
+                       </div><!-- /input-group -->
+                   </form>
+
                 </div>
 
+            </div>
+
         </div>
-        <div class="row-fluid">
+        <div class="row-fluid"  ng-hide="active_server==null"  ng-show="tab=='default'">
             <div class="col-md-12">
                 <button class="btn btn-default btn-lg btn-block" ng-click="showLog()" ng-disabled="active_server==null || active_command==null" >Show log</button>
                 <br>
@@ -129,6 +176,32 @@ if($Session->isLogged()==false && $GLOBALS['config']['need_login']==true){
             </div>
         </div>
 
+    <div ng-show="loading_hash">
+        Searching...
+    </div>
+    <!--
+
+     ng-show="results_hash.length!=0 || results_hash!=[]"
+    -->
+    <div   ng-show="results_hash.length!=0">
+    <div  ng-show="tab=='player'" >
+
+        <table class="table table-condensed table-hover">
+            <thead>
+            <tr>
+                <th>
+                    Entry
+                </th>
+            </tr>
+            </thead>
+            <tr ng-repeat="item in results_hash">
+                <td class="col-md-2">
+                    {{ item.line  }}
+                </td>
+            </tr>
+        </table>
+    </div>
+    </div>
 </div>
 
 
