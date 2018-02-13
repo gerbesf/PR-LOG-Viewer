@@ -249,7 +249,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                     {{ line.nick  }}
                 </td>
                 <td>
-                    <img style="width: 32px;" ng-src="http://sposerver.divsul.com/flag.php?ip={{ line.ip  }}">
+                    <img style="width: 32px;" ng-src="./flag.php?ip={{ line.ip  }}">
                     {{ line.ip  }}
                 </td>
             </tr>
