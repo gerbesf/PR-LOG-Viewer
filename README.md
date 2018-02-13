@@ -2,7 +2,7 @@
 The tool you can se the log by ONLY one CLICK! (actually with three clicks)
 
 
-[LIVE DEMO](http://45.77.193.220:8080/index)
+[LIVE DEMO](http://45.77.193.220:8080)
 
 
 | View Command Log  | View Hash Players Log |
