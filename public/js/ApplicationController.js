@@ -6,8 +6,9 @@ Application.controller('ApplicationController',['$scope','$filter','$http',funct
     $scope.active_server = null;
     $scope.active_command = null;
     $scope.results_hash = [];
-    $scope.tab = 'default';
-    $scope.search = '';
+    $scope.group_by = 'nick';
+    $scope.tab = 'player';
+    $scope.search = 'Ferre';
 
 
     // Load content from html
@@ -48,7 +49,7 @@ Application.controller('ApplicationController',['$scope','$filter','$http',funct
         $scope.loading_hash = true;
 
         // request json data
-        $http.get('get_player.php?server_id='+$scope.active_server+'&search='+$scope.search).success(function(data){
+        $http.get('get_player.php?server_id='+$scope.active_server+'&search='+$scope.search+'&group_by='+$scope.group_by).success(function(data){
             console.log(data);
             $scope.results_hash = data;
             $scope.loading_hash = false;

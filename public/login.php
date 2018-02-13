@@ -2,7 +2,7 @@
 
 require '../config.php';
 $Session = new \App\Session();
-if($Session->isLogged()!=false or $GLOBALS['config']['need_login']==false){
+if($Session->isLogged()!=false or $GLOBALS['config']['require_login']==false){
     return header('Location: index.php');
 }
 if(isset($_POST['username'])){

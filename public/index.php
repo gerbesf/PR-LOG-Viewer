@@ -5,7 +5,7 @@ require '../config.php';
 
 // sux session class and redirect
 $Session = new \App\Session();
-if($Session->isLogged()==false && $GLOBALS['config']['need_login']==true){
+if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
     return header('Location: login.php');
 }
 ?><!DOCTYPE html>
@@ -56,7 +56,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['need_login']==true){
 
     <div class="row-fluid">
         <?php /* if login is required */ ?>
-        <?php if( $GLOBALS['config']['need_login'] == true ) { ?>
+        <?php if( $GLOBALS['config']['require_login'] == true ) { ?>
 
         <div class="pull-right">
             Hello, <b><?php echo $_SESSION['user_name']; ?></b> <small><a href="logout.php">Logout</a></small>
@@ -110,8 +110,32 @@ if($Session->isLogged()==false && $GLOBALS['config']['need_login']==true){
                 </div>
                 <div class="tab-block" ng-show="tab=='player'">
 
-                   <form ng-submit="searchHash()">
-                       <p>Search anything on hash log:{{ search }}</p>
+                    <label  ng-click="group_by='nick'">
+                        <input  type="radio"  name="group_by" ng-click="results_hash=[]" ng-checked="group_by=='nick'" >
+                        Group by nickname
+                    </label>
+
+
+                    <label  ng-click="group_by='hash'">
+                        <input  type="radio"  name="group_by" ng-click="results_hash=[]"  ng-checked="group_by=='hash'" >
+                        Group by Hash
+                    </label>
+
+
+                    <label  ng-click="group_by='ip'">
+                        <input  type="radio"  name="group_by"  ng-click="results_hash=[]" ng-checked="group_by=='ip'" >
+                        Group by Date
+                    </label>
+
+
+
+                    <label  ng-click="group_by='ip'">
+                        <input  type="radio"  name="group_by"  ng-click="results_hash=[]"  ng-checked="group_by=='ip'" >
+                        Group by IP
+                    </label>
+
+                    <form ng-submit="searchHash()">
+                       <p>Search anything on hash log: <b>{{ search }}</b></p>
                        <div class="input-group input-group-lg">
                            <input type="text" class="form-control"  ng-click="results_hash=[]" ng-model="search" placeholder="Search for...">
                            <span class="input-group-btn">
@@ -190,15 +214,46 @@ if($Session->isLogged()==false && $GLOBALS['config']['need_login']==true){
             <thead>
             <tr>
                 <th>
-                    Entry
+                    Date
+                </th>
+                <th>
+                    Hash
+                </th>
+                <th>
+                    Nickname
+                </th>
+                <th>
+                    Ip Address
                 </th>
             </tr>
             </thead>
-            <tr ng-repeat="item in results_hash">
-                <td class="col-md-2">
-                    {{ item.line  }}
+            <tbody  ng-repeat="(keyGroup,lines) in results_hash">
+
+            <tr>
+                <td colspan="4" style="background: #ddd">
+                    <b ng-show="group_by=='nick'">Nick:</b>
+                    <b ng-show="group_by=='hash'">Hash:</b>
+                    <b ng-show="group_by=='data'">Data:</b>
+                    <b ng-show="group_by=='ip'">IP:</b>
+                    {{ keyGroup  }}
                 </td>
             </tr>
+            <tr ng-repeat="line in lines">
+                <td>
+                    {{ line.data }}
+                </td>
+                <td>
+                    {{ line.hash  }}
+                </td>
+                <td>
+                    {{ line.nick  }}
+                </td>
+                <td>
+                    <img style="width: 32px;" ng-src="http://sposerver.divsul.com/flag.php?ip={{ line.ip  }}">
+                    {{ line.ip  }}
+                </td>
+            </tr>
+            </tbody>
         </table>
     </div>
     </div>

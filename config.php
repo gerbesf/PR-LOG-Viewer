@@ -6,15 +6,15 @@ $config['app'] = [
     'desc'=>'The tool you can se the log by ONLY one CLICK! (actually with three clicks)'
 ];
 $config['with_md5']=false;
-#$config['date_format']="Y-m-d";
-#$config['hour_format']="H:i:s";
-
-// Brazilian time
-$config['date_format']="d/m/Y";
+$config['date_format']="Y-m-d";
 $config['hour_format']="H:i:s";
 
+// Brazilian time
+#$config['date_format']="d/m/Y";
+#$config['hour_format']="H:i:s";
 
-$config['need_login'] = true;
+/* ---------- AUTH ---------- */
+$config['require_login'] = false;
 
 /* --------- USERS --------- */
 $config['auth'] = [
