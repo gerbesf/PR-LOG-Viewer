@@ -34,7 +34,7 @@ foreach($config['servers_list'] as $server_list){
         }
 
         $g = $_GET['group_by'];
-        if($g='data'){
+        if($g=='data'){
             $g = $_GET['group_by'].'_index';
         }
 
@@ -53,11 +53,10 @@ function explodeLine($line){
     $nick_ip = explode('  ',substr($line,52,100));
 
     return [
-        's'=>$_GET['search'],
         'data_index'=>date($GLOBALS['config']['date_format'],strtotime($data)),
         'data'=>date($GLOBALS['config']['date_format'].' '.$GLOBALS['config']['hour_format'],strtotime($data)),
         'hash'=>$hash,
-        'nick'=>($nick_ip[0]),
+        'nick'=>$nick_ip[0],
         'ip'=>$nick_ip[1],
     ];
 
