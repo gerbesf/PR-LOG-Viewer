@@ -33,8 +33,13 @@ foreach($config['servers_list'] as $server_list){
 
         }
 
+        $g = $_GET['group_by'];
+        if($g='data'){
+            $g = $_GET['group_by'].'_index';
+        }
+
         foreach($hash as $item){
-            $results[$item[$_GET['group_by']]][] = $item;
+            $results[$item[$g]][] = $item;
         }
 
         echo json_encode($results);
@@ -49,6 +54,7 @@ function explodeLine($line){
 
     return [
         's'=>$_GET['search'],
+        'data_index'=>date($GLOBALS['config']['date_format'],strtotime($data)),
         'data'=>date($GLOBALS['config']['date_format'].' '.$GLOBALS['config']['hour_format'],strtotime($data)),
         'hash'=>$hash,
         'nick'=>($nick_ip[0]),

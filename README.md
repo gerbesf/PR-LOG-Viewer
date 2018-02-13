@@ -1,11 +1,11 @@
 # PR-Logviwer
 The tool you can se the log by ONLY one CLICK! (actually with three clicks)
 
-### View Command Log
-![alt text](http://i.imgur.com/Fnan7HT.png)
 
-## View Hash Players Log
-![alt text](http://i.imgur.com/Ciauwbm.png)
+| View Command Log  | View Hash Players Log |
+| ------------- | ------------- |
+| ![alt text](http://i.imgur.com/nel5cdF.png)  | ![alt text](http://i.imgur.com/vPLjMTP.png)  |
+
 
 
 ## How to Configure (config.php)

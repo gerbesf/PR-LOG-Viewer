@@ -122,8 +122,8 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                     </label>
 
 
-                    <label  ng-click="group_by='ip'">
-                        <input  type="radio"  name="group_by"  ng-click="results_hash=[]" ng-checked="group_by=='ip'" >
+                    <label  ng-click="group_by='data'">
+                        <input  type="radio"  name="group_by"  ng-click="results_hash=[]" ng-checked="group_by=='data'" >
                         Group by Date
                     </label>
 
