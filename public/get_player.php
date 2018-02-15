@@ -1,28 +1,23 @@
 <?php
 
-session_start();
 include "../config.php";
 header('Content-Type: application/json');
 
-// set command name on result
-foreach($config['server_commands'] as $server_commands){
-    if($server_commands['value']==$_GET['command']){
-        $command_result = $server_commands['name'];
-        $command_color = $server_commands['color'];
-    }
-}
-
+$results = [];
 // list servers
 foreach($config['servers_list'] as $server_list){
 
+    $servers_ids = explode(',',substr($_GET['server_id'],0,-1));
+
     // Lock in active Server
-    if($server_list['id']==$_GET['server_id']) {
+    if( in_array($server_list['id'],$servers_ids) ){
 
         $hash = [];
-        $results = [];
         $search = strtolower($_GET['search']);
         $file = file(__DIR__ . '/logs/hash_' . $server_list['local_name']);
-        foreach($file as $line) {
+
+        $list = array_reverse($file);
+        foreach($list as $line) {
 
             $line_original = $line;
             $line = trim(strtolower($line));
@@ -39,12 +34,26 @@ foreach($config['servers_list'] as $server_list){
         }
 
         foreach($hash as $item){
-            $results[$item[$g]][] = $item;
+
+            $item['server']=$server_list['name'];
+
+            if($_GET['hide']=='true'){
+                $unique_index = md5($item['hash'].$item['nick'].$item['ip']);
+                $results[$item[$g]][$unique_index] = $item;
+            }else{
+                $results[$item[$g]][] = $item;
+            }
+
+            $unique_index = md5($item['hash'].$item['nick'].$item['ip']);
+            $results[$item[$g]][$unique_index] = $item;
         }
 
-        echo json_encode($results);
+
+
     }
 }
+
+echo json_encode($results);
 
 function explodeLine($line){
 

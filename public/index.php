@@ -13,11 +13,16 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
 <head>
     <meta charset="UTF-8">
     <title><?php echo $config['app']['name']; ?></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/ApplicationController.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <script>
         <?php
         // servers lists
@@ -34,6 +39,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
         .labelServer {
             font-size:25px;
             line-height: 40px;
+            cursor: pointer;
         }
 
         /* no break line on author collum */
@@ -44,6 +50,12 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
         /* block padding fix */
         .tab-block {
             padding:10px 0;
+        }
+        .divide-col {
+            -moz-column-count: 2;  -moz-column-gap: 20px;    -webkit-column-count: 2;    -webkit-column-gap: 20px;    column-count: 2; column-gap: 20px;
+        }
+        table{
+            font-size:12px
         }
     </style>
 </head>
@@ -64,7 +76,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
         <?php } ?>
 
         <h1><?php echo $config['app']['name']; ?></h1>
-        <p><?php echo $config['app']['desc']; ?></p>
+        <!--<p><?php echo $config['app']['desc']; ?></p>-->
 
     </div>
 
@@ -72,74 +84,127 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
 
             <div class="col-md-6">
 
-                <h3>Choose the Server</h3>
+                <h3>Choose the Server ( {{ selected_server.length }}  <span ng-if="selected_server.length==1">server</span> <span ng-if="selected_server.length>=2">servers</span> selected )</h3>
 
                 <ul class="list-group">
-                    <li  class="list-group-item" ng-click="setServer(server.id)" ng-class="{'active':active_server==server.id}" ng-repeat="server in server_list">
-                        <label class="labelServer">
+                    <li  class="list-group-item"  ng-click="toogleServer(server.id)" ng-class="{'active':inArray(server.id)==true}" ng-repeat="server in server_list">
+                        <label class="labelServer" >
                             {{ server.name }}
                         </label>
-                        <button class="btn btn-xs {{ download_button_css }} pull-right" ng-click="setServer(server.id);downloadLog()">
-                            {{ download_button }}<br>
+                        <button class="btn btn-xs btn-primary pull-right" ng-click="setServer(server);downloadLog(server.id);toogleServer(server.id)">
+                            <div ng-show="server.loading">Loading</div>
+                            <div ng-hide="server.loading">
                             <small><span class="fa fa-time"> </span> Last Update: <span ng-if="!server.timestamp">loading...</span> {{ server.timestamp }}</small>
+                            </div>
                         </button>
                     </li>
                 </ul>
 
             </div>
-            <div class="col-md-6" ng-hide="active_server==null">
 
+            <div class="col-md-6" ng-hide="selected_server.length==0">
+
+                <div style="height: 17px"></div>
                 <!-- tabs -->
                     <label ng-click="tab='default';results=[];results_hash=[]" >
                         <input type="radio" name="tab" ng-checked="tab=='default'" >
-                        Choose the Command
+                        Admin Logs
                     </label>
                     <label  ng-click="tab='player';results=[];results_hash=[]">
                         <input  type="radio"  name="tab"  ng-checked="tab=='player'" >
-                        Choose the Player
+                        Player Logs
                     </label>
 
                 <div class="tab-block" ng-show="tab=='default'">
-                    <ul class="list-group" >
-                        <li  class="list-group-item"  ng-click="setCommand(command.value)" ng-class="{'active':active_command==command.value}" ng-repeat="command in server_commands">
+
+                    <ul class="list-group divide-col" >
+                        <li  class="list-group-item"   ng-click="setCommand(command.value)" ng-class="{'active':active_command==command.value}" ng-repeat="command in server_commands">
                             <label>
                                 {{ command.name }}
                             </label>
                         </li>
                     </ul>
+
+                    <ul class="list-group" >
+                        <li  class="list-group-item"   ng-click="setCommand('ALL')" ng-class="{'active':active_command=='ALL'}">
+                            <label>
+                                ALL COMMANDS PER PLAYER
+                            </label>
+                        </li>
+                    </ul>
+
+                    <div ng-if="active_command=='ALL'">
+
+                        <div class="input-group input-group-lg">
+                            <input type="text" name="search_fall" id="search_fall" class="form-control"  ng-model="search_fall" placeholder="Search in all data">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" ng-click="searchAllCommands()" ng-disabled="selected_server.length==0 || search_all.length==0"  type="button">Search!</button>
+                              </span>
+                        </div><!-- /input-group -->
+                        <br>
+
+                    </div>
+
+                    <div ng-if="active_command!='ALL'">
+                    <button class="btn btn-default btn-lg btn-block" ng-click="showLog()" ng-disabled="selected_server.length==0 || active_command==null" >Show log</button>
+                    </div>
+
                 </div>
                 <div class="tab-block" ng-show="tab=='player'">
 
-                    <label  ng-click="group_by='nick'">
-                        <input  type="radio"  name="group_by" ng-click="results_hash=[]" ng-checked="group_by=='nick'" >
-                        Group by nickname
-                    </label>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="list-group" >
+                                <li  class="list-group-item" ng-click="group_by='nick'"  ng-checked="group_by=='nick'" ng-class="{'active':group_by=='nick'}">
+                                    <label>
+                                        Organize by NickName
+                                    </label>
+                                </li>
+                                <li  class="list-group-item" ng-click="group_by='hash'"  ng-checked="group_by=='hash'" ng-class="{'active':group_by=='hash'}">
+                                    <label>
+                                        Organize by Hash
+                                    </label>
+                                </li>
+                                <li  class="list-group-item" ng-click="group_by='data'"  ng-checked="group_by=='data'" ng-class="{'active':group_by=='data'}">
+                                    <label>
+                                        Organize by Time
+                                    </label>
+                                </li>
+                                <li  class="list-group-item" ng-click="group_by='ip'"  ng-checked="group_by=='ip'" ng-class="{'active':group_by=='ip'}">
+                                    <label>
+                                        Organize by IP
+                                    </label>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-group" >
+
+                                <li  class="list-group-item" ng-click="hide_duplica='true'" ng-class="{'active':hide_duplica=='true'}">
+                                    <label>
+                                        Hide duplicate
+                                    </label>
+                                </li>
+                                <li  class="list-group-item" ng-click="hide_duplica='false'" ng-class="{'active':hide_duplica=='false'}">
+                                    <label>
+                                        Show duplicate
+                                    </label>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
 
 
-                    <label  ng-click="group_by='hash'">
-                        <input  type="radio"  name="group_by" ng-click="results_hash=[]"  ng-checked="group_by=='hash'" >
-                        Group by Hash
-                    </label>
 
 
-                    <label  ng-click="group_by='data'">
-                        <input  type="radio"  name="group_by"  ng-click="results_hash=[]" ng-checked="group_by=='data'" >
-                        Group by Date
-                    </label>
+                    <form ng-submit="searchHash()" ng-init="hide_duplica='false'">
 
-
-
-                    <label  ng-click="group_by='ip'">
-                        <input  type="radio"  name="group_by"  ng-click="results_hash=[]"  ng-checked="group_by=='ip'" >
-                        Group by IP
-                    </label>
-
-                    <form ng-submit="searchHash()">
-                       <p>Search anything on Hash log</p>
                        <div class="input-group input-group-lg">
-                           <input type="text" class="form-control"  ng-click="results_hash=[]" ng-model="search" placeholder="Search for...">
+                           <input type="text" class="form-control" id="search"  ng-click="results_hash=[]" ng-model="search" placeholder="Search for...">
                            <span class="input-group-btn">
-                        <button class="btn btn-default" ng-click="searchHash()" ng-disabled="active_server==null || search.length==0"  type="button">Search!</button>
+                        <button class="btn btn-default" ng-click="searchHash()" ng-disabled="selected_server.length==0 || search.length==0"  type="button">Search!</button>
                       </span>
                        </div><!-- /input-group -->
                    </form>
@@ -149,17 +214,15 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
             </div>
 
         </div>
-        <div class="row-fluid"  ng-hide="active_server==null"  ng-show="tab=='default'">
+        <div class="row"  ng-hide="selected_server.length==0"  ng-show="tab=='default'">
             <div class="col-md-12">
-                <button class="btn btn-default btn-lg btn-block" ng-click="showLog()" ng-disabled="active_server==null || active_command==null" >Show log</button>
-                <br>
-                <div ng-show="loading">
+               <div ng-show="loading">
                     <img src="images/loading.gif"><br>
                     Loading
                 </div>
                 <div ng-show="results.server_log">
 
-                    <div class="well well-sm">
+                    <div class="well well-sm" ng-init="filter_list='">
 
                         <input class="form-control" ng-model="filter_list" class="form-control form-lg" placeholder="Filter">
 
@@ -167,10 +230,13 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                     <table class="table table-condensed table-hover">
                             <thead>
                             <tr>
-                                <th>
+                                <th style="width: 100px">
+                                    Server
+                                </th>
+                                <th style="width: 100px">
                                     Date
                                 </th>
-                                <th>
+                                <th style="width: 100px">
                                     Command
                                 </th>
                                 <th>
@@ -182,6 +248,9 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                             </tr>
                             </thead>
                             <tr ng-repeat="item in results.server_log | filter:filter_list">
+                                <td class="authors_td">
+                                    {{ item.server }}
+                                </td>
                                 <td class="col-md-2">
                                     {{ item.date  }} <b>{{ item.hour }}</b>
                                 </td>
@@ -214,6 +283,9 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
             <thead>
             <tr>
                 <th>
+                    Server
+                </th>
+                <th>
                     Date
                 </th>
                 <th>
@@ -230,7 +302,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
             <tbody  ng-repeat="(keyGroup,lines) in results_hash">
 
             <tr>
-                <td colspan="4" style="background: #ddd">
+                <td colspan="5" style="background: #ddd">
                     <b ng-show="group_by=='nick'">Nick:</b>
                     <b ng-show="group_by=='hash'">Hash:</b>
                     <b ng-show="group_by=='data'">Data:</b>
@@ -240,13 +312,16 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
             </tr>
             <tr ng-repeat="line in lines">
                 <td>
+                    {{ line.server }}
+                </td>
+                <td>
                     {{ line.data }}
                 </td>
                 <td>
                     {{ line.hash  }}
                 </td>
                 <td>
-                    {{ line.nick  }}
+                    <a href="javascript:void(0);" ng-click="getPlayerInfo(line.nick)" data-toggle="modal" data-target="#myModal" >{{ line.nick  }}</a>
                 </td>
                 <td>
                     <img style="width: 32px;" ng-src="./flag.php?ip={{ line.ip  }}">
@@ -256,6 +331,65 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
             </tbody>
         </table>
     </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">History of: <b> {{ active_nickname }}</b></h4>
+            </div>
+            <div class="modal-body">
+                <div ng-show="result_player.server_log">
+                <div style="height: 500px; overflow-x: scroll">
+                    <table class="table table-condensed table-hover">
+                        <thead>
+                        <tr>
+                            <th>
+                                Server
+                            </th>
+                            <th>
+                                Date
+                            </th>
+                            <th>
+                                Command
+                            </th>
+                            <th>
+                                Authors
+                            </th>
+                            <th>
+                                Content
+                            </th>
+                        </tr>
+                        </thead>
+                        <tr ng-repeat="item in result_player.server_log">
+                            <td class="authors_td">
+                                {{ item.server }}
+                            </td>
+                            <td class="col-md-2">
+                                {{ item.date  }} <b>{{ item.hour }}</b>
+                            </td>
+                            <td class="col-md-1">
+                                <span class="text-{{ item.color }}">{{ item.command }}</span>
+                            </td>
+                            <td class="col-md-3 authors_td">
+                                <b>'{{ item.players }}'</b>
+                            </td>
+                            <td>
+                                {{ item.content }}
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 

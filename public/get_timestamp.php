@@ -1,19 +1,10 @@
 <?php
-
-session_start();
 include "../config.php";
 header('Content-Type: application/json');
 
-// set command name on result
-foreach($config['server_commands'] as $server_commands){
-    if($server_commands['value']==$_GET['command']){
-        $command_result = $server_commands['name'];
-        $command_color = $server_commands['color'];
-    }
-}
 
 // list servers
-foreach($config['servers_list'] as $server_list){
+foreach($GLOBALS['config']['servers_list'] as $server_list){
 
     // Lock in active Server
     if($server_list['id']==$_GET['server_id']){

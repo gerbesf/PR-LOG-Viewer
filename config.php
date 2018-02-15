@@ -18,7 +18,7 @@ $config['require_login'] = false;
 $config['with_md5']=false;
 
 // Hide Full IP
-$config['hide_ips'] = true;
+$config['hide_ips'] = false;
 
 /* --------- USERS --------- */
 $config['auth'] = [
@@ -39,7 +39,7 @@ $config['auth'] = [
 /* --------- SERVERS --------- */
 $config['servers_list'][] = [
     'id' => 1, // sequential please
-    'name' => 'DIVSUL - BR', // server display name
+    'name' => 'DIVSUL-BR', // server display name
 
     // log files
     'path' => 'http://logs.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // for complete log, after restart
@@ -50,6 +50,20 @@ $config['servers_list'][] = [
     'hash_active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash.txt', // for active log, before restart
 
     'local_name' => 'divsul_01_main.txt', // local created base filename
+];
+$config['servers_list'][] = [
+    'id' => 2, // sequential please
+    'name' => 'NWG', // server display name
+
+    // log files
+    'path' => 'http://192.154.108.178:666/logs/ra_adminlog_main.txt', // for complete log, after restart
+    'active_log' => 'http://192.154.108.178:666/logs/ra_adminlog.txt', // for active log, before restart
+
+    // hash files
+    'path_hash' => 'http://192.154.108.178:666/logs/cdhash_main.txt', // for complete log, after restart
+    'hash_active_log' => 'http://192.154.108.178:666/logs/cdhash.txt', // for active log, before restart
+
+    'local_name' => 'n2g_02_main.txt', // local created base filename
 ];
 
 /*
@@ -72,61 +86,134 @@ $config['servers_list'][] = [
 
 /* --------- COMMANDS --------- */
 $config['server_commands'] = [
-        [
-            'name' => 'SETNEXT',
-            'color' => 'success',
-            'value' => 'SETNEXT'
-        ],
-        [
-            'name' => 'MAPVOTE',
-            'color' => 'success',
-            'value' => 'MAPVOTE'
-        ],
-        [
-            'name' => 'REPORT',
-            'color' => 'danger',
-            'value' => 'REPORT'
-        ],
-        [
-            'name' => 'REPORT PLAYER',
-            'color' => 'danger',
-            'value' => 'REPORTP'
-        ],
-        [
-            'name' => 'WARNING',
-            'color' => 'warning',
-            'value' => 'WARN'
-        ],
-        [
-            'name' => 'KICK',
-            'color' => 'danger',
-            'value' => 'KICK'
-        ],
-        [
-            'name' => 'TEMP BAN',
-            'color' => 'danger',
-            'value' => 'TEMPBAN'
-        ],
-        [
-            'name' => 'PERM BAN',
-            'color' => 'danger',
-            'value' => 'BAN'
-        ],
-        [
-            'name' => 'RESIGN',
-            'color' => 'danger',
-            'value' => 'RESIGN'
-        ],
-        [
-            'name' => 'SAY',
-            'color' => 'danger',
-            'value' => 'SAY'
-        ],
-        [
-            'name' => 'SWITCH',
-            'color' => 'danger',
-            'value' => 'SWITCH'
-        ]
+    [
+        'name' => 'SETNEXT',
+        'color' => 'success',
+        'value' => ['SETNEXT']
+    ],
+    [
+        'name' => 'MAPVOTE',
+        'color' => 'success',
+        'value' => ['MAPVOTE']
+    ],
+    [
+        'name' => 'REPORT',
+        'color' => 'danger',
+        'value' => ['REPORT']
+    ],
+    [
+        'name' => 'REPORT PLAYER',
+        'color' => 'danger',
+        'value' => ['REPORTP']
+    ],
+    [
+        'name' => 'WARNING',
+        'color' => 'warning',
+        'value' => ['WARN']
+    ],
+    [
+        'name' => 'KICK',
+        'color' => 'danger',
+        'value' => ['KICK']
+    ],
+    [
+        'name' => 'TEMP BAN',
+        'color' => 'danger',
+        'value' => ['TEMPBAN']
+    ],
+    [
+        'name' => 'PERM BAN',
+        'color' => 'danger',
+        'value' => ['BAN']
+    ],
+    [
+        'name' => 'RESIGN',
+        'color' => 'danger',
+        'value' => ['RESIGN']
+    ],
+    [
+        'name' => 'HISTORY',
+        'color' => 'danger',
+        'value' => ['HISTORY',]
+    ],
+    [
+        'name' => 'SCRAMBLE',
+        'color' => 'danger',
+        'value' => ['SCRAMBLE']
+    ],
+    [
+        'name' => 'SAY / SAYTEAM',
+        'color' => 'danger',
+        'value' => ['SAY','SAYTEAM']
+    ],
+    [
+        'name' => 'SWITCH',
+        'color' => 'danger',
+        'value' => ['SWITCH']
+    ],
+
+    [
+        'name' => 'FLY',
+        'color' => 'danger',
+        'value' => ['FLY']
+    ],
+
+    [
+        'name' => 'UNBAN',
+        'color' => 'danger',
+        'value' => ['UNBAN']
+    ],
+
+    [
+        'name' => 'INIT',
+        'color' => 'primary',
+        'value' => 'INIT'
+    ],
+    [
+        'name' => 'RELOAD',
+        'color' => 'primary',
+        'value' => 'RELOAD'
+    ],
+    [
+        'name' => 'TICKETS',
+        'color' => 'warning',
+        'value' => 'TICKETS'
+    ],
+
+    [
+        'name' => 'TIMEBAN',
+        'color' => 'danger',
+        'value' => 'TIMEBAN'
+    ],
+
+    [
+        'name' => 'STOPSERVER',
+        'color' => 'danger',
+        'value' => 'STOPSERVER'
+    ],
+
+    [
+        'name' => 'MESSAGE',
+        'color' => 'danger',
+        'value' => 'MESSAGE'
+    ],
+
+    [
+        'name' => 'KILL',
+        'color' => 'danger',
+        'value' => 'KILL'
+    ],
+
+    [
+        'name' => 'RESIGNALL',
+        'color' => 'danger',
+        'value' => 'RESIGNALL'
+    ],
+    [
+        'name' => 'SWAPTEAMS',
+        'color' => 'danger',
+        'value' => 'SWAPTEAMS'
+    ],
 ];
 
 // Share on globals
