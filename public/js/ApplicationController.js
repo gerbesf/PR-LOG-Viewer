@@ -19,6 +19,12 @@ Application.controller('ApplicationController',['$scope','$filter','$http',funct
     $scope.loadContents = function(){
         $scope.server_list = server_list;
         $scope.server_commands = server_commands;
+
+        // after load server, each items to get timestamp
+        _.each( $scope.server_list , function( server ) {
+            $scope.timeStamp(server);
+        });
+
     };
 
     // select/click server
@@ -131,46 +137,36 @@ Application.controller('ApplicationController',['$scope','$filter','$http',funct
 
     }
 
-    // timeout to load timestamps of servers
-    setTimeout( function () {
-        $scope.timeStamp();
-    },100);
-
     // search timestamps of servers loaded
-    $scope.timeStamp = function() {
+    $scope.timeStamp = function(server) {
 
-        // each servers to increment timestampz
-        _.each( $scope.server_list , function( server ) {
+        // Request Timestamp
+        $http.get('get_timestamp.php?server_id='+server.id).success(function(data){
 
-            //server.timestamp = null;
+            server.timestamp = data.timestamp;
+            server.loading = false;
 
-            // Request Timestamp
-            $http.get('get_timestamp.php?server_id='+server.id).success(function(data){
-                    server.timestamp = data.timestamp;
-            }).error(function(data,status){
-                console.log('-- Error in Get Timestamp');
-                console.log(data,status);
-            });
-
+        }).error(function(data,status){
+            console.log('-- Error in Get Timestamp');
+            console.log(data,status);
         });
-
-        setTimeout(function(){
-
-            $scope.$digest();
-
-        },1000)
 
     }
 
 
     // Execute download of log file
-    $scope.downloadLog = function( id_server ){
+    $scope.downloadLog = function( server ){
+
+
+        server.loading = true;
+
+        console.log('Downloading '+server.id);
 
         // Execute download from request url
-        $http.get('download.php?server_id='+id_server).success(function(data){
+        $http.get('download.php?server_id='+server.id).success(function(data){
 
-            // apos a execução do download, atualiza o todo o timestamp
-            $scope.timeStamp();
+            $scope.timeStamp(server);
+
         }).error(function(data,status){
             console.log('Error: '+status);
         });

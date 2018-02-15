@@ -92,7 +92,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                         <label class="labelServer" >
                             {{ server.name }}
                         </label>
-                        <button class="btn btn-xs btn-primary pull-right" ng-click="setServer(server);downloadLog(server.id);toogleServer(server.id)">
+                        <button class="btn btn-xs btn-primary pull-right" ng-click="setServer(server);downloadLog(server);toogleServer(server.id)">
                             <div ng-show="server.loading">Loading</div>
                             <div ng-hide="server.loading">
                             <small><span class="fa fa-time"> </span> Last Update: <span ng-if="!server.timestamp">loading...</span> {{ server.timestamp }}</small>
