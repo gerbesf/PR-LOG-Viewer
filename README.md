@@ -48,7 +48,6 @@ $config['servers_list'][] = [
 
 #### Enable / Disable Password
 ```php
-/* ---------- AUTH ---------- */
 $config['require_login'] = false;
 ```
 #### Display / Hide Full IP
