@@ -1,4 +1,4 @@
-# PR-Logviwer 1.0
+# PR LOG Viewer 1.0
 
 [LIVE DEMO](http://45.77.193.220:8080)
 

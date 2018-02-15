@@ -57,6 +57,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
         table{
             font-size:12px
         }
+        .footer { margin-top: 30px;}
     </style>
 </head>
 
@@ -155,22 +156,22 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                     <div class="row">
                         <div class="col-md-6">
                             <ul class="list-group" >
-                                <li  class="list-group-item" ng-click="group_by='nick'"  ng-checked="group_by=='nick'" ng-class="{'active':group_by=='nick'}">
+                                <li  class="list-group-item" ng-click="group_by='nick';results_hash=[]"  ng-checked="group_by=='nick'" ng-class="{'active':group_by=='nick'}">
                                     <label>
                                         Organize by NickName
                                     </label>
                                 </li>
-                                <li  class="list-group-item" ng-click="group_by='hash'"  ng-checked="group_by=='hash'" ng-class="{'active':group_by=='hash'}">
+                                <li  class="list-group-item" ng-click="group_by='hash';results_hash=[];"  ng-checked="group_by=='hash'" ng-class="{'active':group_by=='hash'}">
                                     <label>
                                         Organize by Hash
                                     </label>
                                 </li>
-                                <li  class="list-group-item" ng-click="group_by='data'"  ng-checked="group_by=='data'" ng-class="{'active':group_by=='data'}">
+                                <li  class="list-group-item" ng-click="group_by='data';results_hash=[]"  ng-checked="group_by=='data'" ng-class="{'active':group_by=='data'}">
                                     <label>
                                         Organize by Time
                                     </label>
                                 </li>
-                                <li  class="list-group-item" ng-click="group_by='ip'"  ng-checked="group_by=='ip'" ng-class="{'active':group_by=='ip'}">
+                                <li  class="list-group-item" ng-click="group_by='ip';results_hash=[]"  ng-checked="group_by=='ip'" ng-class="{'active':group_by=='ip'}">
                                     <label>
                                         Organize by IP
                                     </label>
@@ -179,14 +180,14 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
 
                         </div>
                         <div class="col-md-6">
-                            <ul class="list-group" >
+                            <ul class="list-group"   ng-init="hide_duplica='true'">
 
-                                <li  class="list-group-item" ng-click="hide_duplica='true'" ng-class="{'active':hide_duplica=='true'}">
+                                <li  class="list-group-item" ng-click="hide_duplica='true';results_hash=[]" ng-class="{'active':hide_duplica=='true'}">
                                     <label>
                                         Hide duplicate
                                     </label>
                                 </li>
-                                <li  class="list-group-item" ng-click="hide_duplica='false'" ng-class="{'active':hide_duplica=='false'}">
+                                <li  class="list-group-item" ng-click="hide_duplica='false';results_hash=[]" ng-class="{'active':hide_duplica=='false'}">
                                     <label>
                                         Show duplicate
                                     </label>
@@ -199,7 +200,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
 
 
 
-                    <form ng-submit="searchHash()" ng-init="hide_duplica='false'">
+                    <form ng-submit="searchHash()">
 
                        <div class="input-group input-group-lg">
                            <input type="text" class="form-control" id="search"  ng-click="results_hash=[]" ng-model="search" placeholder="Search for...">
@@ -222,7 +223,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                 </div>
                 <div ng-show="results.server_log">
 
-                    <div class="well well-sm" ng-init="filter_list='">
+                    <div class="well well-sm" ng-init="filter_list=''">
 
                         <input class="form-control" ng-model="filter_list" class="form-control form-lg" placeholder="Filter">
 
@@ -321,7 +322,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                     {{ line.hash  }}
                 </td>
                 <td>
-                    <a href="javascript:void(0);" ng-click="getPlayerInfo(line.nick)" data-toggle="modal" data-target="#myModal" >{{ line.nick  }}</a>
+                    <a ng-click="getPlayerInfo(line.nick)" data-toggle="modal" data-target="#myModal" >{{ line.nick  }}</a>
                 </td>
                 <td>
                     <img style="width: 32px;" ng-src="./flag.php?ip={{ line.ip  }}">
@@ -332,7 +333,6 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
         </table>
     </div>
     </div>
-</div>
 
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">

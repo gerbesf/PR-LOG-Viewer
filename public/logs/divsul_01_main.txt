@@ -2302,3 +2302,34 @@
 [2018-02-14 22:12] !WARN           performed by '=SF=SD Lobo_Sentado' on ' Humano_Normal': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
 [2018-02-14 22:14] !SETNEXT        performed by '=SF=SD Lobo_Sentado': Operation Marlin (Insurgency, Std)
 [2018-02-14 22:19] !WARN           performed by '=SF=SD Lobo_Sentado' on ' (ROTAM-PA)_Italo': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-14 23:00] !SAY            performed by ' marcaoweb': pessoal vou fazer um vote pra continuar um colocar skirmish, ok/? -  marcaoweb
+[2018-02-14 23:00] !MAPVOTE        performed by ' marcaoweb': Mapvote:    1: Continuar    2: Mudar.Skirmish   | Type '1' or '2' in squad chat!
+[2018-02-14 23:05] !SETNEXT        performed by ' marcaoweb': Kokan (Skirmish, Inf)
+[2018-02-14 23:14] !REPORT         performed by '[BAD] SR.IRINEU': vw ?
+[2018-02-14 23:28] !REPORT         performed by '[BAD] SR.IRINEU': pode botar um vw ?
+[2018-02-14 23:29] !REPORTP        performed by ' |ALCr|__jack__' on ' AlemanRG': usando apc com menos de 30play
+[2018-02-14 23:30] !REPORTP        performed by ' |ALCr|__jack__': vnzla ajut usando apc com menos de 30play
+[2018-02-14 23:32] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Runnext    2: Vw    3: Skir   | Type '1', '2' or '3' in squad chat!
+[2018-02-14 23:35] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Sbeneh Outskirts    2: Yamalia    3: Black Gold   | Type '1', '2' or '3' in squad chat!
+[2018-02-14 23:37] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Sbeneh Outskirts    2: Black Gold   | Type '1' or '2' in squad chat!
+[2018-02-14 23:37] !REPORT         performed by '[FODA] Fabiano_': ferreira vem na minha sala, vamo jogar junto kk
+[2018-02-14 23:38] !SAY            performed by ' Ferreira': OUTRO VOTE!!!! -  Ferreira
+[2018-02-14 23:38] !SAY            performed by ' Ferreira': OUTRO VOTE !!!! -  Ferreira
+[2018-02-14 23:38] !SAY            performed by ' Ferreira': VOTEM !!!!! -  Ferreira
+[2018-02-14 23:39] !SETNEXT        performed by ' Ferreira': Black Gold (Vehicle Warfare, Inf)
+[2018-02-14 23:40] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Runnext Now    2: Runnext 10Mim    3: Runnext 20Mim   | Type '1', '2' or '3' in squad chat!
+[2018-02-14 23:42] !RUNNEXT        performed by ' Ferreira': 
+[2018-02-14 23:48] !REPORT         performed by ' [NOOB]-MJ-Xibata': eu avisei ferreira que ia esvaziar o server
+[2018-02-15 00:02] !REPORT         performed by '[BAD] SR.IRINEU': spam ?
+[2018-02-15 00:06] !SAY            performed by ' Ferreira': MAPA BUGADO!!! -  Ferreira
+[2018-02-15 00:06] !SAY            performed by ' Ferreira': 10 MIM para acabar!!!! -  Ferreira
+[2018-02-15 00:07] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Wanda Shan    2: Operation Ghost Train    3: Operation Archer   | Type '1', '2' or '3' in squad chat!
+[2018-02-15 00:09] !SETNEXT        performed by '[FODA] Fabiano_': Wanda Shan (Skirmish, Inf)
+[2018-02-15 00:24] !REPORT         performed by '[BAD] SR.IRINEU': luis span
+[2018-02-15 00:24] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Bamb    2: Kozelsk    3: Operation Ghost Train   | Type '1', '2' or '3' in squad chat!
+[2018-02-15 00:24] !SAY            performed by ' Ferreira': SKIR !! -  Ferreira
+[2018-02-15 00:24] !SAY            performed by ' marcaoweb': pare de marcar respawn dos alemaes -  marcaoweb
+[2018-02-15 00:31] !SETNEXT        performed by ' Ferreira': Tad Sae Offensive (Skirmish, Inf)
+[2018-02-15 00:44] !SAY            performed by ' Ferreira': bora TAD_SAE ??? -  Ferreira
+[2018-02-15 00:48] !RUNNEXT        performed by ' Ferreira': 
+[2018-02-15 03:41] !KICK           performed by 'SERVER' on ' Alberto_DLTorre': Creating too many early squads!

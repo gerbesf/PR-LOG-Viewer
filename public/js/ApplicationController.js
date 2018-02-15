@@ -1,8 +1,8 @@
 
 Application.controller('ApplicationController',['$scope','$filter','$http',function($scope,$filter,$http){
 
+    // lol params
     $scope.server_list = 1;
-    // items for search
     $scope.active_server = null;
     $scope.active_command = null;
     $scope.results_hash = [];
@@ -12,42 +12,31 @@ Application.controller('ApplicationController',['$scope','$filter','$http',funct
     $scope.search = '';
     $scope.search_fall = '';
     $scope.hide_duplica = '';
-
     $scope.selected_server = [];
 
-    $scope.toogleServer = function( server_id ) {
 
-        var exists = _.contains($scope.selected_server, server_id);
-
-        if( exists == true ){
-            $scope.selected_server = _.without($scope.selected_server, server_id);
-        }else{
-            $scope.selected_server.push(server_id);
-        }
-
-        console.log(exists);
-
-    }
-
-    $scope.inArray = function(server_id) {
-        return _.contains($scope.selected_server, server_id);
-    }
-
-    // Load content from html
+    // Load content from html, commands and servers
     $scope.loadContents = function(){
         $scope.server_list = server_list;
         $scope.server_commands = server_commands;
     };
 
-    // set server
-    $scope.setServer = function(server) {
-        server.loading = true;
-        $scope.active_server = server.id;
+    // select/click server
+    $scope.toogleServer = function( server_id ) {
+        // has selected
+        var selected = _.contains($scope.selected_server, server_id);
+        if( selected == true ){
+            // remove server from list
+            $scope.selected_server = _.without($scope.selected_server, server_id);
+        }else{
+            // add server on list
+            $scope.selected_server.push(server_id);
+        }
+    };
 
-        // gambis forever
-        setTimeout(function(){
-            server.loading = false;
-        },3000);
+    // check server in array for active css
+    $scope.inArray = function(server_id) {
+        return _.contains($scope.selected_server, server_id);
     };
 
     // set command
@@ -55,39 +44,44 @@ Application.controller('ApplicationController',['$scope','$filter','$http',funct
         $scope.active_command = command;
     };
 
-
-
     // show log
     $scope.showLog = function() {
 
+        $scope.results = [];
         $scope.loading = true;
 
-        // request json data
+        // Request Data
         $http.get('get_log.php?server_id='+$scope.selected_server+',&command='+$scope.active_command).success(function(data){
-            console.log(data);
+
             $scope.results = data;
             $scope.loading = false;
+
         }).error(function(data,status){
-            console.log('Error: '+status);
+            console.log('-- Error in Show Log');
+            console.log(data,status);
         });
 
     }
 
 
-    // show log
+    // show all log from keysearch
     $scope.searchAllCommands = function() {
 
+        $scope.results = [];
         $scope.loading = true;
 
+        // force get search input
         var search_all = angular.element(document.getElementById('search_fall')).val();
 
-        // request json data
+        // Request Data
         $http.get('get_log_all.php?server_id='+$scope.selected_server+',&search_all='+search_all).success(function(data){
-            console.log(data);
+
             $scope.results = data;
             $scope.loading = false;
+
         }).error(function(data,status){
-            console.log('Error: '+status);
+            console.log('-- Error in Search on All Commands');
+            console.log(data,status);
         });
 
     }
@@ -95,82 +89,91 @@ Application.controller('ApplicationController',['$scope','$filter','$http',funct
     // search on hash
     $scope.searchHash = function() {
 
+        $scope.results_hash = [];
         $scope.loading_hash = true;
 
+        // force get search input
         var search = angular.element(document.getElementById('search')).val();
-        console.log(search);
 
-        // request json data
+        // Request Data
         $http.get('get_player.php?server_id='+$scope.selected_server+',&search='+search+'&group_by='+$scope.group_by+'&hide='+$scope.hide_duplica).success(function(data){
 
-            console.log(data);
             $scope.results_hash = data;
             $scope.loading_hash = false;
 
         }).error(function(data,status){
-            console.log('Error: '+status);
-            console.log(data);
+            console.log('-- Error in Search Hash');
+            console.log(data,status);
         });
 
     }
 
 
+    // Load Player History Commands
     $scope.getPlayerInfo = function(nickname) {
 
+        $scope.result_player = [];
         $scope.loading_player = true;
 
+        // active nickname
         $scope.active_nickname = nickname;
 
-        // request json data
+        // Request Data
         $http.get('get_log_all.php?server_id='+$scope.selected_server+',&search_all='+nickname).success(function(data){
 
             $scope.result_player = data;
             $scope.loading_player = false;
 
         }).error(function(data,status){
-            console.log('Error: '+status);
-            console.log(data);
+            console.log('-- Error in Player History');
+            console.log(data,status);
         });
 
     }
 
-    // timeout to set timestamp
+    // timeout to load timestamps of servers
     setTimeout( function () {
         $scope.timeStamp();
     },100);
 
+    // search timestamps of servers loaded
     $scope.timeStamp = function() {
-        // each servers to increment timestamp
+
+        // each servers to increment timestampz
         _.each( $scope.server_list , function( server ) {
-            console.log('get_timestamp.php?server_id='+server.id);
+
+            //server.timestamp = null;
+
+            // Request Timestamp
             $http.get('get_timestamp.php?server_id='+server.id).success(function(data){
                     server.timestamp = data.timestamp;
             }).error(function(data,status){
-                console.log('Error: '+status);
+                console.log('-- Error in Get Timestamp');
+                console.log(data,status);
             });
 
         });
+
+        setTimeout(function(){
+
+            $scope.$digest();
+
+        },1000)
+
     }
 
-    $scope.download_button_css = 'btn-default';
-    $scope.download_button = 'Update Log';
 
-    // execute download of log file
+    // Execute download of log file
     $scope.downloadLog = function( id_server ){
-        $scope.download_button = "Updating..";
-        $scope.download_button_css = 'btn-warning';
+
+        // Execute download from request url
         $http.get('download.php?server_id='+id_server).success(function(data){
-            $scope.download_button = "Updated";
-            $scope.download_button_css = 'btn-success';
+
+            // apos a execução do download, atualiza o todo o timestamp
             $scope.timeStamp();
         }).error(function(data,status){
-            $scope.download_button = "Error";
-            $scope.download_button_css = 'btn-danger';
             console.log('Error: '+status);
         });
     };
-
-
-
 
 }]);
