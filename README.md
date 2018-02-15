@@ -1,5 +1,4 @@
 # PR-Logviwer
-The tool you can se the log by ONLY one CLICK! (actually with three clicks)
 
 [LIVE DEMO](http://45.77.193.220:8080)
 
@@ -16,19 +15,35 @@ $config['hour_format']="H:i:s";
 You need to host the ra_adminlog.txt on your PR Server and configure the link on 'path'.
 ```php
 $config['servers_list'][] = [
-        'id' => 1,
-        'name' => 'DIVSUL - BR',
+    'id' => 1, // sequential please
+    'name' => 'DIVSUL-BR', // server display name
 
-        // log files
-        'path' => 'http://logs.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // for complete log, after restart
-        'active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // for active log, before restart
+    // log files
+    'path' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // for complete log, after restart
+    'active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // for active log, before restart
 
-        // hash files
-        'path_hash' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash_main.txt', // for complete log, after restart
-        'hash_active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash.txt', // for active log, before restart
+    // hash files
+    'path_hash' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash_main.txt', // for complete log, after restart
+    'hash_active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash.txt', // for active log, before restart
 
-        'local_name' => 'divsul_01_main.txt',
-    ];
+    'local_name' => 'divsul_01_main.txt', // local created base filename
+];
+
+
+$config['servers_list'][] = [
+    'id' => 2, // sequential please
+    'name' => 'NWG', // server display name
+
+    // log files
+    'path' => 'http://192.154.108.178:666/logs/ra_adminlog_main.txt', // for complete log, after restart
+    'active_log' => 'http://192.154.108.178:666/logs/ra_adminlog.txt', // for active log, before restart
+
+    // hash files
+    'path_hash' => 'http://192.154.108.178:666/logs/cdhash_main.txt', // for complete log, after restart
+    'hash_active_log' => 'http://192.154.108.178:666/logs/cdhash.txt', // for active log, before restart
+
+    'local_name' => 'n2g_02_main.txt', // local created base filename
+];
 ```
 
 #### Enable / Disable Password

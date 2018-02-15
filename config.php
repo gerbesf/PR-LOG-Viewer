@@ -42,7 +42,7 @@ $config['servers_list'][] = [
     'name' => 'DIVSUL-BR', // server display name
 
     // log files
-    'path' => 'http://logs.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // for complete log, after restart
+    'path' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // for complete log, after restart
     'active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // for active log, before restart
 
     // hash files
