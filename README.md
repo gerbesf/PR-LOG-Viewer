@@ -89,6 +89,9 @@ $config['modal_height'] = '700px';
 
 ```
 
+Permissions Note: 
+writable public/logs on first setup
+
 ### Maintainers
 - Ferreira
 - Danesh_italiano
