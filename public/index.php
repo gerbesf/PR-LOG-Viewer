@@ -16,8 +16,6 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
     <script src="https://code.angularjs.org/1.5.0/angular.min.js"></script>
     <script src="https://code.angularjs.org/1.5.0/angular-sanitize.min.js"></script>
-    <script src="https://code.angularjs.org/1.5.0/angular-touch.min.js"></script>
-    <script src="https://code.angularjs.org/1.5.0/angular-animate.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/ApplicationController.js"></script>
 
@@ -61,6 +59,14 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
             font-size:12px
         }
         .footer { margin-top: 30px;}
+
+        .modal-lg { width: 100%!important; }
+
+
+        <?php if( $GLOBALS['config']['full_width'] == true ) { ?>
+        .container { width: 98%!important; }
+        <?php } ?>
+
     </style>
 </head>
 
@@ -98,7 +104,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                         <button class="btn btn-xs btn-primary pull-right" ng-click="setServer(server);downloadLog(server);toogleServer(server.id)">
                             <div ng-show="server.loading">Loading</div>
                             <div ng-hide="server.loading">
-                            <small><span class="fa fa-time"> </span> Last Update: <span ng-if="!server.timestamp">loading...</span> {{ server.timestamp }}</small>
+                            <small><span class="fa fa-time"> </span> Updated on: <span ng-if="!server.timestamp">loading...</span> {{ server.timestamp }}</small>
                             </div>
                         </button>
                     </li>
@@ -349,7 +355,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
             </div>
             <div class="modal-body">
                 <div ng-show="result_player.server_log">
-                <div style="height: 500px; overflow-x: scroll">
+                <div style="height: <?php echo $config['modal_height']; ?>; overflow-x: scroll">
                     <table class="table table-condensed table-hover">
                         <thead>
                         <tr>

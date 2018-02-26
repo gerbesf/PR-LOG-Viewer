@@ -5,13 +5,12 @@ require "app/Session.php";
 /* ----------- APP ---------- */
 $config['app'] = [
     'name'=>'PR LOG Viewer',
-    'desc'=>'The tool you can se the log by ONLY one CLICK! (actually with three clicks)'
+    'desc'=>'The tool you can se the log by ONLY one CLICK! (actually with three clicks)' // old description
 ];
 
 /* ---------- DATE ---------- */
-$config['date_format']="Y-m-d";
+$config['date_format']="d/m/Y";
 $config['hour_format']="H:i:s";
-
 
 /* ---------- AUTH ---------- */
 $config['require_login'] = false;
@@ -210,6 +209,12 @@ $config['server_commands'] = [
         'value' => 'SWAPTEAMS'
     ],
 ];
+
+// width of page
+$config['full_width'] = false;
+
+// height of modal
+$config['modal_height'] = '700px';
 
 // Share on globals
 $GLOBALS['config'] = $config;

@@ -1,4 +1,4 @@
-# PR LOG Viewer 1.0
+# PR LOG Viewer 1.1
 
 [LIVE DEMO](http://45.77.193.220:8080)
 
@@ -22,9 +22,11 @@ $config['servers_list'][] = [
     'path' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // for complete log, after restart
     'active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // for active log, before restart
 
-    // is possible to windows 
+    // is possible read on windows 
     // 'path' => 'c:/server_log/ra_adminlog_main.txt', // for complete log, after restart
-    // 'active_log' => 'c:/server_log/ra_adminlog.txt', // for active log, before restart
+
+    // is possible read on linux 
+    // 'path' => '/var/logs/pr/ra_adminlog_main.txt', // for complete log, after restart
 
     // hash files
     'path_hash' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash_main.txt', // for complete log, after restart
@@ -75,6 +77,17 @@ $config['auth'] = [
 ];
 ```
 
+
+#### Page Settings
+```php
+
+// width of page
+$config['full_width'] = false;
+
+// height of modal
+$config['modal_height'] = '700px';
+
+```
 
 ### Maintainers
 - Ferreira

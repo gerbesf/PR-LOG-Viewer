@@ -14,7 +14,6 @@ Application.controller('ApplicationController',['$scope','$filter','$http',funct
     $scope.hide_duplica = '';
     $scope.selected_server = [];
 
-
     // Load content from html, commands and servers
     $scope.loadContents = function(){
         $scope.server_list = server_list;
@@ -143,7 +142,11 @@ Application.controller('ApplicationController',['$scope','$filter','$http',funct
         // Request Timestamp
         $http.get('get_timestamp.php?server_id='+server.id).success(function(data){
 
-            server.timestamp = data.timestamp;
+            if( data.timestamp == "") {
+                server.timestamp = 'never updated';
+            }else{
+                server.timestamp = data.timestamp;
+            }
             server.loading = false;
 
         }).error(function(data,status){
