@@ -42,14 +42,22 @@ $config['servers_list'][] = [
     'name' => 'DIVSUL-BR', // server display name
 
     // log files
-    //'path' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // for complete log, after restart
-    'path' => '/home/zurox/Downloads/ra_adminlog_main.txt', // for complete log, after restart
+    'path' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // for complete log, after restart
     'active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // for active log, before restart
 
     // hash files
     'path_hash' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash_main.txt', // for complete log, after restart
     'hash_active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash.txt', // for active log, before restart
 
+    /* Windows Example
+    // log files
+    'path' => 'c:/server_log/ra_adminlog_main.txt', // for complete log, after restart
+    'active_log' => 'c:/server_log/ra_adminlog.txt', // for active log, before restart
+
+    // hash files
+    'path_hash' => 'c:/server_log/cdhash_main.txt', // for complete log, after restart
+    'hash_active_log' => 'c:/server_log/cdhash.txt', // for active log, before restart
+    */
     'local_name' => 'divsul_01_main.txt', // local created base filename
 ];
 $config['servers_list'][] = [
