@@ -17,7 +17,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
     <script src="https://code.angularjs.org/1.5.0/angular.min.js"></script>
     <script src="https://code.angularjs.org/1.5.0/angular-sanitize.min.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/ApplicationController.js"></script>
+    <script src="js/ApplicationController.js?v=1.1"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
