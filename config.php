@@ -58,23 +58,9 @@ $config['servers_list'][] = [
     'path_hash' => 'c:/server_log/cdhash_main.txt', // for complete log, after restart
     'hash_active_log' => 'c:/server_log/cdhash.txt', // for active log, before restart
     */
+
     'local_name' => 'divsul_01_main.txt', // local created base filename
 ];
-$config['servers_list'][] = [
-    'id' => 2, // sequential please
-    'name' => 'NWG', // server display name
-
-    // log files
-    'path' => 'http://192.154.108.178:666/logs/ra_adminlog_main.txt', // for complete log, after restart
-    'active_log' => 'http://192.154.108.178:666/logs/ra_adminlog.txt', // for active log, before restart
-
-    // hash files
-    'path_hash' => 'http://192.154.108.178:666/logs/cdhash_main.txt', // for complete log, after restart
-    'hash_active_log' => 'http://192.154.108.178:666/logs/cdhash.txt', // for active log, before restart
-
-    'local_name' => 'n2g_02_main.txt', // local created base filename
-];
-
 /*
  * $config['servers_list'][] = [
         'id' => 2,

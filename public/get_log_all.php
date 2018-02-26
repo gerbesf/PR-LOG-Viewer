@@ -3,14 +3,6 @@
 include "../config.php";
 header('Content-Type: application/json');
 
-// set command name on result
-foreach($GLOBALS['config']['server_commands'] as $server_commands){
-    if($server_commands['value']==$_GET['command']){
-        $command_result = $server_commands['name'];
-        $command_color = $server_commands['color'];
-    }
-}
-
 $res = [];
 // list servers
 foreach($config['servers_list'] as $server_list){
@@ -42,7 +34,7 @@ foreach($config['servers_list'] as $server_list){
             $data = trim(substr($line [0], 1, 16));
             $data_format = date_create(str_replace("'", '', $data));
             
-            $message_e = explode("': ", $line[1]);
+            $message_e = explode("': ", @$line[1]);
 
             $search = $_GET['search_all'];
             $pattern = "/^.*".$search.".*\$/m";

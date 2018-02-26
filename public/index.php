@@ -14,7 +14,10 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
     <meta charset="UTF-8">
     <title><?php echo $config['app']['name']; ?></title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.0/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.0/angular-sanitize.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.0/angular-touch.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.0/angular-animate.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/ApplicationController.js"></script>
 
