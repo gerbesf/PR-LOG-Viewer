@@ -1,3 +1,4 @@
 .idea
 composer.lock
-/public/logs/*
+/public/logs/*.txt
+/public/logs/*.timestamp
