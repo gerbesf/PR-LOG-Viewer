@@ -22,6 +22,10 @@ $config['servers_list'][] = [
     'path' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // for complete log, after restart
     'active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // for active log, before restart
 
+    // is possible to windows 
+    // 'path' => 'c:/server_log/ra_adminlog_main.txt', // for complete log, after restart
+    // 'active_log' => 'c:/server_log/ra_adminlog.txt', // for active log, before restart
+
     // hash files
     'path_hash' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash_main.txt', // for complete log, after restart
     'hash_active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash.txt', // for active log, before restart
