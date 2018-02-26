@@ -20,8 +20,6 @@ foreach($config['servers_list'] as $server_list){
         // save active log
         file_put_contents('logs/'.$server_list['local_name'],$curlData.$curlDataActiveServer);
 
-
-
         // download full hash players
         $curlDataHash = file_get_contents( $server_list['path_hash'] );
 

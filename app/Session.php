@@ -13,10 +13,10 @@ class Session
      */
     public function __construct()
     {
-        if($_SESSION['user_id']){
+        if(isset($_SESSION['user_id'])){
             $this->user_id = $_SESSION['user_id'];
         }
-        if($_SESSION['user_name']){
+        if(isset($_SESSION['user_name'])){
             $this->user_name = $_SESSION['user_name'];
         }
     }

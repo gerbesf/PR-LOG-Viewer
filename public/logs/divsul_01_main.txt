@@ -2333,3 +2333,1664 @@
 [2018-02-15 00:44] !SAY            performed by ' Ferreira': bora TAD_SAE ??? -  Ferreira
 [2018-02-15 00:48] !RUNNEXT        performed by ' Ferreira': 
 [2018-02-15 03:41] !KICK           performed by 'SERVER' on ' Alberto_DLTorre': Creating too many early squads!
+[2018-02-15 14:44] !SETNEXT        performed by '=SF=SG gabriel_lopes': Kashan Desert (Skirmish, Std)
+[2018-02-15 15:03] !SETNEXT        performed by '=SF=SG gabriel_lopes': Burning Sands (Skirmish, Inf)
+[2018-02-15 15:14] !KICK           performed by 'SERVER' on ' educastroBR': Creating too many early squads!
+[2018-02-15 15:33] !SETNEXT        performed by '=SF=SG gabriel_lopes': Asad Khal (AAS, Std)
+[2018-02-15 15:53] !SWITCH         performed by ' marcaoweb' on ' Cardenuto': Instantly
+[2018-02-15 16:18] !KICK           performed by 'SERVER' on ' PanBRA': Creating too many early squads!
+[2018-02-15 16:49] !MAPVOTE        performed by '=SF=SG gabriel_lopes': Mapvote:    1: Hill488    2: Tad Sae Offensive    3: Operation Ghost Train   | Type '1', '2' or '3' in squad chat!
+[2018-02-15 16:53] !MAPVOTE        performed by '=SF=SG gabriel_lopes': Mapvote:    1: Tad Sae Offensive    2: Hill 488    3: Operation Ghost Train   | Type '1', '2' or '3' in squad chat!
+[2018-02-15 16:53] !SAY            performed by '=SF=SG gabriel_lopes': agora votem seussss..... - =SF=SG gabriel_lopes
+[2018-02-15 16:54] !SAY            performed by '=SF=SG gabriel_lopes': votem - =SF=SG gabriel_lopes
+[2018-02-15 17:02] !SETNEXT        performed by '=SF=SG gabriel_lopes': Operation Ghost Train (AAS, Std)
+[2018-02-15 17:40] !REPORT         performed by '[UBGE] SMS192': Matts monotripulando e desperdicio de asset.
+[2018-02-15 17:46] !REPORT         performed by '[BAD] SR.IRINEU': rafael.br matou o llider e kitou
+[2018-02-15 17:56] !MAPVOTE        performed by '=SF=SG gabriel_lopes': Mapvote:    1: Ramiel    2: Kokan    3: Lashkar Valley   | Type '1', '2' or '3' in squad chat!
+[2018-02-15 18:00] !SETNEXT        performed by '=SF=SG gabriel_lopes': Ramiel (Insurgency, Std)
+[2018-02-15 18:33] !KICK           performed by ' marcaoweb' on '[NOOB] ThestinatarioGam': atirando em veiculo amigo main base
+[2018-02-15 18:34] !REPORT         performed by ' [NOOB]-MJ-Xibata': da swit no thestina pra ca
+[2018-02-15 18:35] !SWITCH         performed by ' marcaoweb' on '[NOOB] ThestinatarioGam': Instantly
+[2018-02-15 18:49] !REPORT         performed by ' Musttafah': cache fica vermelho em 2:25?
+[2018-02-15 18:51] !REPORT         performed by '=SF=CB marcelino': capitao marcor derrubou um cas na men
+[2018-02-15 18:51] !TEMPBAN        performed by ' marcaoweb' on ' Cptan.Marcos': Proibido fazer BC! Saia dai imediatamente! - Prohibido hacer BC! Salga de ahi inmediatamente!
+[2018-02-15 18:54] !REPORT         performed by ' Matts'': passei de time sem querer :(
+[2018-02-15 18:55] !WARN           performed by '=SF=SG gabriel_lopes' on 'UBGE anjo-morte': Faca sua reclamacao ou critica no forum! - Haga su reclamo o critica en el FORO!
+[2018-02-15 19:06] !REPORTP        performed by ' Matts'' on 'UBGE rafael.br2468': atirando na main e dando TK
+[2018-02-15 19:06] !REPORT         performed by ' Musttafah': tem Ghost
+[2018-02-15 19:06] !REPORTP        performed by ' Matts'': rafale fazendo baderna na main atirando com a AA fixa
+[2018-02-15 19:07] !REPORT         performed by '=1BIM= renansilas': rafael linguajar e baderna
+[2018-02-15 19:07] !KICK           performed by ' marcaoweb' on 'UBGE rafael.br2468': Pare de fazer badernas! - Dejar de hacer disturbios! - Stop making riots!
+[2018-02-15 19:08] !REPORT         performed by ' Matts'': tem q dar ban num cara desses
+[2018-02-15 19:13] !REPORT         performed by '[UBGE] LuanWolff': alguem de hack
+[2018-02-15 19:15] !REPORT         performed by '=SF=SG gabriel_lopes': marcao passsa o marcelino
+[2018-02-15 19:15] !SWITCH         performed by ' marcaoweb' on '=SF=CB marcelino': Instantly
+[2018-02-15 19:16] !REPORT         performed by 'Levis SGT.258.BR': trans inexperiente dudu
+[2018-02-15 19:17] !REPORT         performed by 'Levis SGT.258.BR': dudu nao marcao, reporte errado.
+[2018-02-15 19:34] !REPORT         performed by '|ALC| -LuisSs@Dahjeshi': irineu fechando squad com 3
+[2018-02-15 19:35] !REPORT         performed by '|ALC| -LuisSs@Dahjeshi': irineu fechando squad com 3 pesoas
+[2018-02-15 19:37] !WARN           performed by ' marcaoweb' on '[BAD] SR.IRINEU': abra seu squad
+[2018-02-15 19:37] !REPORT         performed by '[BAD] SR.IRINEU': frescura
+[2018-02-15 19:42] !REPORT         performed by '=SF=SG gabriel_lopes': quem marcao?
+[2018-02-15 19:42] !REPORT         performed by ' marcaoweb': o cara que foi banido
+[2018-02-15 19:47] !REPORT         performed by '|ALC| -LuisSs@Dahjeshi': themaster fechando squad com 3
+[2018-02-15 19:47] !WARN           performed by ' marcaoweb' on '[EIST] Themaster12234': abra seu squad
+[2018-02-15 19:48] !RESIGN         performed by ' marcaoweb' on 'garcia Douglas-BPE': liderando sem microfone
+[2018-02-15 19:51] !REPORT         performed by ' Humano_Normal': faz vote pf
+[2018-02-15 19:52] !KICK           performed by ' marcaoweb' on 'garcia Douglas-BPE': mudando de time no meio da partida
+[2018-02-15 19:52] !MAPVOTE        performed by '=SF=SG gabriel_lopes': Mapvote:    1: Jabal Al Burj    2: Operation Marlin    3: Op Thunder   | Type '1', '2' or '3' in squad chat!
+[2018-02-15 19:54] !KICK           performed by ' marcaoweb' on ' AlemanRG': Pare de fazer SPAM no MUMBLE (RADIO)! - Deja de hacer SPAM en MUMBLE (RADIO)! - Stop MUMBLE-spamming (RADIO)!
+[2018-02-15 19:56] !WARN           performed by ' marcaoweb' on 'UBGE*r HolandesVoador': Pare de brincar com ASSET! Volte para MAINBASE! - Deja de jugar con ASSET! Vuelve a la MAINBASE!
+[2018-02-15 19:58] !KICK           performed by ' marcaoweb' on 'UBGE*r HolandesVoador': Voce desperdicou Asset! Vai treinar em CO-OP! - Desperdiciaste Asset! Vaya a entrenar en CO-OP!
+[2018-02-15 20:00] !SETNEXT        performed by '=SF=SG gabriel_lopes': Jabal Al Burj (AAS, Std)
+[2018-02-15 20:14] !KICK           performed by 'SERVER' on ' ALEX.500': Creating too many early squads!
+[2018-02-15 20:34] !REPORT         performed by '[FODA] Fabiano_': alguem vai fazer o mvote?
+[2018-02-15 20:36] !REPORT         performed by '[FODA] Fabiano_': alguem vai fazer o vote?
+[2018-02-15 20:36] !REPORT         performed by '|ALC| JOFFRE': pode fazer
+[2018-02-15 20:36] !REPORT         performed by '[FODA] Fabiano_': valeu <3
+[2018-02-15 20:37] !WARN           performed by '|ALC| JOFFRE' on '|ALC| -LuisSs@Dahjeshi': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-15 20:38] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Shahadah    2: Beirut    3: Kashan Desert   | Type '1', '2' or '3' in squad chat!
+[2018-02-15 20:39] !WARN           performed by '|ALC| JOFFRE' on '[RONE] OliveiraPR': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-15 20:41] !SETNEXT        performed by '[FODA] Fabiano_': Beirut (AAS, Std)
+[2018-02-15 20:51] !SETNEXT        performed by '[FODA] Fabiano_': Beirut (AAS, Alt)
+[2018-02-15 20:58] !REPORT         performed by '=*V*= Satanista': eu levei warning porque mesmo?
+[2018-02-15 21:08] !SAY            performed by '=SF=TN JeanCaast': VAMOS APRENDER A JOGAR?? - =SF=TN JeanCaast
+[2018-02-15 21:09] !REPORT         performed by '[R] Malaquias': me passa pra EUA pfv, cla ta la
+[2018-02-15 21:11] !REPORT         performed by '[R] Malaquias': pode dar stw admin?
+[2018-02-15 21:17] !REPORT         performed by '|ALC| -LuisSs@Dahjeshi': taynam roubando kit sniper e camiao
+[2018-02-15 21:29] !REPORT         performed by 'M-26-3 gilcho': mmmm c10 no es dod
+[2018-02-15 21:30] !REPORT         performed by 'M-26-3 gilcho': ??
+[2018-02-15 21:30] !REPORTP        performed by ' |ALCr|__jack__' on ' VictorMCD': atirando em aliado na mem
+[2018-02-15 22:20] !REPORT         performed by 'IIIRBR Kassfir': xibata ant jogo
+[2018-02-15 22:22] !REPORT         performed by '[RONE] Generalnick54': ademir passa nois por favor
+[2018-02-15 22:26] !REPORT         performed by '=1BIM= Farina.': Mvote
+[2018-02-15 22:27] !KICK           performed by '|ALC| JOFFRE' on ' [NOOB]-MJ-Xibata': antijogo
+[2018-02-15 22:27] !SAY            performed by '=SF=TN JeanCaast': Faz joffre - =SF=TN JeanCaast
+[2018-02-15 22:27] !MAPVOTE        performed by '|ALC| JOFFRE': Mapvote:    1: Outpost    2: Assault on Grozny    3: Kozelsk   | Type '1', '2' or '3' in squad chat!
+[2018-02-15 22:29] !SETNEXT        performed by '|ALC| JOFFRE': Outpost (Insurgency, Std)
+[2018-02-15 22:43] !REPORT         performed by 'Levis SGT.258.BR': apc desse mapa e anfibio ?
+[2018-02-15 22:58] !REPORT         performed by '|ALC| JOFFRE': faz vote ai
+[2018-02-15 23:45] !SWITCH         performed by ' marcaoweb' on ' marcaoweb': Instantly
+[2018-02-16 00:07] !REPORT         performed by ' [NOOB]-MJ-Xibata': seta um skirmish por favor tem pouca gente
+[2018-02-16 00:08] !SAY            performed by ' marcaoweb': sugestoes skirmish? -  marcaoweb
+[2018-02-16 00:09] !MAPVOTE        performed by ' marcaoweb': Mapvote:    1: Mutrah    2: Sbeneh Outskirts    3: Kokan   | Type '1', '2' or '3' in squad chat!
+[2018-02-16 00:11] !SETNEXT        performed by ' marcaoweb': Sbeneh Outskirts (Skirmish, Inf)
+[2018-02-16 00:18] !WARN           performed by ' marcaoweb' on '[BAD] SR.IRINEU': Voce desperdicou Asset! Vai treinar em CO-OP! - Desperdiciaste Asset! Vaya a entrenar en CO-OP!
+[2018-02-16 00:30] !REPORTP        performed by '[DATE] AsqLIMA' on 'UBGEr blackhunterr': troca de time em jogo
+[2018-02-16 00:30] !KICK           performed by ' marcaoweb' on 'UBGEr blackhunterr': proibido mudar de time se ja jogou no outro
+[2018-02-16 00:31] !REPORT         performed by ' klot': pode pilotar?
+[2018-02-16 00:36] !WARN           performed by ' marcaoweb' on 'sS|- ULYA': Pare de fazer badernas! - Dejar de hacer disturbios! - Stop making riots!
+[2018-02-16 00:36] !WARN           performed by ' marcaoweb' on 'sS|- ULYA': Pare de fazer badernas! - Dejar de hacer disturbios! - Stop making riots!
+[2018-02-16 00:44] !REPORT         performed by '[BAD] SR.IRINEU': ademir ladrao de paixao
+[2018-02-16 00:48] !REPORT         performed by ' [NOOB]-MJ-Xibata': da runnext
+[2018-02-16 00:49] !SAY            performed by ' marcaoweb': nao -  marcaoweb
+[2018-02-16 00:52] !WARN           performed by ' marcaoweb' on '[GOT] Gladiador': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-16 01:51] !KICK           performed by 'SERVER' on ' Hique': Creating too many early squads!
+[2018-02-16 14:13] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Karbala    2: Jabal Al Burj    3: Gaza   | Type '1', '2' or '3' in squad chat!
+[2018-02-16 14:14] !SETNEXT        performed by '[FODA] Fabiano_': Karbala (Skirmish, Inf)
+[2018-02-16 14:15] !SAY            performed by '[FODA] Fabiano_': runnext ou continua? - [FODA] Fabiano_
+[2018-02-16 14:33] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Runnext    2: Continua   | Type '1' or '2' in squad chat!
+[2018-02-16 14:56] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Kozelsk    2: Outpost    3: Dragon Fly   | Type '1', '2' or '3' in squad chat!
+[2018-02-16 14:56] !REPORT         performed by ' Matts'': skirmish dnv nao mds bota um fallujah gaza asad
+[2018-02-16 14:56] !REPORT         performed by ' Matts'': bota um mapadee 1km mds skirmish dnv nao
+[2018-02-16 15:00] !SETNEXT        performed by '[FODA] Fabiano_': Outpost (Insurgency, Std)
+[2018-02-16 15:05] !RESIGN         performed by ' marcaoweb' on ' _OcRoP_': proibido trancar squad
+[2018-02-16 15:05] !SWITCH         performed by ' marcaoweb' on ' []V[]EDUZA': Instantly
+[2018-02-16 15:09] !REPORT         performed by ' marcaoweb': gabriel e fabiano se o raphael.br fizer baderna da ban
+[2018-02-16 15:19] !WARN           performed by ' marcaoweb' on 'UBGE anjo-morte': Faca sua reclamacao ou critica no forum! - Haga su reclamo o critica en el FORO!
+[2018-02-16 15:26] !REPORT         performed by '[FODA] Fabiano_': quem ta usando apc sem ter 30 player
+[2018-02-16 15:26] !REPORT         performed by '=SF=SG gabriel_lopes': ninguem
+[2018-02-16 15:38] !WARN           performed by '[FODA] Fabiano_' on '[BAD] wolfblack><': pede sorry pelo tk
+[2018-02-16 15:52] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Asad Khal    2: Korengal Valley    3: Assault on Mestia   | Type '1', '2' or '3' in squad chat!
+[2018-02-16 15:53] !REPORT         performed by '=SF=SG gabriel_lopes': ja tem bastante nego p esses mapas
+[2018-02-16 15:54] !REPORT         performed by ' Matts'': muda esse vote
+[2018-02-16 15:55] !SETNEXT        performed by '[FODA] Fabiano_': Asad Khal (AAS, Lrg)
+[2018-02-16 15:55] !REPORT         performed by ' marcaoweb': large nao, e muito ticket
+[2018-02-16 15:55] !SETNEXT        performed by '[FODA] Fabiano_': Asad Khal (AAS, Std)
+[2018-02-16 15:56] !REPORT         performed by '[FODA] Fabiano_': pronto kkkkkk
+[2018-02-16 16:19] !REPORT         performed by '[RONE] SpezialKrafte': kill me to bugado
+[2018-02-16 16:19] !SWITCH         performed by '[FODA] Fabiano_' on '[FODA] Fabiano_': Instantly
+[2018-02-16 16:20] !KILL           performed by ' marcaoweb' on '[RONE] SpezialKrafte': pedido
+[2018-02-16 16:20] !REPORT         performed by '[RONE] SpezialKrafte': vlw, mas n adiantou kk
+[2018-02-16 16:20] !REPORT         performed by '[BAD] SR.IRINEU': ele nugou na escada
+[2018-02-16 16:23] !REPORT         performed by ' Matts'': Fabiano trocando de time no meio da partida
+[2018-02-16 16:24] !SWITCH         performed by '=SF=SG gabriel_lopes' on '[FODA] Fabiano_': On next death
+[2018-02-16 16:31] !MAPVOTE        performed by ' marcaoweb': Mapvote:    1: Muttrah City    2: Ulyanovsk    3: Qwai River   | Type '1', '2' or '3' in squad chat!
+[2018-02-16 16:33] !SETNEXT        performed by ' marcaoweb': Muttrah City (AAS, Std)
+[2018-02-16 16:46] !REPORT         performed by '=1BIM= raulmachado1': jacksparow dando tk intencional
+[2018-02-16 16:50] !WARN           performed by ' marcaoweb' on '[BAD] SR.IRINEU': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-16 16:59] !TEMPBAN        performed by '=SF=SG gabriel_lopes' on ' SnakeGhost': Proibido fazer anti-jogo! Bugs/Exploits - Prohibido hacer anti-juego! Bugs/Exploits
+[2018-02-16 17:44] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] SR.IRINEU': On next death
+[2018-02-16 17:44] !KILL           performed by '[BAD] kaisertyr' on '[BAD] SR.IRINEU': noob
+[2018-02-16 17:45] !SWITCH         performed by '[BAD] kaisertyr' on '[RONE] Black-RONE': Instantly
+[2018-02-16 18:23] !SWITCH         performed by ' marcaoweb' on ' marcaoweb': Instantly
+[2018-02-16 18:29] !REPORT         performed by '=SF=SD niloThies': switch me pls..
+[2018-02-16 18:29] !SWITCH         performed by '=SF=SG gabriel_lopes' on '=SF=SD niloThies': Instantly
+[2018-02-16 18:41] !REPORT         performed by '[RONE] Sabotador': Suicidaram o Cobra
+[2018-02-16 18:44] !REPORT         performed by ' DoideraMan': faz vote
+[2018-02-16 18:45] !REPORT         performed by '=1BIM= COREA_': TEVE VOTTE ?
+[2018-02-16 18:45] !REPORT         performed by '[UBGE] LuanWolff': vote
+[2018-02-16 18:46] !MAPVOTE        performed by ' marcaoweb': Mapvote:    1: Xiangshan    2: Dovre    3: Tad Sae Offensive   | Type '1', '2' or '3' in squad chat!
+[2018-02-16 18:47] !REPORT         performed by '=SF=CP Marafon': seta o mapa q eles tao sangrando
+[2018-02-16 18:47] !SETNEXT        performed by ' marcaoweb': Dovre (AAS, Std)
+[2018-02-16 18:59] !REPORT         performed by '=SF=SD niloThies': switch me pls..
+[2018-02-16 18:59] !SWITCH         performed by ' marcaoweb' on '=SF=SD niloThies': Instantly
+[2018-02-16 19:36] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] SR.IRINEU': On next death
+[2018-02-16 19:36] !KILL           performed by '[BAD] julianobrusto' on '[BAD] SR.IRINEU': vai cacar kalango
+[2018-02-16 19:37] !REPORT         performed by ' marcaoweb': juju faz vote
+[2018-02-16 19:37] !WARN           performed by '[BAD] julianobrusto' on ' marcaoweb': larga de ser gay
+[2018-02-16 19:38] !REPORT         performed by ' marcaoweb': ui ui ui
+[2018-02-16 19:38] !REPORT         performed by ' marcaoweb': so faz vote pq talvez eu nao jogue a proxima
+[2018-02-16 19:38] !REPORT         performed by '[BAD] julianobrusto': de boa
+[2018-02-16 19:56] !REPORT         performed by 'URRAH1 Humano_Normal': faz vote pf
+[2018-02-16 19:56] !MAPVOTE        performed by '[BAD] julianobrusto': Mapvote:    1: Ass    2: Ins   | Type '1' or '2' in squad chat!
+[2018-02-16 19:57] !WARN           performed by ' marcaoweb' on ' Glazz': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-16 19:57] !REPORT         performed by ' Glazz': fue sin culpa wn
+[2018-02-16 20:02] !MAPVOTE        performed by '[BAD] julianobrusto': Mapvote:    1: Fallujah West    2: Korengal Valley    3: Kokan   | Type '1', '2' or '3' in squad chat!
+[2018-02-16 20:02] !SETNEXT        performed by '[BAD] julianobrusto': Fallujah West (Insurgency, Alt)
+[2018-02-16 20:04] !SAY            performed by '[BAD] julianobrusto': A administracao se reserva do direito de ter o voto de minerva - [BAD] julianobrusto
+[2018-02-16 20:04] !SAY            performed by '[BAD] julianobrusto': Portanto o mapa setado sera fallujah - [BAD] julianobrusto
+[2018-02-16 20:05] !SAY            performed by ' Ferreira': hoje nao -  Ferreira
+[2018-02-16 20:05] !REPORT         performed by '[BAD] julianobrusto': Vaza ferreira
+[2018-02-16 20:05] !REPORT         performed by '[BAD] julianobrusto': Vote eh meu
+[2018-02-16 20:05] !REPORT         performed by '[BAD] julianobrusto': eu quero jogar pe sujo
+[2018-02-16 20:05] !REPORT         performed by ' Ferreira': seta korengal...
+[2018-02-16 20:05] !SETNEXT        performed by '[BAD] julianobrusto': Korengal Valley (Insurgency, Std)
+[2018-02-16 20:06] !REPORT         performed by '[BAD] julianobrusto': prima dona vc
+[2018-02-16 20:06] !REPORT         performed by '[BAD] julianobrusto': vou desiligar a energia da sua casa na proxima kkkkk
+[2018-02-16 20:09] !WARN           performed by ' marcaoweb' on '[NOOB] xandedamata1010': pare de atirar na mainbase
+[2018-02-16 20:23] !UNBAN          performed by ' Ferreira' on 'Player (6ca5fbdd4edbd7bcdcd32664079f48c6) banned player': 
+[2018-02-16 20:35] !KICK           performed by 'SERVER' on ' Arthur14': Creating too many early squads!
+[2018-02-16 20:49] !REPORT         performed by '[R] Malaquias': me passa pra eua pfv, tava na squad do cla ai cai
+[2018-02-16 20:49] !REPORT         performed by '[R] Malaquias': deixa
+[2018-02-16 20:51] !SAYTEAM        performed by ' Ferreira' on 'team 2': nao de give, solicite medico.. -  Ferreira
+[2018-02-16 20:51] !SAYTEAM        performed by ' Ferreira' on 'team 1': nao de give, solicite medico -  Ferreira
+[2018-02-16 20:52] !REPORT         performed by '[UBGE] SMS192': taynan TK intencional de Sniper
+[2018-02-16 20:52] !WARN           performed by '[BAD] julianobrusto' on ' Taynan': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-16 20:56] !SAYTEAM        performed by ' Ferreira' on 'team 1': evite o giveup, solicite medico, ande junto!!!!! -  Ferreira
+[2018-02-16 20:58] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] kaisertyr': Instantly
+[2018-02-16 21:18] !REPORT         performed by '=1BIM= Pastel': vote?
+[2018-02-16 21:26] !REPORT         performed by '=1BIM= Pastel': vote??
+[2018-02-16 21:26] !REPORT         performed by '=1BIM= renansilas': otov
+[2018-02-16 21:27] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Operation Ghost Train    2: Silent Eagle    3: Kozelsk   | Type '1', '2' or '3' in squad chat!
+[2018-02-16 21:35] !REPORT         performed by '[RONE] Xivits': squad 2 roubando caminhao
+[2018-02-16 21:35] !REPORT         performed by '[RONE] Xivits': kubrick roubando caminhao
+[2018-02-16 21:36] !REPORTP        performed by '[RONE] Sabotador' on ' kUbrick': roubando logi
+[2018-02-16 21:36] !WARN           performed by '=SF=SD LF*' on ' kUbrick': Voce desperdicou Asset! Vai treinar em CO-OP! - Desperdiciaste Asset! Vaya a entrenar en CO-OP!
+[2018-02-16 21:36] !REPORTP        performed by '[RONE] KubraHH' on ' kUbrick': roubando veiculo
+[2018-02-16 21:36] !REPORTP        performed by '[RONE] KubraHH' on ' kUbrick': ele nao para da kick nele
+[2018-02-16 21:41] !REPORT         performed by '[BAD] GustavoP': da swith please
+[2018-02-16 21:41] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] GustavoP': Instantly
+[2018-02-16 21:43] !WARN           performed by '[BAD] julianobrusto' on ' jucabala-dasilva': nao lidere de sniper
+[2018-02-16 21:43] !RESIGN         performed by '[BAD] julianobrusto' on ' jucabala-dasilva': nao ldere de sniper
+[2018-02-16 21:44] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] SPGhost': Instantly
+[2018-02-16 21:44] !SAY            performed by ' Ferreira': Allahu -  Ferreira
+[2018-02-16 21:44] !SAY            performed by '[BAD] julianobrusto': chiquititas - [BAD] julianobrusto
+[2018-02-16 21:44] !SAY            performed by ' Ferreira': Akbar!! -  Ferreira
+[2018-02-16 21:44] !SAY            performed by ' Ferreira': Allahu!!1 -  Ferreira
+[2018-02-16 21:47] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] ProstBR': Instantly
+[2018-02-16 21:51] !SAYTEAM        performed by ' Ferreira' on 'team 1': SEGURA A MERDA DO CACHE!!!!! -  Ferreira
+[2018-02-16 21:51] !SAYTEAM        performed by ' Ferreira' on 'team 1': SEGURA A MERDA, BUCETA DO CACHE!!!! -  Ferreira
+[2018-02-16 21:52] !SAYTEAM        performed by ' Ferreira' on 'team 1': DEFENDER O CACHE!!!!! -  Ferreira
+[2018-02-16 21:56] !SETNEXT        performed by ' Ferreira': Kozelsk (Insurgency, Std)
+[2018-02-16 21:57] !WARN           performed by '[BAD] julianobrusto' on ' SnakeGhost': Faca sua reclamacao ou critica no forum! - Haga su reclamo o critica en el FORO!
+[2018-02-16 21:58] !TEMPBAN        performed by ' Ferreira' on 'GOATs fordock': fuck
+[2018-02-16 22:01] !REPORT         performed by 'M-26-3 ElLocoDeARG': omega br n quiso jogar reparo ara apc
+[2018-02-16 22:01] !WARN           performed by ' marcaoweb' on ' OmegaBR': volte com esse caminhao agora
+[2018-02-16 22:01] !REPORT         performed by 'M-26-3 ElLocoDeARG': obrigado
+[2018-02-16 22:01] !WARN           performed by ' marcaoweb' on ' OmegaBR': volte com esse caminhao para a base agora
+[2018-02-16 22:03] !WARN           performed by ' marcaoweb' on ' OmegaBR': ultimo aviso volte com o caminhao para a main base
+[2018-02-16 22:06] !KICK           performed by ' marcaoweb' on ' OmegaBR': Voce roubou Asset! Retorne imediatamente para MAINBASE!! - Robaste Asset! Vuelva inmediatamente para MAINBASE!
+[2018-02-16 22:07] !REPORT         performed by '[BAD] GustavoP': kayser ja sabe
+[2018-02-16 22:08] !REPORT         performed by '[BAD] GustavoP': da swith pelo amor de cristo <3
+[2018-02-16 22:12] !REPORT         performed by '[BAD] GustavoP': me troca de time
+[2018-02-16 22:35] !REPORT         performed by '=SF=SD Lobo_Sentado': ferreira, me da switch que eu cai do server
+[2018-02-16 22:35] !SWITCH         performed by ' Ferreira' on '=SF=SD Lobo_Sentado': Instantly
+[2018-02-16 22:35] !REPORT         performed by '=SF=SD Lobo_Sentado': boa
+[2018-02-16 22:35] !WARN           performed by ' Ferreira' on '=SF=SD Lobo_Sentado': ta_usando_hack_?_TAMO_PUCHANDO_A_CAPIVADA!!!!!
+[2018-02-16 22:35] !REPORT         performed by '=SF=SD Lobo_Sentado': wat
+[2018-02-16 22:36] !WARN           performed by ' Ferreira' on '=SF=SD Lobo_Sentado': depois entra ts
+[2018-02-16 22:36] !REPORT         performed by '=SF=SD Lobo_Sentado': to no TS, me puxa
+[2018-02-16 22:46] !SWITCH         performed by '[BAD] kaisertyr' on '[DATE] Zartan': On next death
+[2018-02-16 22:46] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] ProstBR': Instantly
+[2018-02-16 22:48] !WARN           performed by '[BAD] kaisertyr' on ' Coneg.666': Voce deu TeamKill! Aprenda a dar SORRY! - Usted dio TeamKill! Aprende a dar SORRY!
+[2018-02-16 22:49] !REPORT         performed by ' klot': esse tal de turk que ta de maskman nao tem microfone, pegou um caminha e jogou no meu heli propositalmente sem motivo algum..
+[2018-02-16 22:49] !REPORT         performed by ' klot': possivelmente gringo
+[2018-02-16 22:54] !REPORT         performed by '=SF=SD Lobo_Sentado': ferreira
+[2018-02-16 22:54] !WARN           performed by ' Ferreira' on '=SF=SD Lobo_Sentado': oi
+[2018-02-16 22:54] !REPORT         performed by '=SF=SD Lobo_Sentado': se liga nesse Turk_lYl aqui do time Russo
+[2018-02-16 22:54] !REPORT         performed by '=SF=SD Lobo_Sentado': tenta dar warning nele
+[2018-02-16 22:55] !WARN           performed by '[BAD] kaisertyr' on ' [ARG]_Maury.G': baderna
+[2018-02-16 22:55] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Sben(Ins)    2: Sben(Aas)    3: Sben(Vw)   | Type '1', '2' or '3' in squad chat!
+[2018-02-16 22:56] !REPORT         performed by '[BAD] SR.IRINEU': vw mano ou monu ?
+[2018-02-16 22:57] !REPORT         performed by '[BAD] kaisertyr': ferreira da ban nesse turk ai
+[2018-02-16 22:58] !REPORT         performed by '[BAD] kaisertyr': ferreira ?
+[2018-02-16 22:59] !SAY            performed by ' Ferreira': TS DOWN? -  Ferreira
+[2018-02-16 22:59] !REPORT         performed by '=SF=SD Lobo_Sentado': acho que im
+[2018-02-16 23:00] !REPORT         performed by '[BAD] kaisertyr': viado coloca o turk pra fora ai
+[2018-02-16 23:00] !REPORT         performed by '=SF=SD Lobo_Sentado': esse cara que mudou de time
+[2018-02-16 23:00] !REPORT         performed by '=SF=SD Lobo_Sentado': nao da pra kickar
+[2018-02-16 23:04] !KICK           performed by ' Ferreira' on 'Turk_ IYI': FUCK_YOU!!
+[2018-02-16 23:05] !SAY            performed by ' Ferreira': SO MAIS 1 CACHE!!!! -  Ferreira
+[2018-02-16 23:05] !SAY            performed by ' Ferreira': SO MAIS 1 CACHE!!! DESTRUINDO = RUNNEXT -  Ferreira
+[2018-02-16 23:05] !SAYTEAM        performed by ' Ferreira' on 'team 2': SO MAIS 1 CACHE!!! -  Ferreira
+[2018-02-16 23:07] !SAYTEAM        performed by ' Ferreira' on 'team 2': SO MAIS 1 CACHE!!! -  Ferreira
+[2018-02-16 23:08] !SAYTEAM        performed by ' Ferreira' on 'team 2': VOCES CONSEGUEM!!!! -  Ferreira
+[2018-02-16 23:10] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Mantem Sbeh    2: Troca Para Marlin   | Type '1' or '2' in squad chat!
+[2018-02-16 23:12] !SETNEXT        performed by ' marcaoweb': Operation Marlin (AAS, Std)
+[2018-02-16 23:13] !TEMPBAN        performed by ' marcaoweb' on ' nazaruloxd': tk intencional
+[2018-02-16 23:16] !SAYTEAM        performed by ' Ferreira' on 'team 2': ULTIMO CACHE! ARROCHA!!!!!!!1 -  Ferreira
+[2018-02-16 23:20] !SAYTEAM        performed by ' Ferreira' on 'team 2': ultimo cache RUSSIAN!!! -  Ferreira
+[2018-02-16 23:22] !SAYTEAM        performed by ' Ferreira' on 'team 2': 5 mim ou runnext -  Ferreira
+[2018-02-16 23:23] !SAYTEAM        performed by ' Ferreira' on 'team 2': 4 mim or runnext!!! -  Ferreira
+[2018-02-16 23:29] !SAYTEAM        performed by ' Ferreira' on 'team 2': 3 MIM OR RUNNEXT!!!! -  Ferreira
+[2018-02-16 23:30] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Runnext(Russian=Desisto)    2: Continue(Russian=Vaiganhar)   | Type '1' or '2' in squad chat!
+[2018-02-16 23:32] !RUNNEXT        performed by ' Ferreira': 
+[2018-02-16 23:36] !SWITCH         performed by ' Ferreira' on ' C4ront3': Instantly
+[2018-02-16 23:37] !SWITCH         performed by ' Ferreira' on '[RONE] Sabotador': Instantly
+[2018-02-16 23:37] !KICK           performed by '[BAD] kaisertyr' on ' Math2505': brifing
+[2018-02-16 23:39] !TEMPBAN        performed by ' Ferreira' on ' Rev0rlver_0cel0t': NOT_SNYPER!!!
+[2018-02-16 23:43] !REPORT         performed by ' Kervi2K': Sq leader AFK
+[2018-02-16 23:49] !SWITCH         performed by ' marcaoweb' on ' marcaoweb': Instantly
+[2018-02-17 00:12] !MAPVOTE        performed by '[BAD] kaisertyr': Mapvote:    1: Gaza    2: Asad Khal    3: Assault on Mestia   | Type '1', '2' or '3' in squad chat!
+[2018-02-17 00:13] !SETNEXT        performed by '[BAD] kaisertyr': Asad Khal (AAS, Lrg)
+[2018-02-17 00:26] !REPORT         performed by '|ALC| -LuisSs@Dahjeshi': da um VW next
+[2018-02-17 00:29] !REPORT         performed by '|ALC| -LuisSs@Dahjeshi': kitarom tudos aqui da runnext
+[2018-02-17 00:30] !RUNNEXT        performed by ' marcaoweb': 
+[2018-02-17 00:35] !SETNEXT        performed by '[BAD] kaisertyr': Kokan (Skirmish, Std)
+[2018-02-17 00:36] !RUNNEXT        performed by '[BAD] kaisertyr': 
+[2018-02-17 00:42] !WARN           performed by ' marcaoweb' on '[BAD] SR.IRINEU': Pare de fazer SPAM no MUMBLE (RADIO)! - Deja de hacer SPAM en MUMBLE (RADIO)! - Stop MUMBLE-spamming (RADIO)!
+[2018-02-17 01:24] !SETNEXT        performed by '=SF=SD Lobo_Sentado': Karbala (Skirmish, Inf)
+[2018-02-17 01:39] !SAY            performed by '=SF=SD Lobo_Sentado': DIVSUL 4EVER - =SF=SD Lobo_Sentado
+[2018-02-17 01:42] !RUNNEXT        performed by '=SF=SD Lobo_Sentado': 
+[2018-02-17 10:37] !KICK           performed by 'SERVER' on ' quequel008': Creating too many early squads!
+[2018-02-17 12:43] !KICK           performed by 'SERVER' on '[UBGE] Eldrielphor': Creating too many early squads!
+[2018-02-17 13:47] !REPORT         performed by ' [NOOB]-MJ-Xibata': seta wanda sham pls
+[2018-02-17 13:59] !WARN           performed by '[BAD] kaisertyr' on '=SF=CB Alkaida_man': respaw nao e dod
+[2018-02-17 13:59] !KICK           performed by '[BAD] kaisertyr' on '=SF=CB Alkaida_man': camperando respaw
+[2018-02-17 14:11] !WARN           performed by '[BAD] kaisertyr' on '=1BIM= raulmachado1': Cuidado com o seu linguajar! - Tenga cuidado con su lenguaje! - Watch your language
+[2018-02-17 14:12] !REPORT         performed by '=1BIM= raulmachado1': herick spam
+[2018-02-17 14:22] !SETNEXT        performed by '[BAD] kaisertyr': Kokan (Skirmish, Alt)
+[2018-02-17 14:35] !MAPVOTE        performed by '[BAD] kaisertyr': Mapvote:    1: Asad Khal    2: Operation Ghost Train    3: Assault on Mestia   | Type '1', '2' or '3' in squad chat!
+[2018-02-17 14:38] !SETNEXT        performed by '[BAD] kaisertyr': Asad Khal (AAS, Lrg)
+[2018-02-17 14:48] !REPORT         performed by '[BAD] kaisertyr': s2 gato
+[2018-02-17 14:48] !REPORT         performed by '[BAD] kaisertyr': ate marcola
+[2018-02-17 14:48] !REPORT         performed by ' marcaoweb': ate lindao
+[2018-02-17 14:56] !REPORT         performed by '>TT<09 Vandew32': algum admin pode me da switch
+[2018-02-17 14:56] !REPORT         performed by '>TT<09 Vandew32': eu iria jogar de idf mas minha luz caiu
+[2018-02-17 15:00] !REPORT         performed by '>TT<09 Vandew32': algum admin pode me da switch por favor
+[2018-02-17 15:02] !SWITCH         performed by ' marcaoweb' on '>TT<09 Vandew32': Instantly
+[2018-02-17 15:03] !REPORT         performed by '>TT<09 Vandew32': obrigadoooo
+[2018-02-17 15:29] !REPORT         performed by '[RONE] Generalnick54': xibata ghosting
+[2018-02-17 15:39] !WARN           performed by '[BAD] kaisertyr' on ' [NOOB]-MJ-Xibata': abre squad
+[2018-02-17 15:41] !REPORT         performed by ' Matts'': e 1100 tickets nao acham muito nao ?
+[2018-02-17 15:56] !REPORT         performed by '[BAD] SMS192': Taynan roubo de asset e KIT.
+[2018-02-17 15:57] !WARN           performed by '[BAD] Sniper-JP' on ' Taynan': Voce roubou Asset! Retorne imediatamente para MAINBASE!! - Robaste Asset! Vuelva inmediatamente para MAINBASE!
+[2018-02-17 15:57] !REPORT         performed by ' marcaoweb': kayser faz vote
+[2018-02-17 16:02] !RESIGN         performed by '[BAD] kaisertyr' on ' [NOOB]-MJ-Xibata': sf
+[2018-02-17 16:03] !REPORT         performed by ' Taynan': _OcRoP_ teamkill
+[2018-02-17 16:06] !MAPVOTE        performed by '[BAD] kaisertyr': Mapvote:    1: Ulyanovsk    2: Qwai River    3: Jabal Al Burj   | Type '1', '2' or '3' in squad chat!
+[2018-02-17 16:06] !REPORTP        performed by ' Matts'' on 'UBGE anjo-morte': TK
+[2018-02-17 16:06] !REPORTP        performed by ' Matts'' on 'UBGE anjo-morte': deu um tiro dei check fire viu q era aliado e continuo atirando nem deu sorry ate agora
+[2018-02-17 16:08] !SETNEXT        performed by '[BAD] kaisertyr': Jabal Al Burj (AAS, Std)
+[2018-02-17 16:12] !WARN           performed by '[BAD] Sniper-JP' on ' Taynan': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-17 16:58] !WARN           performed by '[BAD] kaisertyr' on '=SF=CB Alkaida_man': tk
+[2018-02-17 17:00] !MAPVOTE        performed by '[BAD] kaisertyr': Mapvote:    1: Runnext    2: Continua   | Type '1' or '2' in squad chat!
+[2018-02-17 17:15] !REPORT         performed by '[RONE] MagalhaesBr': auto balance ?
+[2018-02-17 17:27] !REPORT         performed by ' Matts'': alguem da switch eu tava daquele lado
+[2018-02-17 17:27] !SWITCH         performed by ' marcaoweb' on ' Matts'': Instantly
+[2018-02-17 17:32] !REPORT         performed by ' marcaoweb': kayser faz vote
+[2018-02-17 17:34] !MAPVOTE        performed by ' marcaoweb': Mapvote:    1: Ulyanovsk    2: Wanda Shan    3: Outpost   | Type '1', '2' or '3' in squad chat!
+[2018-02-17 17:34] !REPORT         performed by '>TT<09 Vandew32': ja tinha feito vote
+[2018-02-17 17:34] !SAY            performed by ' marcaoweb': foi mal pelo vacilo -  marcaoweb
+[2018-02-17 17:34] !REPORT         performed by '>TT<09 Vandew32': iria rodar jabal
+[2018-02-17 17:42] !SAYTEAM        performed by '[BAD] julianobrusto' on 'team 2': teste - [BAD] julianobrusto
+[2018-02-17 17:42] !SAYTEAM        performed by ' marcaoweb' on 'team 1': parem de atirar na mainbase -  marcaoweb
+[2018-02-17 17:44] !WARN           performed by ' marcaoweb' on '[RONE] OliveiraPR': Pare de fazer badernas! - Dejar de hacer disturbios! - Stop making riots!
+[2018-02-17 17:44] !SAY            performed by '[BAD] julianobrusto': Sem falar bosta de cla na main - [BAD] julianobrusto
+[2018-02-17 17:44] !WARN           performed by ' marcaoweb' on '[RONE] MagalhaesBr': Pare de fazer badernas! - Dejar de hacer disturbios! - Stop making riots!
+[2018-02-17 17:46] !KILL           performed by '[BAD] julianobrusto' on '[RONE] OliveiraPR': Pare de fazer badernas! - Dejar de hacer disturbios! - Stop making riots!
+[2018-02-17 17:47] !WARN           performed by '[BAD] julianobrusto' on ' Atirador_TR': Pare de fazer badernas! - Dejar de hacer disturbios! - Stop making riots!
+[2018-02-17 17:47] !WARN           performed by '[BAD] julianobrusto' on ' Atirador_TR': Pare de fazer badernas! - Dejar de hacer disturbios! - Stop making riots!
+[2018-02-17 17:47] !KILL           performed by '[BAD] julianobrusto' on ' Atirador_TR': Pare de fazer badernas! - Dejar de hacer disturbios! - Stop making riots!
+[2018-02-17 17:51] !SWITCH         performed by ' marcaoweb' on '=1BIM= COREA_': Instantly
+[2018-02-17 17:52] !REPORT         performed by ' Matts'': da switch pls marcao
+[2018-02-17 17:52] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] wolfblack><': Instantly
+[2018-02-17 17:52] !REPORT         performed by 'URRAH1 Humano_Normal': da s
+[2018-02-17 17:52] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] jujupantera': Instantly
+[2018-02-17 17:52] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] SPGhost': Instantly
+[2018-02-17 17:53] !SWITCH         performed by ' marcaoweb' on 'URRAH1 Humano_Normal': Instantly
+[2018-02-17 17:53] !SWITCH         performed by ' marcaoweb' on ' Matts'': Instantly
+[2018-02-17 17:53] !REPORT         performed by ' Matts'': eu tinha trocado de time aaa da denovo agora
+[2018-02-17 17:53] !SWITCH         performed by ' marcaoweb' on ' Matts'': Instantly
+[2018-02-17 17:53] !REPORT         performed by '[R] Malaquias': passa pra mec pfv
+[2018-02-17 17:53] !SWITCH         performed by '[BAD] julianobrusto' on '[R] Malaquias': Instantly
+[2018-02-17 17:53] !REPORT         performed by '[R] Malaquias': obg
+[2018-02-17 17:54] !RESIGN         performed by ' marcaoweb' on ' Vinicius7q': sem mic
+[2018-02-17 18:02] !KICK           performed by ' marcaoweb' on ' VASiliPR': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-17 18:02] !KICK           performed by ' marcaoweb' on ' []V[]EDUZA': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-17 18:05] !MAPVOTE        performed by '[BAD] julianobrusto': Mapvote:    1: 1Km    2: 2Km   | Type '1' or '2' in squad chat!
+[2018-02-17 18:07] !SAY            performed by '[BAD] julianobrusto': nao seja por isso rone - [BAD] julianobrusto
+[2018-02-17 18:07] !SWITCH         performed by '[BAD] julianobrusto' on '[RONE] Black-RONE': On next death
+[2018-02-17 18:07] !SWITCH         performed by '[BAD] julianobrusto' on '[RONE] MagalhaesBr': On next death
+[2018-02-17 18:07] !SWITCH         performed by '[BAD] julianobrusto' on '[R] Malaquias': On next death
+[2018-02-17 18:07] !SWITCH         performed by '[BAD] julianobrusto' on '[RONE] MaxBr': On next death
+[2018-02-17 18:08] !SWITCH         performed by '[BAD] julianobrusto' on '[RONE] OliveiraPR': On next death
+[2018-02-17 18:08] !SWITCH         performed by '[BAD] julianobrusto' on '[RONE] SpezialKrafte': On next death
+[2018-02-17 18:08] !SWITCH         performed by '[BAD] julianobrusto' on '[R] BismarckReis': On next death
+[2018-02-17 18:09] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] jujupantera': On next death
+[2018-02-17 18:09] !KILL           performed by '[BAD] julianobrusto' on '[BAD] jujupantera': switch
+[2018-02-17 18:10] !WARN           performed by ' marcaoweb' on '>TT<07 Prata_BR': abra seu squad
+[2018-02-17 18:11] !SWITCH         performed by ' marcaoweb' on '[BAD] SPGhost': On next death
+[2018-02-17 18:11] !MAPVOTE        performed by '[BAD] julianobrusto': Mapvote:    1: Gaza    2: Ghosttrain    3: Hill   | Type '1', '2' or '3' in squad chat!
+[2018-02-17 18:12] !SETNEXT        performed by '[BAD] julianobrusto': Gaza (AAS, Std)
+[2018-02-17 18:13] !REPORT         performed by ' marcaoweb': juliano pass eu tbm
+[2018-02-17 18:14] !SWITCH         performed by '[BAD] julianobrusto' on ' marcaoweb': On next death
+[2018-02-17 18:14] !KILL           performed by '[BAD] julianobrusto' on ' marcaoweb': switch
+[2018-02-17 18:14] !REPORT         performed by '[RONE] MaxBr': juliano , pode transportat dentro de squad de cas ne?
+[2018-02-17 18:14] !SAY            performed by '[BAD] julianobrusto': Sim... - [BAD] julianobrusto
+[2018-02-17 18:23] !RESIGN         performed by ' marcaoweb' on ' NetcodeFixer': proibido liderar de marksman
+[2018-02-17 18:26] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] julianobrusto': Instantly
+[2018-02-17 18:41] !SWITCH         performed by '[BAD] julianobrusto' on '[R] BismarckReis': Instantly
+[2018-02-17 18:41] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] jujupantera': Instantly
+[2018-02-17 18:42] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] Japa-Destruidor': Instantly
+[2018-02-17 18:42] !SWITCH         performed by '[BAD] julianobrusto' on ' [NOOB]-MJ-Xibata': Instantly
+[2018-02-17 18:42] !SETNEXT        performed by '[BAD] julianobrusto': Shahadah (Skirmish, Inf)
+[2018-02-17 18:43] !SAY            performed by '[BAD] julianobrusto': Pouca gente... Vou botar um skirmish - [BAD] julianobrusto
+[2018-02-17 18:43] !RUNNEXT        performed by '[BAD] julianobrusto': 
+[2018-02-17 19:02] !SWITCH         performed by '[BAD] julianobrusto' on ' [NOOB]-CR-BISCOITO': Instantly
+[2018-02-17 19:09] !SETNEXT        performed by '[BAD] julianobrusto': Operation Archer (Skirmish, Inf)
+[2018-02-17 19:10] !REPORT         performed by ' [NOOB]-MJ-Xibata': seta wanda sham
+[2018-02-17 19:10] !REPORT         performed by 'URRAH1 Humano_Normal': seta um vw ai juliaano
+[2018-02-17 19:10] !SAY            performed by '[BAD] julianobrusto': Faca sua reclamacao ou critica no forum! - Haga su reclamo o critica en el FORO! - [BAD] julianobrusto
+[2018-02-17 19:10] !SETNEXT        performed by '[BAD] julianobrusto': Silent Eagle (Skirmish, Inf)
+[2018-02-17 19:15] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] wolfblack><': Instantly
+[2018-02-17 19:15] !WARN           performed by '[BAD] julianobrusto' on ' [NOOB]3SG-HerickyBR': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-17 19:17] !SETNEXT        performed by '[BAD] julianobrusto': Asad Khal (AAS, Std)
+[2018-02-17 19:19] !RESIGN         performed by '[BAD] julianobrusto' on '[BAD] kavakun': jogue com seu cla
+[2018-02-17 19:20] !MAPVOTE        performed by '[BAD] julianobrusto': Mapvote:    1: Fallujah    2: Muttrah   | Type '1' or '2' in squad chat!
+[2018-02-17 19:22] !SETNEXT        performed by '[BAD] julianobrusto': Fallujah West (Insurgency, Std)
+[2018-02-17 19:43] !RUNNEXT        performed by '[BAD] julianobrusto': 
+[2018-02-17 19:46] !REPORT         performed by '[R] Malaquias': passa pra eua pfv
+[2018-02-17 19:47] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] wolfblack><': Instantly
+[2018-02-17 19:47] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] kavakun': Instantly
+[2018-02-17 19:47] !SWITCH         performed by '[BAD] julianobrusto' on ' Taynan': Instantly
+[2018-02-17 19:47] !SWITCH         performed by '[BAD] julianobrusto' on ' dudukiller': Instantly
+[2018-02-17 19:48] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] Japa-Destruidor': Instantly
+[2018-02-17 19:48] !SWITCH         performed by '[BAD] julianobrusto' on ' SeeFour': Instantly
+[2018-02-17 19:55] !REPORT         performed by '=1BIM= Pastel': sniper americano em dod
+[2018-02-17 19:56] !REPORT         performed by '=1BIM= Pastel': sniper americano atirando de dod
+[2018-02-17 19:57] !SAY            performed by '[BAD] julianobrusto': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! - [BAD] julianobrusto
+[2018-02-17 19:58] !SAY            performed by ' marcaoweb': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! -  marcaoweb
+[2018-02-17 19:58] !SAY            performed by ' marcaoweb': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! -  marcaoweb
+[2018-02-17 19:58] !KICK           performed by '[BAD] julianobrusto' on ' [FEB]_Rodrigo.BR': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-17 19:58] !KICK           performed by '[BAD] julianobrusto' on ' Durok04': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-17 19:58] !SAY            performed by '[BAD] julianobrusto': Vao parar de spam? - [BAD] julianobrusto
+[2018-02-17 20:02] !REPORT         performed by '[R] Malaquias': cara rouba caminhao e da tk pqp
+[2018-02-17 20:02] !SAY            performed by '[BAD] julianobrusto': Faca report com o nome - [BAD] julianobrusto
+[2018-02-17 20:54] !REPORT         performed by ' marcaoweb': sniper faz vote
+[2018-02-17 20:57] !MAPVOTE        performed by ' marcaoweb': Mapvote:    1: Ulyanovsk    2: Qwai River    3: Operation Barracuda   | Type '1', '2' or '3' in squad chat!
+[2018-02-17 20:58] !WARN           performed by ' marcaoweb' on '[DATE] 4Folha.': Faca sua reclamacao ou critica no forum! - Haga su reclamo o critica en el FORO!
+[2018-02-17 21:00] !SETNEXT        performed by ' marcaoweb': Ulyanovsk (AAS, Std)
+[2018-02-17 21:05] !SAY            performed by '[BAD] Sniper-JP': APC SAI DE DOD - [BAD] Sniper-JP
+[2018-02-17 21:07] !REPORT         performed by ' marcaoweb': sniper eu atirei em cara que tava do lado do apc de rpg marcando dod
+[2018-02-17 21:08] !REPORT         performed by '=1BIM= Pastel': americano atirando DENTRO DA MAIN
+[2018-02-17 21:08] !REPORT         performed by '=1BIM= COREA_': tAO ATIRANDO DA MAINN !!
+[2018-02-17 21:08] !REPORT         performed by '=1BIM= Pastel': americano atirando de dentro da main
+[2018-02-17 21:09] !REPORT         performed by '=1BIM= Pastel': algum admin on?
+[2018-02-17 21:09] !SAY            performed by '[BAD] Sniper-JP': sim - [BAD] Sniper-JP
+[2018-02-17 21:09] !REPORT         performed by '=1BIM= Pastel': tem americano atirando de dentro da main, da pra pelo menos dar um warning ai?
+[2018-02-17 21:10] !REPORT         performed by '[DATE] 4Folha.': dudu tk intrncional 2 vezrs m matou
+[2018-02-17 21:11] !REPORT         performed by '[DATE] 4Folha.': dudusola tk intencional m matou 2 vezes
+[2018-02-17 21:11] !WARN           performed by ' marcaoweb' on ' dudusolla': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-17 21:11] !KICK           performed by '[BAD] Sniper-JP' on ' dudusolla': Voce deu TeamKill! Aprenda a dar SORRY! - Usted dio TeamKill! Aprende a dar SORRY!
+[2018-02-17 21:12] !REPORTP        performed by '=1BIM= Pastel' on ' LucasSousa353': spam e tentativa de justificar infracao
+[2018-02-17 21:13] !SWITCH         performed by ' marcaoweb' on ' marcaoweb': On next death
+[2018-02-17 21:13] !SWITCH         performed by ' marcaoweb' on ' marcaoweb': Instantly
+[2018-02-17 21:14] !WARN           performed by ' marcaoweb' on '[UBGE] Munier': Proibido fazer BC! Saia dai imediatamente! - Prohibido hacer BC! Salga de ahi inmediatamente!
+[2018-02-17 21:14] !WARN           performed by ' marcaoweb' on ' Matts'': Proibido fazer BC! Saia dai imediatamente! - Prohibido hacer BC! Salga de ahi inmediatamente!
+[2018-02-17 21:15] !REPORT         performed by ' FAVBocao': ragnar dando tk intencional
+[2018-02-17 21:15] !WARN           performed by ' marcaoweb' on '[ALCr] BliitzKrieg': Proibido fazer BC! Saia dai imediatamente! - Prohibido hacer BC! Salga de ahi inmediatamente!
+[2018-02-17 21:16] !TEMPBAN        performed by ' marcaoweb' on ' RagnarLothbrock': tk intencional
+[2018-02-17 21:18] !REPORT         performed by '=1BIM= COREA_': b 9 KP 5 nao pode atirarr NAO CHORRA SI MORRE
+[2018-02-17 21:18] !WARN           performed by ' marcaoweb' on '=1BIM= COREA_': Faca sua reclamacao ou critica no forum! - Haga su reclamo o critica en el FORO!
+[2018-02-17 21:19] !KICK           performed by ' marcaoweb' on '=1BIM= Pastel': Faca sua reclamacao ou critica no forum! - Haga su reclamo o critica en el FORO!
+[2018-02-17 21:19] !REPORT         performed by '=1BIM= COREA_': VO POSTA NO FORUN SI PODE SER RESOLVIDO EM JOGO
+[2018-02-17 21:28] !WARN           performed by ' marcaoweb' on 'URRAH1 AGRONOMO94': abra seu squad
+[2018-02-17 21:34] !REPORT         performed by '|DFM| ONeille': mantel robo kit
+[2018-02-17 21:37] !REPORTP        performed by ' Mantel_Chegou' on '|DFM| ONeille': tk intencional
+[2018-02-17 21:37] !KICK           performed by ' marcaoweb' on '|DFM| ONeille': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-17 21:39] !WARN           performed by ' marcaoweb' on ' |ALCr|__jack__': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-17 21:39] !WARN           performed by ' marcaoweb' on 'M-26-3 /Marcus': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-17 21:39] !WARN           performed by ' marcaoweb' on '[KKCK] CriCriminal': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-17 21:40] !KICK           performed by ' marcaoweb' on ' |ALCr|__jack__': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-17 21:40] !KICK           performed by ' marcaoweb' on '[KKCK] CriCriminal': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-17 21:40] !KICK           performed by ' marcaoweb' on 'M-26-3 /Marcus': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-17 21:48] !REPORT         performed by ' SnakeGhost': matts roubo kit
+[2018-02-17 21:48] !REPORT         performed by 'URRAH1 Humano_Normal': eu tava no time alemao me passa ai
+[2018-02-17 21:49] !REPORT         performed by 'URRAH1 Humano_Normal': eu tava no time alemao me troca i
+[2018-02-17 21:49] !SWITCH         performed by ' marcaoweb' on 'URRAH1 Humano_Normal': Instantly
+[2018-02-17 21:52] !MAPVOTE        performed by ' marcaoweb': Mapvote:    1: Muttrah City    2: Operation Marlin    3: Beirut   | Type '1', '2' or '3' in squad chat!
+[2018-02-17 21:54] !SWITCH         performed by ' marcaoweb' on ' marcaoweb': On next death
+[2018-02-17 21:54] !WARN           performed by ' marcaoweb' on '[BAD] kavakun': Proibido fazer BC! Saia dai imediatamente! - Prohibido hacer BC! Salga de ahi inmediatamente!
+[2018-02-17 21:55] !REPORT         performed by '=1BIM= zeusparrudo': kavakun plantando mina na main inimiga?
+[2018-02-17 21:55] !WARN           performed by ' marcaoweb' on '[BAD] kavakun': Proibido fazer BC! Saia dai imediatamente! - Prohibido hacer BC! Salga de ahi inmediatamente!
+[2018-02-17 21:58] !SETNEXT        performed by ' marcaoweb': Beirut (AAS, Std)
+[2018-02-17 22:00] !REPORT         performed by ' LucasSousa353': alguem marcando a main ger
+[2018-02-17 22:04] !REPORT         performed by ' LucasSousa353': sq apc fechado com menos de 5
+[2018-02-17 22:08] !REPORT         performed by '|ALC| -LuisSs@Dahjeshi': switch please
+[2018-02-17 22:37] !REPORT         performed by ' LucasSousa353': marcao me humilhando
+[2018-02-17 22:37] !WARN           performed by ' marcaoweb' on ' LucasSousa353': report falso
+[2018-02-17 22:48] !REPORT         performed by ' Ferreira': vote!!!
+[2018-02-17 22:48] !REPORT         performed by ' marcaoweb': faz vote
+[2018-02-17 22:48] !REPORT         performed by ' Ferreira': faz ai, to fraco hj
+[2018-02-17 22:49] !REPORT         performed by ' marcaoweb': eu tbm
+[2018-02-17 22:51] !REPORT         performed by ' marcaoweb': ferreira por favor faca o vote que te amarei para sempre
+[2018-02-17 22:51] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Kokan    2: Outpost    3: Gaza   | Type '1', '2' or '3' in squad chat!
+[2018-02-17 22:55] !SETNEXT        performed by ' Ferreira': Kokan (Insurgency, Alt)
+[2018-02-17 23:02] !REPORT         performed by '|ALC| -LuisSs@Dahjeshi': VW lokao?
+[2018-02-17 23:04] !REPORT         performed by '[R] Malaquias': da runnext
+[2018-02-17 23:06] !REPORT         performed by '[DATE] AsqLIMA': melhor dar runnext, tem mt ticket ainda
+[2018-02-17 23:08] !SAY            performed by ' Ferreira': VOCE JOGADOR DE PR, NAO PERCA A INSURGENCIA NO PROX MAPA!! -  Ferreira
+[2018-02-17 23:14] !REPORT         performed by '=SF=SD Shadow_.': luis zoando com asset
+[2018-02-17 23:20] !WARN           performed by ' marcaoweb' on '=SF=CB marcelino': Faca sua reclamacao ou critica no forum! - Haga su reclamo o critica en el FORO!
+[2018-02-17 23:21] !SAY            performed by ' marcaoweb': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! -  marcaoweb
+[2018-02-17 23:43] !REPORT         performed by '[BAD] kaisertyr': ??????
+[2018-02-17 23:43] !REPORT         performed by ' Ferreira': ?????
+[2018-02-17 23:44] !WARN           performed by '[BAD] Sniper-JP' on ' LucasSousa353': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-17 23:04] !REPORT         performed by '[BAD] kaisertyr': marcolino e esse heli aqui ???
+[2018-02-17 23:04] !REPORT         performed by ' marcaoweb': onde?
+[2018-02-17 23:05] !REPORT         performed by '[BAD] kaisertyr': tem um trans down na main
+[2018-02-17 23:09] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Sbeneh Outskirts    2: Vw   | Type '1' or '2' in squad chat!
+[2018-02-17 23:09] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Skirm    2: Vw   | Type '1' or '2' in squad chat!
+[2018-02-17 23:12] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Vw(Inf)    2: Vw(Cas)    3: Vw(Tank)   | Type '1', '2' or '3' in squad chat!
+[2018-02-17 23:17] !REPORT         performed by ' LucasSousa353': luiss desmerecendo apc
+[2018-02-17 23:17] !SETNEXT        performed by ' Ferreira': Black Gold (Vehicle Warfare, Inf)
+[2018-02-17 23:33] !TEMPBAN        performed by ' Ferreira' on ' Tailandes': arrume_a_sua_voz
+[2018-02-17 23:34] !UNBAN          performed by ' Ferreira' on 'Player (518e9b2e3c15652be36f7cf680617e65) banned player': 
+[2018-02-17 23:35] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: 2Cache=Runnext    2: Ate O Final   | Type '1' or '2' in squad chat!
+[2018-02-17 23:36] !SAY            performed by ' Ferreira': vai dar runnext com o 1 -  Ferreira
+[2018-02-17 23:36] !SAY            performed by ' Ferreira': vai dar runnext com o 1 -  Ferreira
+[2018-02-17 23:37] !RUNNEXT        performed by ' Ferreira': 
+[2018-02-17 23:43] !WARN           performed by ' marcaoweb' on ' Comandante_Heleno': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-17 23:45] !SAY            performed by ' marcaoweb': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! -  marcaoweb
+[2018-02-17 23:45] !SAY            performed by ' marcaoweb': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! -  marcaoweb
+[2018-02-17 23:49] !SAY            performed by ' Ferreira': prox seta VW(CAS) para os viciados -  Ferreira
+[2018-02-17 23:51] !KILL           performed by ' Ferreira' on ' Ferreira': bug
+[2018-02-17 23:55] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: The Falklands    2: Kami    3: Operation Soul Rebel   | Type '1', '2' or '3' in squad chat!
+[2018-02-17 23:55] !SAY            performed by ' Ferreira': VW CAS!!! -  Ferreira
+[2018-02-18 00:01] !SETNEXT        performed by ' Ferreira': The Falklands (Vehicle Warfare, Std)
+[2018-02-18 00:01] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Runnext(10Mim)    2: Continue(20Mim)   | Type '1' or '2' in squad chat!
+[2018-02-18 00:03] !SAY            performed by ' Ferreira': runnext in 10 mim -  Ferreira
+[2018-02-18 00:03] !SAY            performed by ' Ferreira': runnext in 10 mim -  Ferreira
+[2018-02-18 00:03] !REPORT         performed by ' marcaoweb': 15
+[2018-02-18 00:15] !SAY            performed by ' Ferreira': RUNNEXT!!!! -  Ferreira
+[2018-02-18 00:16] !SAY            performed by ' Ferreira': 1 MIM -  Ferreira
+[2018-02-18 00:19] !SAY            performed by ' Ferreira': boa noite -  Ferreira
+[2018-02-18 00:19] !SAY            performed by ' Ferreira': boa noite -  Ferreira
+[2018-02-18 00:19] !RUNNEXT        performed by ' Ferreira': 
+[2018-02-18 00:23] !SETNEXT        performed by ' Ferreira': Operation Thunder (Skirmish, Std)
+[2018-02-18 00:47] !KILL           performed by ' Ferreira' on ' Ferreira': bug
+[2018-02-18 00:53] !SAY            performed by ' Ferreira': kkkk -  Ferreira
+[2018-02-18 01:01] !SWITCH         performed by ' marcaoweb' on '|ALC| -LuisSs@Dahjeshi': Instantly
+[2018-02-18 01:02] !SWITCH         performed by '[FODA] Fabiano_' on '[RONE] Generalnick54': On next death
+[2018-02-18 01:06] !REPORT         performed by '[FODA] Fabiano_': tem um helicoptero argentino na minha base
+[2018-02-18 01:07] !SWITCH         performed by ' marcaoweb' on '[RONE] Generalnick54': Instantly
+[2018-02-18 01:07] !REPORT         performed by '[RONE] Generalnick54': me passa
+[2018-02-18 01:09] !WARN           performed by '[FODA] Fabiano_' on ' HeadHunterTGA': tk
+[2018-02-18 01:10] !REPORT         performed by '[FODA] Fabiano_': ta tendo base camp
+[2018-02-18 01:11] !REPORT         performed by '[FODA] Fabiano_': tao atacado osaviao na main
+[2018-02-18 01:11] !REPORT         performed by '[FODA] Fabiano_': tao atacando os avioes na main aqui mano
+[2018-02-18 01:13] !SAY            performed by ' marcaoweb': nao e para atcar main -  marcaoweb
+[2018-02-18 01:13] !SAY            performed by ' marcaoweb': se atacarem ai avisem -  marcaoweb
+[2018-02-18 01:13] !REPORT         performed by '[FODA] Fabiano_': vou atacar tambem, ninguem ta fazendo nada
+[2018-02-18 01:13] !REPORT         performed by '|ALC| -LuisSs@Dahjeshi': skyrider ataco
+[2018-02-18 01:13] !REPORT         performed by '[FODA] Fabiano_': tao atacando aqui td hora
+[2018-02-18 01:14] !REPORT         performed by ' marcaoweb': fabiano vc e admin, preste atencao no que esta falando
+[2018-02-18 01:14] !REPORT         performed by '[FODA] Fabiano_': to reportando a 1 hora
+[2018-02-18 01:14] !REPORT         performed by ' marcaoweb': e eu to resolvendo, tenha paciencia
+[2018-02-18 01:35] !SWITCH         performed by ' marcaoweb' on ' marcaoweb': Instantly
+[2018-02-18 01:35] !SWITCH         performed by ' marcaoweb' on ' marcaoweb': On next death
+[2018-02-18 01:35] !SWITCH         performed by ' Ferreira' on ' marcaoweb': On next death
+[2018-02-18 01:36] !KILL           performed by ' Ferreira' on ' marcaoweb': ofkk
+[2018-02-18 01:37] !WARN           performed by ' marcaoweb' on ' Vinicius7q': pare de atirar em amigo
+[2018-02-18 01:40] !KICK           performed by ' marcaoweb' on '[NOOB] xandedamata1010': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-18 01:55] !SAY            performed by '[FODA] Fabiano_': sugestoes de mapa? - [FODA] Fabiano_
+[2018-02-18 01:58] !SAY            performed by '[FODA] Fabiano_': sugestoes de mapa? :) - [FODA] Fabiano_
+[2018-02-18 01:59] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Wanda Shan    2: Jabal Al Burj    3: Fallujah West   | Type '1', '2' or '3' in squad chat!
+[2018-02-18 02:00] !WARN           performed by ' marcaoweb' on '[R] Malaquias': Cuidado com o seu linguajar! - Tenga cuidado con su lenguaje! - Watch your language
+[2018-02-18 02:00] !SAY            performed by '[FODA] Fabiano_': votem amores - [FODA] Fabiano_
+[2018-02-18 02:02] !SETNEXT        performed by '[FODA] Fabiano_': Wanda Shan (Skirmish, Inf)
+[2018-02-18 02:03] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Continue    2: Dou.Runnext    3: Dou.O.Tob   | Type '1', '2' or '3' in squad chat!
+[2018-02-18 02:03] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Runnext    2: Continue   | Type '1' or '2' in squad chat!
+[2018-02-18 02:04] !SAY            performed by '[FODA] Fabiano_': olha o runnext ai seus lindo gostoso - [FODA] Fabiano_
+[2018-02-18 02:04] !RUNNEXT        performed by '[FODA] Fabiano_': 
+[2018-02-18 02:08] !SAY            performed by '[FODA] Fabiano_': quero ver quem vai madrugar - [FODA] Fabiano_
+[2018-02-18 02:10] !SAY            performed by '[FODA] Fabiano_': vai ser o jogo do 7 a 1 - [FODA] Fabiano_
+[2018-02-18 02:13] !SWITCH         performed by '[FODA] Fabiano_' on ' OmegaBR': On next death
+[2018-02-18 02:13] !SAY            performed by '[FODA] Fabiano_': omega vai pro teu time bb - [FODA] Fabiano_
+[2018-02-18 02:13] !SAY            performed by '[FODA] Fabiano_': <3 - [FODA] Fabiano_
+[2018-02-18 02:13] !KILL           performed by '[FODA] Fabiano_' on ' OmegaBR': afk
+[2018-02-18 02:14] !SWITCH         performed by '[FODA] Fabiano_' on ' OmegaBR': Instantly
+[2018-02-18 02:19] !SAY            performed by '[FODA] Fabiano_': galera vamos focar no objetivo hein - [FODA] Fabiano_
+[2018-02-18 02:21] !SAY            performed by '[FODA] Fabiano_': cuidado pra nao atirar na base - [FODA] Fabiano_
+[2018-02-18 02:22] !SAY            performed by '[FODA] Fabiano_': kkkkkkkkkkkkkkkkk - [FODA] Fabiano_
+[2018-02-18 02:23] !SAY            performed by '[FODA] Fabiano_': partiu pvp na faca? kkkkkk - [FODA] Fabiano_
+[2018-02-18 02:23] !SAY            performed by '[FODA] Fabiano_': tamo aqui - [FODA] Fabiano_
+[2018-02-18 02:28] !SAY            performed by '[FODA] Fabiano_': murri - [FODA] Fabiano_
+[2018-02-18 02:28] !SAY            performed by '[FODA] Fabiano_': sugestoes de mapa? - [FODA] Fabiano_
+[2018-02-18 02:28] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Sla    2: Sugestoes   | Type '1' or '2' in squad chat!
+[2018-02-18 02:30] !SAY            performed by '[FODA] Fabiano_': pega kit de piloto vai geral de pistola - [FODA] Fabiano_
+[2018-02-18 02:33] !KICK           performed by '[FODA] Fabiano_' on ' []V[]EDUZA': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-18 09:25] !KICK           performed by 'SERVER' on ' Calks': Creating too many early squads!
+[2018-02-18 14:01] !SETNEXT        performed by '[BAD] julianobrusto': Fallujah West (Insurgency, Std)
+[2018-02-18 14:02] !SAY            performed by '[BAD] julianobrusto': Chamem os amiguinhos - [BAD] julianobrusto
+[2018-02-18 14:02] !SAY            performed by '[BAD] julianobrusto': nao chamem os amiguinhos xiteiros - [BAD] julianobrusto
+[2018-02-18 14:02] !REPORT         performed by '[R] Malaquias': me passa pro eua pfv admin.
+[2018-02-18 14:02] !REPORT         performed by '[RONE] MagalhaesBr': muda o mapinha
+[2018-02-18 14:02] !SWITCH         performed by '[BAD] julianobrusto' on '[R] Malaquias': Instantly
+[2018-02-18 14:02] !REPORT         performed by '[R] Malaquias': obrigado
+[2018-02-18 14:02] !SAY            performed by '[BAD] julianobrusto': Disponha - [BAD] julianobrusto
+[2018-02-18 14:04] !REPORT         performed by '[RONE] MaxBr': juliano , tem como passar pra us pra jogar com meu clan pls?
+[2018-02-18 14:04] !SWITCH         performed by '[BAD] julianobrusto' on '[RONE] MaxBr': Instantly
+[2018-02-18 14:04] !REPORT         performed by '[RONE] MaxBr': muito og
+[2018-02-18 14:14] !REPORT         performed by '[RONE] MaxBr': ja teve vote
+[2018-02-18 14:14] !SAY            performed by '[BAD] julianobrusto': O mapa vai ser setado - [BAD] julianobrusto
+[2018-02-18 14:14] !REPORT         performed by '[R] Malaquias': qual?
+[2018-02-18 14:14] !SAY            performed by '[BAD] julianobrusto': use o comando !shownext - [BAD] julianobrusto
+[2018-02-18 14:14] !REPORT         performed by '[RONE] MagalhaesBr': faz scramble
+[2018-02-18 14:14] !SAY            performed by '[BAD] julianobrusto': ja foi feito - [BAD] julianobrusto
+[2018-02-18 14:15] !REPORT         performed by '[RONE] MagalhaesBr': na prox faz scramble pf
+[2018-02-18 14:15] !REPORT         performed by '[RONE] OliveiraPR': scramble
+[2018-02-18 14:15] !SAY            performed by '[BAD] julianobrusto': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! - [BAD] julianobrusto
+[2018-02-18 14:15] !SAY            performed by '[BAD] julianobrusto': Faca sua reclamacao ou critica no forum! - Haga su reclamo o critica en el FORO! - [BAD] julianobrusto
+[2018-02-18 14:16] !SWITCH         performed by ' Ferreira' on ' Ferreira': Instantly
+[2018-02-18 14:16] !REPORT         performed by '[RONE] OliveiraPR': scamble no cla rone no proximo
+[2018-02-18 14:16] !SAY            performed by '[BAD] julianobrusto': Povo ja foi programado o scramble pro proximo round - [BAD] julianobrusto
+[2018-02-18 14:16] !SAY            performed by '[BAD] julianobrusto': Se eu disse que ja fiz... Eu ja fiz que saco - [BAD] julianobrusto
+[2018-02-18 14:18] !SAY            performed by '[BAD] julianobrusto': Vai ter scramble e eu passo de volta - [BAD] julianobrusto
+[2018-02-18 14:18] !SAY            performed by '[BAD] julianobrusto': Se passar geral eu inverto os times - [BAD] julianobrusto
+[2018-02-18 14:18] !SAY            performed by '[BAD] julianobrusto': Faca sua reclamacao ou critica no forum! - Haga su reclamo o critica en el FORO! - [BAD] julianobrusto
+[2018-02-18 14:18] !REPORT         performed by '[R] Malaquias': booooa
+[2018-02-18 14:20] !TEMPBAN        performed by ' Ferreira' on ' [BZ]SrBan': Nao pode liderar de snyper
+[2018-02-18 14:21] !UNBAN          performed by ' Ferreira' on 'Player (be12b437e9498e2076a2df4b13c29ed3) banned player': 
+[2018-02-18 14:25] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] kavakun': Instantly
+[2018-02-18 14:35] !KILL           performed by ' Ferreira' on ' vitorklock': ele_qr
+[2018-02-18 14:52] !SWITCH         performed by ' marcaoweb' on ' marcaoweb': Instantly
+[2018-02-18 14:55] !RESIGN         performed by ' Ferreira' on ' [NOOB]-MJ-Xibata': aceita_ou_sai
+[2018-02-18 15:03] !REPORT         performed by '[BAD] SR.IRINEU': panbra liderando de sniper
+[2018-02-18 15:03] !RESIGN         performed by '[BAD] julianobrusto' on ' PanBRA': lidereando de sniper
+[2018-02-18 15:03] !REPORT         performed by '=SF=CO AFeGauM': rafael.br tk inten
+[2018-02-18 15:03] !RESIGN         performed by ' marcaoweb' on ' PanBRA': liderando de sniper
+[2018-02-18 15:03] !WARN           performed by '[BAD] julianobrusto' on 'UBGE rafael.br2468': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-18 15:03] !REPORTP        performed by '=SF=GE Paulinho.R.Barbo' on 'UBGE rafael.br2468': tk intencional
+[2018-02-18 15:03] !KICK           performed by '[BAD] julianobrusto' on 'UBGE rafael.br2468': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-18 15:03] !REPORT         performed by '=SF=SD Detomi': rafa tk int
+[2018-02-18 15:03] !SAY            performed by '[BAD] julianobrusto': ja foi punido - [BAD] julianobrusto
+[2018-02-18 15:08] !REPORT         performed by '>TT<09 Vandew32': algum admin pode me da switch para eu jogar com um membro do clan
+[2018-02-18 15:08] !SWITCH         performed by '[BAD] julianobrusto' on '>TT<09 Vandew32': Instantly
+[2018-02-18 15:08] !SWITCH         performed by ' Ferreira' on '>TT<09 Vandew32': Instantly
+[2018-02-18 15:08] !REPORT         performed by '>TT<09 Vandew32': obrigadoo
+[2018-02-18 15:09] !REPORT         performed by '>TT<09 Vandew32': alguem pode switch, pfv
+[2018-02-18 15:09] !SWITCH         performed by ' Ferreira' on '>TT<09 Vandew32': Instantly
+[2018-02-18 15:09] !SWITCH         performed by ' marcaoweb' on '>TT<09 Vandew32': Instantly
+[2018-02-18 15:11] !SWITCH         performed by ' marcaoweb' on '>TT<09 Vandew32': Instantly
+[2018-02-18 15:20] !REPORT         performed by ' marcaoweb': quem vai fazer vote?
+[2018-02-18 15:20] !REPORT         performed by '[BAD] julianobrusto': pde fazer
+[2018-02-18 15:20] !REPORT         performed by ' Ferreira': faz ai que eu to de saida
+[2018-02-18 15:20] !REPORT         performed by ' marcaoweb': eu nao quero
+[2018-02-18 15:20] !REPORT         performed by ' marcaoweb': to indo almocar
+[2018-02-18 15:21] !REPORT         performed by ' marcaoweb': entao vou fazer, ok?
+[2018-02-18 15:21] !REPORT         performed by ' Ferreira': demoro
+[2018-02-18 15:22] !MAPVOTE        performed by ' marcaoweb': Mapvote:    1: Kashan Desert    2: Khamisiyah    3: Black Gold   | Type '1', '2' or '3' in squad chat!
+[2018-02-18 15:25] !REPORTP        performed by ' Matts'': jack roubo de asset
+[2018-02-18 15:25] !REPORTP        performed by ' Matts'': jackspa roubo de asset
+[2018-02-18 15:25] !REPORTP        performed by ' Matts'': jackspa roubo de asset
+[2018-02-18 15:25] !REPORTP        performed by ' Matts'': jackspa roubo de asset
+[2018-02-18 15:25] !REPORTP        performed by ' Matts'' on 'JACK JackSpharrow': roubo de asset
+[2018-02-18 15:25] !SETNEXT        performed by ' marcaoweb': Khamisiyah (AAS, Std)
+[2018-02-18 15:25] !REPORTP        performed by ' Matts'' on 'JACK JackSpharrow': roubo de asset
+[2018-02-18 15:25] !WARN           performed by '[BAD] julianobrusto' on 'JACK JackSpharrow': Voce roubou Asset! Retorne imediatamente para MAINBASE!! - Robaste Asset! Vuelva inmediatamente para MAINBASE!
+[2018-02-18 15:25] !REPORTP        performed by '=1BIM= renansilas': jackspa roubou a fogueteira e esta atrapalhando o joo
+[2018-02-18 15:25] !KILL           performed by '[BAD] julianobrusto' on 'JACK JackSpharrow': Voce roubou Asset! Retorne imediatamente para MAINBASE!! - Robaste Asset! Vuelva inmediatamente para MAINBASE!
+[2018-02-18 15:31] !REPORT         performed by ' SnakeGhost': me passa de lado era ins
+[2018-02-18 15:52] !REPORT         performed by ' Matts'': bradley marcando saida da main
+[2018-02-18 15:52] !WARN           performed by ' marcaoweb' on ' SantanaBr': Proibido fazer BC! Saia dai imediatamente! - Prohibido hacer BC! Salga de ahi inmediatamente!
+[2018-02-18 15:54] !REPORT         performed by '[BpM] blayas': tonny samu tk proposital dentro de base
+[2018-02-18 15:55] !REPORT         performed by '[FODA] Fabiano_': boa tarde marcao lindo
+[2018-02-18 16:05] !REPORT         performed by '=1BIM= raulmachado1': blayas roubo de asset
+[2018-02-18 16:05] !REPORT         performed by ' marcaoweb': fabiano ta ai?
+[2018-02-18 16:05] !REPORTP        performed by '[CDB] Boladex' on '[BpM] blayas': trancando squad c 2 membros
+[2018-02-18 16:06] !WARN           performed by ' marcaoweb' on '[BpM] blayas': Voce roubou Asset! Retorne imediatamente para MAINBASE!! - Robaste Asset! Vuelva inmediatamente para MAINBASE!
+[2018-02-18 16:07] !REPORT         performed by 'IIIRBR HIROHD': deram report falso em cima do blayas
+[2018-02-18 16:08] !REPORT         performed by '[BpM] blayas': deve ter sido o raulmachado nao?
+[2018-02-18 16:09] !REPORT         performed by ' windows_x_seven': bittencourt desperdicio de asset
+[2018-02-18 16:20] !KICK           performed by ' marcaoweb' on '[RONE] MaxBr': ofensa
+[2018-02-18 16:28] !TEMPBAN        performed by '[FODA] Fabiano_' on '[RONE] MaxBr': desrespeitou.a.administracao.do.servidor
+[2018-02-18 16:29] !REPORT         performed by ' marcaoweb': fabiano faz o proximo vote
+[2018-02-18 16:38] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Yamalia    2: Saaremaa    3: Burning Sands   | Type '1', '2' or '3' in squad chat!
+[2018-02-18 16:40] !SETNEXT        performed by '[FODA] Fabiano_': Saaremaa (AAS, Std)
+[2018-02-18 16:40] !SETNEXT        performed by '[FODA] Fabiano_': Saaremaa (AAS, Alt)
+[2018-02-18 16:45] !WARN           performed by ' marcaoweb' on '|DFM| Mendo78': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-18 16:53] !REPORT         performed by '=1BIM= renansilas': me da switch perdi conexao
+[2018-02-18 16:53] !REPORT         performed by '=1BIM= renansilas': me da switch eu tava de usmc e perdi conexao com internet pfffff
+[2018-02-18 16:54] !SWITCH         performed by '[FODA] Fabiano_' on '=1BIM= renansilas': Instantly
+[2018-02-18 16:59] !REPORT         performed by '[BAD] SPGhost': switch pfv
+[2018-02-18 17:01] !REPORT         performed by '[BAD] SPGhost': me da switch pfv, eu ja joguei metade da partida no usmc
+[2018-02-18 17:03] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] SPGhost': Instantly
+[2018-02-18 17:03] !REPORT         performed by '=1BIM= renansilas': me da switch ey tava de usmc e cai denovoooooooooooo pf
+[2018-02-18 17:03] !SWITCH         performed by '[FODA] Fabiano_' on '=1BIM= renansilas': Instantly
+[2018-02-18 17:15] !REPORT         performed by 'M-26-3 gilcho': sta std
+[2018-02-18 17:20] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] kavakun': Instantly
+[2018-02-18 17:20] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] SPGhost': Instantly
+[2018-02-18 17:21] !REPORT         performed by ' glazz': core robo de kit
+[2018-02-18 17:22] !SWITCH         performed by '[BAD] julianobrusto' on ' marcaoweb': Instantly
+[2018-02-18 17:23] !REPORT         performed by '=SF=SG vibrabuletas': snake spaw
+[2018-02-18 17:23] !SAY            performed by '[BAD] julianobrusto': E o spam leva kick - [BAD] julianobrusto
+[2018-02-18 17:23] !WARN           performed by '[BAD] julianobrusto' on ' SnakeGhost': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-18 17:23] !KILL           performed by '[BAD] julianobrusto' on ' SnakeGhost': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-18 17:24] !KICK           performed by '[BAD] julianobrusto' on ' tenentecoronel': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-18 17:30] !REPORT         performed by ' DoideraMan': atirador perdendo asset na main
+[2018-02-18 17:30] !KICK           performed by '[BAD] julianobrusto' on ' Atirador_TR': Voce desperdicou Asset! Vai treinar em CO-OP! - Desperdiciaste Asset! Vaya a entrenar en CO-OP!
+[2018-02-18 17:32] !RESIGN         performed by ' marcaoweb' on ' fodones': sem mic
+[2018-02-18 17:34] !REPORT         performed by '=SF=SD Detomi': rammer trans inimigo
+[2018-02-18 17:34] !REPORT         performed by '=SF=SD Detomi': trans dos rus rammer
+[2018-02-18 17:34] !SAY            performed by '[BAD] julianobrusto': Faca report completo e com nome correto - [BAD] julianobrusto
+[2018-02-18 17:35] !REPORT         performed by '=SF=SD Detomi': como vou fazer report completo diacho. foi otrans inimigo ez rammer com o heli deles no meu osprey
+[2018-02-18 17:35] !REPORT         performed by '[BAD] julianobrusto': quem ta de russo?
+[2018-02-18 17:35] !REPORT         performed by '=SF=SD Detomi': trans inimigo fazendo rammer o que mais pra ser completo?
+[2018-02-18 17:36] !REPORT         performed by '[BAD] julianobrusto': trans russo vanilando
+[2018-02-18 17:37] !SAY            performed by '[BAD] julianobrusto': Ainda to procurando o nome - [BAD] julianobrusto
+[2018-02-18 17:37] !SAY            performed by '[BAD] julianobrusto': Ele fez e vazou - [BAD] julianobrusto
+[2018-02-18 17:37] !SAY            performed by '[BAD] julianobrusto': ninguem reportou o nome - [BAD] julianobrusto
+[2018-02-18 17:37] !SAY            performed by '[BAD] julianobrusto': to vendo isso - [BAD] julianobrusto
+[2018-02-18 17:37] !REPORT         performed by '[BAD] julianobrusto': marcao russo fez kamikaze com o heli inimigo
+[2018-02-18 17:38] !REPORT         performed by '[BAD] julianobrusto': kamikaze heli russo
+[2018-02-18 17:40] !WARN           performed by '[BAD] julianobrusto' on ' Matts'': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-18 17:46] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Sbeneh Outskirts    2: Outpost    3: Kokan   | Type '1', '2' or '3' in squad chat!
+[2018-02-18 17:48] !SWITCH         performed by '[FODA] Fabiano_' on ' Luzzzi': Instantly
+[2018-02-18 17:56] !REPORT         performed by '=1BIM= COREA_': SETTA ALTT de dia
+[2018-02-18 17:58] !SETNEXT        performed by '[FODA] Fabiano_': Sbeneh Outskirts (Insurgency, Alt)
+[2018-02-18 18:00] !REPORT         performed by 'M-26-3 gilcho': scramble?
+[2018-02-18 18:08] !KICK           performed by ' marcaoweb' on 'IIIRBR Kassfir': Pare de fazer SPAM no MUMBLE (RADIO)! - Deja de hacer SPAM en MUMBLE (RADIO)! - Stop MUMBLE-spamming (RADIO)!
+[2018-02-18 18:11] !REPORT         performed by 'IIIRBR HIROHD': podem me passar para syrio? estou bugado. obrigado
+[2018-02-18 18:11] !SWITCH         performed by '[BAD] julianobrusto' on 'IIIRBR HIROHD': On next death
+[2018-02-18 18:11] !KILL           performed by '[BAD] julianobrusto' on 'IIIRBR HIROHD': switch
+[2018-02-18 18:12] !WARN           performed by '[BAD] julianobrusto' on '=1BIM= Phx37': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-18 18:21] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] SPGhost': Instantly
+[2018-02-18 18:24] !TEMPBAN        performed by '[BAD] julianobrusto' on '[GOT] Foice': Voce desperdicou Asset! Vai treinar em CO-OP! - Desperdiciaste Asset! Vaya a entrenar en CO-OP!
+[2018-02-18 18:37] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Battle of Ia Drang    2: Shahadah    3: Muttrah City   | Type '1', '2' or '3' in squad chat!
+[2018-02-18 18:40] !SETNEXT        performed by '[FODA] Fabiano_': Shahadah (AAS, Alt)
+[2018-02-18 19:03] !REPORT         performed by '[NAT] Lagartou': peppabr nao quis resussitar como medico
+[2018-02-18 19:29] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] kaisertyr': Instantly
+[2018-02-18 19:33] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Kashan Desert    2: Black Gold    3: Operation Soul Rebel   | Type '1', '2' or '3' in squad chat!
+[2018-02-18 19:39] !SWITCH         performed by '[BAD] PILOTO.RS' on '[BAD] PILOTO.RS': Instantly
+[2018-02-18 19:54] !KICK           performed by 'SERVER' on 'Bykso Bykso': Creating too many early squads!
+[2018-02-18 19:56] !SETNEXT        performed by '[FODA] Fabiano_': Operation Soul Rebel (AAS, Std)
+[2018-02-18 19:56] !REPORT         performed by '[FODA] Fabiano_': minha internet caiu, voltou agora
+[2018-02-18 19:56] !REPORT         performed by '[FODA] Fabiano_': vou esperar 10 mins e dar runnext
+[2018-02-18 19:57] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Runnext    2: Continue   | Type '1' or '2' in squad chat!
+[2018-02-18 19:59] !SAY            performed by '[FODA] Fabiano_': vai continuar! :) - [FODA] Fabiano_
+[2018-02-18 20:00] !SAY            performed by '[BAD] kaisertyr': spam - [BAD] kaisertyr
+[2018-02-18 20:01] !WARN           performed by '[FODA] Fabiano_' on 'IIIRBR SShadowFox': spam
+[2018-02-18 20:01] !KILL           performed by '[BAD] kaisertyr' on '[NAT] Lagartou': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-18 20:01] !KILL           performed by '[BAD] kaisertyr' on '=BRA= SovietBear4': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-18 20:01] !KILL           performed by '[BAD] kaisertyr' on '[NOOB] NEKKROS': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-18 20:11] !WARN           performed by '[FODA] Fabiano_' on ' PRIMATE': you need to speak portuguese or spanish to be a squad leader
+[2018-02-18 20:12] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Khamisiyah    2: Outpost    3: Kokan   | Type '1', '2' or '3' in squad chat!
+[2018-02-18 20:15] !SETNEXT        performed by '[FODA] Fabiano_': Khamisiyah (Insurgency, Std)
+[2018-02-18 20:27] !REPORT         performed by '[R] Malaquias': passa o OliveiraPR pra chines pf
+[2018-02-18 20:31] !REPORT         performed by '[R] Malaquias': khamysia vai ser ins?????
+[2018-02-18 20:32] !REPORT         performed by ' marcaoweb': khamisia ja rodou hj
+[2018-02-18 20:32] !REPORT         performed by '[FODA] Fabiano_': sim, mas foi aas agora e insurgency
+[2018-02-18 20:33] !SAY            performed by '[FODA] Fabiano_': khamisiyah vai ser insurgency - [FODA] Fabiano_
+[2018-02-18 20:33] !REPORT         performed by '[BAD] SR.IRINEU': quero vote de macho
+[2018-02-18 20:33] !REPORT         performed by ' marcaoweb': sim, mas ja rodou, evite repetir mapa
+[2018-02-18 20:33] !REPORT         performed by '[BAD] kaisertyr': ja foi , nao importa se e outro modo
+[2018-02-18 20:34] !SAY            performed by ' marcaoweb': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! -  marcaoweb
+[2018-02-18 20:35] !SAY            performed by ' marcaoweb': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! -  marcaoweb
+[2018-02-18 20:41] !REPORT         performed by ' [NOOB]-MJ-Xibata': srban ta so atirando em amigo e fico dando check fire e ele nao para
+[2018-02-18 20:54] !REPORT         performed by ' Matts'': scrambe proxima
+[2018-02-18 20:56] !REPORT         performed by '=1BIM= raulmachado1': soviet spam
+[2018-02-18 21:04] !REPORT         performed by '[R] Malaquias': srban roubo de kit
+[2018-02-18 21:10] !SWITCH         performed by '[BAD] PILOTO.RS' on '[BAD] SPGhost': On next death
+[2018-02-18 21:13] !REPORT         performed by '|ALC| -LuisSs@Dahjeshi': l.almeida squad fechada ele sozinho
+[2018-02-18 21:14] !RESIGN         performed by '[BAD] kaisertyr' on 'UBGE L.Almeida': sf
+[2018-02-18 21:19] !REPORTP        performed by '[BAD] SPGhost' on '[NOOB] NEKKROS': antijogo, jogando fumaca amarelas obstruindo a visao
+[2018-02-18 21:31] !REPORT         performed by ' Undermon': GuzBrz roubo de kit sniper
+[2018-02-18 21:36] !REPORT         performed by ' VictorMCD': gabrielherbot com squad fechada em 1 player
+[2018-02-18 21:36] !WARN           performed by ' marcaoweb' on ' GabrielHerbotte': abra seu squad
+[2018-02-18 21:37] !REPORT         performed by ' marcaoweb': kayser seu lindo ta ai?
+[2018-02-18 21:37] !REPORT         performed by '[BAD] kaisertyr': estou morto
+[2018-02-18 21:37] !REPORT         performed by ' marcaoweb': faca vote
+[2018-02-18 21:47] !REPORT         performed by ' COREA_': Taynan ROUBANDO APCCCC
+[2018-02-18 21:47] !REPORT         performed by '=1BIM= raulmachado1': tayan toubou apc
+[2018-02-18 21:48] !WARN           performed by ' marcaoweb' on ' Taynan': Voce roubou Asset! Retorne imediatamente para MAINBASE!! - Robaste Asset! Vuelva inmediatamente para MAINBASE!
+[2018-02-18 21:59] !REPORT         performed by '[R] Malaquias': ja teve vote?
+[2018-02-18 21:59] !REPORT         performed by ' marcaoweb': kayser vai fazer vote?
+[2018-02-18 22:07] !REPORT         performed by '[R] Malaquias': teve vote ademar?
+[2018-02-18 22:07] !SAY            performed by ' marcaoweb': sugestao aas 1km -  marcaoweb
+[2018-02-18 22:07] !MAPVOTE        performed by ' marcaoweb': Mapvote:    1: Asad Khal    2: Gaza    3: Assault on Mestia   | Type '1', '2' or '3' in squad chat!
+[2018-02-18 22:10] !SETNEXT        performed by ' marcaoweb': Iron Ridge (AAS, Alt)
+[2018-02-18 22:10] !SETNEXT        performed by ' marcaoweb': Gaza (AAS, Std)
+[2018-02-18 22:14] !REPORT         performed by '[BAD] wolfblack><': me pucha juh
+[2018-02-18 22:15] !SWITCH         performed by ' marcaoweb' on '[BAD] wolfblack><': Instantly
+[2018-02-18 22:15] !SAY            performed by ' marcaoweb': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! -  marcaoweb
+[2018-02-18 22:21] !REPORT         performed by ' VASiliPR': run NEXT
+[2018-02-18 22:22] !REPORT         performed by ' [NOOB]-MJ-Xibata': da runnext por favor
+[2018-02-18 22:25] !REPORT         performed by ' LucasSousa353': cache bugado?
+[2018-02-18 22:28] !MAPVOTE        performed by '[BAD] kaisertyr': Mapvote:    1: Runnext    2: Continua   | Type '1' or '2' in squad chat!
+[2018-02-18 22:29] !REPORT         performed by '=SF=SG vibrabuletas': piaton tk intencional
+[2018-02-18 22:30] !REPORT         performed by '=SF=SG vibrabuletas': marcao piaton me matou na faca
+[2018-02-18 22:30] !REPORT         performed by '=SF=SG vibrabuletas': da kick neste mlk piaton me matou na faca
+[2018-02-18 22:30] !KICK           performed by ' marcaoweb' on ' PiatanBR': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-18 22:31] !SAY            performed by ' marcaoweb': pessoal vai ter runnext -  marcaoweb
+[2018-02-18 22:31] !WARN           performed by ' marcaoweb' on '[NOOB] NEKKROS': Faca sua reclamacao ou critica no forum! - Haga su reclamo o critica en el FORO!
+[2018-02-18 22:31] !RUNNEXT        performed by '[BAD] kaisertyr': 
+[2018-02-18 22:37] !SWITCH         performed by ' marcaoweb' on '=SF=CB Alkaida_man': Instantly
+[2018-02-18 22:39] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] wolfblack><': Instantly
+[2018-02-18 22:40] !SWITCH         performed by '[BAD] kaisertyr' on '>TT<07 Prata_BR': Instantly
+[2018-02-18 22:53] !SAY            performed by ' marcaoweb': Necessita 30 ou mais jogadores para usar esse Asset! Volte para MAINBASE! - Necesita 30 jugadores o mas para usar ese Asset! Vuelva para MAINBASE! -  marcaoweb
+[2018-02-18 22:53] !SETNEXT        performed by ' marcaoweb': Muttrah City (Skirmish, Inf)
+[2018-02-18 22:54] !REPORT         performed by ' [NOOB]-MJ-Xibata': por favor wanda sham
+[2018-02-18 22:54] !REPORT         performed by '[NOOB] NEKKROS': wanda sham
+[2018-02-18 22:54] !SAY            performed by ' marcaoweb': nao -  marcaoweb
+[2018-02-18 22:56] !SAY            performed by ' marcaoweb': Necessita 30 ou mais jogadores para usar esse Asset! Volte para MAINBASE! - Necesita 30 jugadores o mas para usar ese Asset! Vuelva para MAINBASE! -  marcaoweb
+[2018-02-18 22:56] !SAY            performed by ' marcaoweb': apc retorne para a main agora -  marcaoweb
+[2018-02-18 22:57] !SAY            performed by ' marcaoweb': so retorne para a main base -  marcaoweb
+[2018-02-18 23:25] !REPORT         performed by '[BAD] SR.IRINEU': seta oltpost skimisx
+[2018-02-18 23:40] !REPORT         performed by '[FODA] Fabiano_': kaiser vai fazer o mvote?
+[2018-02-18 23:41] !REPORT         performed by '[FODA] Fabiano_': alguem vai fazer o mvote?
+[2018-02-18 23:59] !SWITCH         performed by '[FODA] Fabiano_' on '[FODA] Fabiano_': Instantly
+[2018-02-19 00:00] !SWITCH         performed by '[FODA] Fabiano_' on '[FODA] WsalvatoreW': Instantly
+[2018-02-19 14:57] !MAPVOTE        performed by '=SF=SG gabriel_lopes': Mapvote:    1: Fallujah West    2: Al Ba    3: Kokan   | Type '1', '2' or '3' in squad chat!
+[2018-02-19 14:57] !MAPVOTE        performed by '=SF=SG gabriel_lopes': Mapvote:    1: Al Basha    2: Fallujah West    3: Kokan   | Type '1', '2' or '3' in squad chat!
+[2018-02-19 14:58] !SAY            performed by '=SF=SG gabriel_lopes': votemmmmmmmmmmmmmmmmmm - =SF=SG gabriel_lopes
+[2018-02-19 15:00] !SETNEXT        performed by '=SF=SG gabriel_lopes': Fallujah West (Insurgency, Std)
+[2018-02-19 15:29] !REPORTP        performed by ' Matts'' on ' Gringo_Traid0r': tk intencional
+[2018-02-19 15:29] !WARN           performed by '=SF=SG gabriel_lopes' on ' Gringo_Traid0r': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-19 15:41] !SWITCH         performed by ' marcaoweb' on ' marcaoweb': On next death
+[2018-02-19 15:46] !REPORT         performed by '[RONE] OliveiraPR': scamble
+[2018-02-19 15:47] !REPORT         performed by '[RONE] OliveiraPR': scamble
+[2018-02-19 16:14] !REPORT         performed by ' Matts'': faz vote
+[2018-02-19 16:15] !REPORT         performed by ' Matts'': votee
+[2018-02-19 16:15] !SAY            performed by '=SF=SG gabriel_lopes': sugestoes de mapas AAS - =SF=SG gabriel_lopes
+[2018-02-19 16:16] !WARN           performed by ' marcaoweb' on 'UBGE anjo-morte': Faca sua reclamacao ou critica no forum! - Haga su reclamo o critica en el FORO!
+[2018-02-19 16:16] !REPORT         performed by ' Matts'': anjo spam
+[2018-02-19 16:17] !MAPVOTE        performed by '=SF=SG gabriel_lopes': Mapvote:    1: Qway    2: Jabal Al Burj    3: Op Marlei   | Type '1', '2' or '3' in squad chat!
+[2018-02-19 16:20] !SETNEXT        performed by '=SF=SG gabriel_lopes': Operation Marlin (AAS, Std)
+[2018-02-19 16:48] !REPORT         performed by ' Matts'': da scramble
+[2018-02-19 17:00] !SWITCH         performed by ' marcaoweb' on '[RONE] MagalhaesBr': Instantly
+[2018-02-19 17:17] !REPORT         performed by '[RONE] MagalhaesBr': passa us RONE pra ca pf
+[2018-02-19 17:38] !SWITCH         performed by ' marcaoweb' on '=SF=GE fenixcinza': Instantly
+[2018-02-19 17:42] !WARN           performed by ' marcaoweb' on ' Taynan': proibido liderar de sniper
+[2018-02-19 17:42] !RESIGN         performed by ' marcaoweb' on ' Taynan': lideran de marksman
+[2018-02-19 18:01] !WARN           performed by ' marcaoweb' on ' windows_x_seven': Pare de brincar com ASSET! Volte para MAINBASE! - Deja de jugar con ASSET! Vuelve a la MAINBASE!
+[2018-02-19 18:01] !REPORT         performed by 'URRAH1 Humano_Normal': faz vote pf
+[2018-02-19 18:02] !SAY            performed by '=SF=SG gabriel_lopes': sugestoes de mapassss - =SF=SG gabriel_lopes
+[2018-02-19 18:02] !SAY            performed by '=SF=SG gabriel_lopes': AAS - =SF=SG gabriel_lopes
+[2018-02-19 18:03] !MAPVOTE        performed by '=SF=SG gabriel_lopes': Mapvote:    1: Outpost    2: Muttrah City    3: Gaza   | Type '1', '2' or '3' in squad chat!
+[2018-02-19 18:05] !SETNEXT        performed by '=SF=SG gabriel_lopes': Muttrah City (AAS, Std)
+[2018-02-19 18:08] !REPORT         performed by ' DoideraMan': trollface lderando de sniper
+[2018-02-19 18:16] !KILL           performed by '=SF=SD Lobo_Sentado' on 'UBGE*r mortiboy': Proibido roubar KIT! Devolva imediatamente! - Prohibido robar KIT! Devuelvalo inmediatamente!
+[2018-02-19 18:57] !WARN           performed by '=SF=SD Lobo_Sentado' on 'UBGE anjo-morte': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-19 18:57] !REPORT         performed by ' Matts'': anjo spam
+[2018-02-19 19:10] !WARN           performed by '=SF=SD Lobo_Sentado' on 'URRAH1 AGRONOMO94': Abra seu SQUAD! - Abra su SQUAD! - Open your locked squad!
+[2018-02-19 19:19] !SWITCH         performed by ' marcaoweb' on '[RONE] Previatello': Instantly
+[2018-02-19 19:19] !SWITCH         performed by ' marcaoweb' on '[R] Matheus18': Instantly
+[2018-02-19 19:20] !SWITCH         performed by ' marcaoweb' on '[R] Matheus18': Instantly
+[2018-02-19 19:55] !SWITCH         performed by '[BAD] Sniper-JP' on '[BAD] jujupantera': Instantly
+[2018-02-19 20:03] !WARN           performed by '=SF=SD Lobo_Sentado' on ' plaguesmith': Abra seu SQUAD! - Abra su SQUAD! - Open your locked squad!
+[2018-02-19 20:03] !RESIGN         performed by '=SF=SD Lobo_Sentado' on ' plaguesmith': Abra seu SQUAD! - Abra su SQUAD! - Open your locked squad!
+[2018-02-19 20:03] !RESIGN         performed by '=SF=SD Lobo_Sentado' on ' Snow80': Abra seu SQUAD! - Abra su SQUAD! - Open your locked squad!
+[2018-02-19 20:04] !MAPVOTE        performed by '=SF=SD Lobo_Sentado': Mapvote:    1: Ramiel    2: Sbeneh Outskirts    3: Kokan   | Type '1', '2' or '3' in squad chat!
+[2018-02-19 20:06] !SETNEXT        performed by '=SF=SD Lobo_Sentado': Ramiel (Insurgency, Std)
+[2018-02-19 20:15] !WARN           performed by ' marcaoweb' on ' Snow80': pare de atirar em amigos
+[2018-02-19 20:15] !REPORT         performed by '=*V*= Mechanico0': LOBO< esse mutrah e std ?
+[2018-02-19 20:15] !REPORT         performed by '=SF=SD Lobo_Sentado': sim
+[2018-02-19 20:15] !REPORT         performed by ' marcaoweb': sim
+[2018-02-19 20:15] !REPORT         performed by '=*V*= Mechanico0': blz
+[2018-02-19 20:26] !WARN           performed by ' marcaoweb' on ' Snow80': pare de atirar em amigos
+[2018-02-19 20:27] !REPORT         performed by ' [NOOB]-MJ-Xibata': apc amigo so fica atirando em amigo e nao pede sorry
+[2018-02-19 20:27] !REPORT         performed by ' [NOOB]-MJ-Xibata': apc de vasili
+[2018-02-19 20:35] !WARN           performed by ' marcaoweb' on ' plaguesmith': abra seu squad
+[2018-02-19 20:36] !WARN           performed by '=SF=SD Lobo_Sentado' on ' Kalyxto_ARG': Proibido trocar de time se voce ja jogou nesse round! - Prohibido el cambio de equipo si usted ya jugo en esta ronda!
+[2018-02-19 20:37] !REPORT         performed by '=1BIM= renansilas': santos lingua ajar
+[2018-02-19 20:37] !WARN           performed by ' marcaoweb' on '[DATE] S.A.N.T.O.S': Cuidado com o seu linguajar! - Tenga cuidado con su lenguaje! - Watch your language
+[2018-02-19 20:40] !REPORT         performed by ' VASiliPR': vote?
+[2018-02-19 20:43] !WARN           performed by '=SF=SD Lobo_Sentado' on ' SpliterG': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-19 21:13] !REPORT         performed by '=1BIM= renansilas': federossi squad duplicado
+[2018-02-19 21:17] !REPORT         performed by '[RONE] OliveiraPR': scamble
+[2018-02-19 21:43] !REPORT         performed by '[NOOB] xandedamata1010': vote
+[2018-02-19 21:43] !REPORT         performed by ' marcaoweb': leo faz o proximo vote
+[2018-02-19 21:44] !REPORT         performed by '[UBGE] Leo-Freitas': pode fazer se quiser
+[2018-02-19 21:44] !REPORT         performed by ' Arthur14': vote
+[2018-02-19 21:44] !REPORT         performed by ' marcaoweb': vou ficar away daqui a pouco, vote e seu agora :D
+[2018-02-19 21:44] !REPORT         performed by '[UBGE] Leo-Freitas': quer fazer?
+[2018-02-19 21:44] !REPORT         performed by '[UBGE] Leo-Freitas': blz
+[2018-02-19 21:44] !REPORT         performed by ' marcaoweb': nao, pode fazer
+[2018-02-19 21:44] !REPORT         performed by '[UBGE] Leo-Freitas': eh aas agr, ou faz o vote pra modo
+[2018-02-19 21:45] !REPORT         performed by ' marcaoweb': agora e aas
+[2018-02-19 21:51] !MAPVOTE        performed by '[UBGE] Leo-Freitas': Mapvote:    1: Dovrewinter    2: Operation Marlin    3: Foolsroad   | Type '1', '2' or '3' in squad chat!
+[2018-02-19 21:51] !REPORT         performed by ' marcaoweb': ja teve marlin
+[2018-02-19 21:51] !REPORT         performed by ' marcaoweb': ja teve marlin
+[2018-02-19 21:53] !SETNEXT        performed by '[UBGE] Leo-Freitas': Fools Road (AAS, Std)
+[2018-02-19 22:18] !REPORT         performed by ' VictorMCD': marcao, me troca de time de novo, troquei sem querer
+[2018-02-19 22:19] !REPORT         performed by ' VictorMCD': cliquei errado
+[2018-02-19 22:21] !SAY            performed by ' marcaoweb': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! -  marcaoweb
+[2018-02-19 22:26] !REPORT         performed by '=SF=SG vibrabuletas': munier tk intencional
+[2018-02-19 22:26] !REPORT         performed by '=SF=SG vibrabuletas': dando tiro no hmwww
+[2018-02-19 22:26] !WARN           performed by ' marcaoweb' on ' Munier': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-19 22:27] !REPORT         performed by ' VictorMCD': algum adm me joga pro time dos EUA? eu dei miss click, tentei relogar e n consigo voltar
+[2018-02-19 22:27] !REPORT         performed by ' C4ront3': Por favor Switch
+[2018-02-19 22:27] !SWITCH         performed by ' marcaoweb' on ' VictorMCD': Instantly
+[2018-02-19 22:27] !SWITCH         performed by ' marcaoweb' on ' C4ront3': Instantly
+[2018-02-19 22:35] !REPORT         performed by ' klot': marco me muda eu cai e to no tume errado
+[2018-02-19 22:35] !SWITCH         performed by ' marcaoweb' on ' klot': On next death
+[2018-02-19 22:35] !KILL           performed by ' marcaoweb' on ' klot': switch
+[2018-02-19 22:35] !REPORT         performed by ' klot': gente
+[2018-02-19 22:54] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] jujupantera': Instantly
+[2018-02-19 23:00] !REPORT         performed by ' |ALCr|__jack__': vaz vote ai muda o mapa
+[2018-02-19 23:01] !SWITCH         performed by ' marcaoweb' on ' marcaoweb': Instantly
+[2018-02-19 23:03] !REPORT         performed by '[RONE] MagalhaesBr': Rommel me ofendendo sem motivo
+[2018-02-19 23:03] !WARN           performed by '[BAD] Sniper-JP' on ' Rommel2016': Cuidado com o seu linguajar! - Tenga cuidado con su lenguaje! - Watch your language
+[2018-02-19 23:16] !REPORT         performed by ' [NOOB]-MJ-Xibata': seta um skirmish um wanda sham
+[2018-02-19 23:52] !SAY            performed by '[BAD] kaisertyr': Necessita 30 ou mais jogadores para usar esse Asset! Volte para MAINBASE! - Necesita 30 jugadores o mas para usar ese Asset! Vuelva para MAINBASE! - [BAD] kaisertyr
+[2018-02-19 23:53] !SAY            performed by '[BAD] Sniper-JP': APC VOLTEM PARA AS MAIN BASE - [BAD] Sniper-JP
+[2018-02-19 23:53] !SAY            performed by '[BAD] Sniper-JP': Voce desperdicou Asset! Vai treinar em CO-OP! - Desperdiciaste Asset! Vaya a entrenar en CO-OP! - [BAD] Sniper-JP
+[2018-02-19 23:53] !SAY            performed by '[BAD] Sniper-JP': Voce desperdicou Asset! Vai treinar em CO-OP! - Desperdiciaste Asset! Vaya a entrenar en CO-OP! - [BAD] Sniper-JP
+[2018-02-19 23:54] !SAY            performed by '[BAD] Sniper-JP': APC VOLTEM MAIN BASE - [BAD] Sniper-JP
+[2018-02-19 23:54] !WARN           performed by '[BAD] kaisertyr' on '[RONE] MagalhaesBr': Necessita 30 ou mais jogadores para usar esse Asset! Volte para MAINBASE! - Necesita 30 jugadores o mas para usar ese Asset! Vuelva para MAINBASE!
+[2018-02-19 23:56] !SAY            performed by '[BAD] Sniper-JP': APC VOLTE MAIN BASE - [BAD] Sniper-JP
+[2018-02-20 00:08] !SETNEXT        performed by '[BAD] Sniper-JP': Kokan (Skirmish, Alt)
+[2018-02-20 13:41] !SETNEXT        performed by '[BAD] PILOTO.RS': Kokan (Skirmish, Alt)
+[2018-02-20 15:41] !MAPVOTE        performed by '[BAD] PILOTO.RS': Mapvote:    1: Aas    2: Ins   | Type '1' or '2' in squad chat!
+[2018-02-20 15:45] !SWITCH         performed by '[BAD] PILOTO.RS' on '[BAD] SR.IRINEU': Instantly
+[2018-02-20 15:52] !SETNEXT        performed by '[BAD] PILOTO.RS': Fallujah West (Insurgency, Alt)
+[2018-02-20 16:48] !REPORT         performed by '[RONE] MagalhaesBr': passa os rone pra INS ai pf
+[2018-02-20 16:57] !REPORT         performed by ' HeadHunterTGA': malaquias monotripulando tatica
+[2018-02-20 17:21] !REPORTP        performed by '[BAD] SPGhost' on ' Taynan': roubo de asset
+[2018-02-20 17:22] !KICK           performed by '[BAD] PILOTO.RS' on ' Taynan': leia as regras
+[2018-02-20 17:27] !WARN           performed by '[BAD] PILOTO.RS' on ' Taynan': ?
+[2018-02-20 17:32] !SWITCH         performed by '[BAD] PILOTO.RS' on 'M-26-3 /Marcus': Instantly
+[2018-02-20 17:32] !SWITCH         performed by '[BAD] PILOTO.RS' on '[BAD] kavakun': Instantly
+[2018-02-20 17:33] !REPORT         performed by '[R] Malaquias': Sv ta ficando muito lixo por causa desses unban pqp
+[2018-02-20 17:35] !REPORT         performed by '[R] Malaquias': tem um lixo atirando na main
+[2018-02-20 17:49] !REPORT         performed by '[RONE] MagalhaesBr': Piloto kickou meu jogador ?
+[2018-02-20 17:51] !REPORT         performed by ' Matts'': xande passou de time no meio da partida
+[2018-02-20 17:53] !REPORT         performed by '=1BIM= COREA_': vOTTE ULTIMO CACHE OU SETTA RAPIDOOO
+[2018-02-20 17:53] !REPORT         performed by '=1BIM= COREA_': VOTTEE OU SETTA ULTIMO CACHE
+[2018-02-20 17:53] !MAPVOTE        performed by '[BAD] PILOTO.RS': Mapvote:    1: Nuijamaa    2: Ulyanovsk    3: Jabal Al Burj   | Type '1', '2' or '3' in squad chat!
+[2018-02-20 17:55] !SETNEXT        performed by '[BAD] PILOTO.RS': Jabal Al Burj (AAS, Alt)
+[2018-02-20 18:31] !MAPVOTE        performed by '[BAD] PILOTO.RS': Mapvote:    1: Dovre    2: Muttrah City    3: Shahadah   | Type '1', '2' or '3' in squad chat!
+[2018-02-20 18:33] !WARN           performed by '[BAD] PILOTO.RS' on ' thesamuk114': nao pode liderar com kit sniper
+[2018-02-20 18:34] !WARN           performed by '[BAD] PILOTO.RS' on ' thesamuk114': nao lidere com sniper
+[2018-02-20 18:35] !KICK           performed by '[BAD] PILOTO.RS' on ' thesamuk114': leia as regras
+[2018-02-20 18:36] !SWITCH         performed by '[BAD] PILOTO.RS' on ' thesamuk114': Instantly
+[2018-02-20 18:39] !SETNEXT        performed by '[BAD] PILOTO.RS': Muttrah City (AAS, Alt)
+[2018-02-20 18:40] !SWITCH         performed by '[BAD] PILOTO.RS' on ' thesamuk114': On next death
+[2018-02-20 18:41] !SWITCH         performed by '[BAD] PILOTO.RS' on ' thesamuk114': On next death
+[2018-02-20 18:41] !KILL           performed by '[BAD] PILOTO.RS' on ' thesamuk114': ?
+[2018-02-20 19:07] !SWITCH         performed by '[BAD] PILOTO.RS' on '[BAD] wolfblack><': Instantly
+[2018-02-20 19:08] !REPORT         performed by 'DE_BOA diogotor': faz vote, ou seta um mapa pequeno
+[2018-02-20 19:10] !REPORT         performed by 'DE_BOA diogotor': piloto, faz um vote bom ai por favor!
+[2018-02-20 19:10] !REPORT         performed by 'DE_BOA diogotor': antes que acabe
+[2018-02-20 19:10] !SAY            performed by '[BAD] PILOTO.RS': ja foi feito - [BAD] PILOTO.RS
+[2018-02-20 19:13] !REPORT         performed by ' [NOOB]-MJ-Xibata': vote
+[2018-02-20 19:29] !SWITCH         performed by '|ALC| -LuisSs@Dahjeshi' on '|ALC| -LuisSs@Dahjeshi': Instantly
+[2018-02-20 19:33] !REPORT         performed by '[UBGE] Leo-Freitas': facam o vote ai que ja vou sair
+[2018-02-20 19:33] !REPORT         performed by '|ALC| -LuisSs@Dahjeshi': piloto faz o vote =D
+[2018-02-20 19:42] !SAY            performed by '=SF=TN JeanCaast': E O VOTE??? - =SF=TN JeanCaast
+[2018-02-20 19:44] !REPORT         performed by '|ALC| -LuisSs@Dahjeshi': faz vote
+[2018-02-20 20:11] !MAPVOTE        performed by '=*V*= Mechanico0': Mapvote:    1: Karbala    2: Kokan    3: Dragon.Fly   | Type '1', '2' or '3' in squad chat!
+[2018-02-20 20:13] !SETNEXT        performed by '=*V*= Mechanico0': Kokan (Insurgency, Std)
+[2018-02-20 20:23] !WARN           performed by '|ALC| -LuisSs@Dahjeshi' on '07.CO Bitencourt.eremit': pare de fazer badernas
+[2018-02-20 20:25] !REPORT         performed by '[RONE] OliveiraPR': fodones matando sem motivo
+[2018-02-20 20:25] !KICK           performed by '|ALC| -LuisSs@Dahjeshi' on ' fodones': tk
+[2018-02-20 20:41] !SWITCH         performed by '=*V*= Mechanico0' on ' _ALEF_': Instantly
+[2018-02-20 20:47] !KICK           performed by '|ALC| -LuisSs@Dahjeshi' on ' SgtoGarcia1': Cuidado com o seu linguajar! - Tenga cuidado con su lenguaje! - Watch your language
+[2018-02-20 20:59] !SWITCH         performed by '|ALC| -LuisSs@Dahjeshi' on '[BAD] wolfblack><': Instantly
+[2018-02-20 21:06] !SWITCH         performed by '[BAD] marcaoweb' on '[BAD] marcaoweb': Instantly
+[2018-02-20 21:07] !SWITCH         performed by '[BAD] marcaoweb' on '[BAD] Barb0za': Instantly
+[2018-02-20 21:10] !REPORT         performed by '[RONE] MaxBr': mapvote?
+[2018-02-20 21:18] !KICK           performed by '=*V*= Mechanico0' on ' SgtoGarcia1': ofenca
+[2018-02-20 21:18] !REPORT         performed by '|ALC| -LuisSs@Dahjeshi': ERA MEU MEXANICO ERA MEU BANNN =D
+[2018-02-20 21:25] !TEMPBAN        performed by '|ALC| -LuisSs@Dahjeshi' on ' SgtoGarcia1': Cuidado com o seu linguajar! - Tenga cuidado con su lenguaje! - Watch your language
+[2018-02-20 21:29] !MAPVOTE        performed by '=*V*= Mechanico0': Mapvote:    1: Shadahah    2: Op.Soul.Rabel    3: Op.Barracuda   | Type '1', '2' or '3' in squad chat!
+[2018-02-20 21:32] !SETNEXT        performed by '=*V*= Mechanico0': Shahadah (AAS, Alt)
+[2018-02-20 21:40] !KICK           performed by '|ALC| -LuisSs@Dahjeshi' on '(:3) Gabinubx3': roubando kit sniper
+[2018-02-20 21:41] !REPORT         performed by 'M-26-3 Lt_Alexei': vendetta mumble spam
+[2018-02-20 21:42] !REPORT         performed by 'M-26-3 Lt_Alexei': vendetta mumble spam
+[2018-02-20 21:43] !REPORT         performed by 'M-26-3 Lt_Alexei': vendetta spam
+[2018-02-20 21:47] !REPORT         performed by 'M-26-3 Lt_Alexei': vote?
+[2018-02-20 21:49] !TEMPBAN        performed by '|ALC| -LuisSs@Dahjeshi' on '(:3) Gabinubx3': trocando team em INS
+[2018-02-20 21:50] !KILL           performed by '|ALC| -LuisSs@Dahjeshi' on 'JACK JackSpharrow': roubando asset
+[2018-02-20 21:54] !KICK           performed by '[BAD] marcaoweb' on '[DATE] S.A.N.T.O.S': ofensa mumble
+[2018-02-20 22:47] !SETNEXT        performed by '[BAD] PILOTO.RS': Asad Khal (AAS, Std)
+[2018-02-21 12:25] !SETNEXT        performed by '=SF=SD Lobo_Sentado': Outpost (Skirmish, Inf)
+[2018-02-21 12:26] !RUNNEXT        performed by '=SF=SD Lobo_Sentado': 
+[2018-02-21 15:20] !SETNEXT        performed by '[BAD] PILOTO.RS': Kokan (Skirmish, Std)
+[2018-02-21 15:21] !MAPVOTE        performed by '[BAD] PILOTO.RS': Mapvote:    1: Trocar    2: Manter?   | Type '1' or '2' in squad chat!
+[2018-02-21 15:21] !SAY            performed by '[BAD] PILOTO.RS': votem - [BAD] PILOTO.RS
+[2018-02-21 15:22] !RUNNEXT        performed by '[BAD] PILOTO.RS': 
+[2018-02-21 15:25] !SWITCH         performed by '[BAD] PILOTO.RS' on '[BAD] saraiva_caparzzo': Instantly
+[2018-02-21 15:26] !SWITCH         performed by '[BAD] PILOTO.RS' on ' vitorklock': Instantly
+[2018-02-21 16:14] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] kaisertyr': Instantly
+[2018-02-21 16:15] !SWITCH         performed by '[BAD] kaisertyr' on 'MAO revoltinha': Instantly
+[2018-02-21 16:15] !SWITCH         performed by '[BAD] kaisertyr' on ' MiKEWaZoWsKi': Instantly
+[2018-02-21 16:26] !RESIGN         performed by '=SF=SD Lobo_Sentado' on ' vitorklock': nao lidere de sniper/marksman
+[2018-02-21 16:34] !WARN           performed by '[BAD] kaisertyr' on '[BAD] SR.IRINEU': vai jogar vagabundo
+[2018-02-21 16:35] !KILL           performed by '[BAD] kaisertyr' on '[NOOB] xandedamata1010': baderna
+[2018-02-21 16:38] !REPORT         performed by '[BAD] wolfblack><': mantel baderna
+[2018-02-21 16:44] !KILL           performed by '=SF=SD Lobo_Sentado' on '[RONE] OliveiraPR': Proibido roubar KIT! Devolva imediatamente! - Prohibido robar KIT! Devuelvalo inmediatamente!
+[2018-02-21 16:46] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] kaisertyr': Instantly
+[2018-02-21 16:47] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] kavakun': Instantly
+[2018-02-21 16:47] !SWITCH         performed by '[BAD] kaisertyr' on ' vitorklock': Instantly
+[2018-02-21 16:47] !SWITCH         performed by '[BAD] kaisertyr' on ' thiagobr': Instantly
+[2018-02-21 17:00] !MAPVOTE        performed by '[BAD] kaisertyr': Mapvote:    1: Gaza    2: Asad Khal    3: Hill 488   | Type '1', '2' or '3' in squad chat!
+[2018-02-21 17:03] !SETNEXT        performed by '[BAD] kaisertyr': Asad Khal (AAS, Alt)
+[2018-02-21 17:37] !REPORT         performed by '[BAD] kavakun': nao tem gente suficiente para utilizar-se de apc
+[2018-02-21 17:37] !REPORT         performed by '=SF=SD Lobo_Sentado': ja tao recuando
+[2018-02-21 18:12] !REPORT         performed by ' [NOOB]-MJ-Xibata': skirmish?
+[2018-02-21 18:22] !WARN           performed by '[BAD] PILOTO.RS' on 'URRAH1 AGRONOMO94': vc esta bugado saia do jogo e retorne
+[2018-02-21 18:23] !KICK           performed by '[BAD] PILOTO.RS' on 'URRAH1 AGRONOMO94': bog
+[2018-02-21 18:24] !SAY            performed by '=SF=TN JeanCaast': KAISER? - =SF=TN JeanCaast
+[2018-02-21 18:25] !WARN           performed by '=SF=TN JeanCaast' on ' [NOOB]-MJ-Xibata': Cuidado com o seu linguajar! - Tenga cuidado con su lenguaje! - Watch your language
+[2018-02-21 18:26] !SAY            performed by '=SF=TN JeanCaast': KAISER?? - =SF=TN JeanCaast
+[2018-02-21 18:27] !MAPVOTE        performed by '=SF=TN JeanCaast': Mapvote:    1: Aas    2: Ins   | Type '1' or '2' in squad chat!
+[2018-02-21 18:28] !REPORT         performed by 'URRAH1 AGRONOMO94': alguem pode me falar o porque do kick?
+[2018-02-21 18:29] !MAPVOTE        performed by '=SF=TN JeanCaast': Mapvote:    1: Fallujah West    2: Korengal Valley    3: Kokan   | Type '1', '2' or '3' in squad chat!
+[2018-02-21 18:40] !SETNEXT        performed by '=SF=TN JeanCaast': Fallujah West (Insurgency, Std)
+[2018-02-21 18:47] !REPORT         performed by '[NOOB] xandedamata1010': rafael.br2468 me atropelou
+[2018-02-21 18:55] !WARN           performed by '=SF=TN JeanCaast' on ' [NOOB]-MJ-Xibata': Cuidado com o seu linguajar! - Tenga cuidado con su lenguaje! - Watch your language
+[2018-02-21 18:56] !SAY            performed by '=SF=TN JeanCaast': MAIS UM WARNING EH BAN - =SF=TN JeanCaast
+[2018-02-21 18:56] !SAY            performed by '=SF=TN JeanCaast': OK?? - =SF=TN JeanCaast
+[2018-02-21 19:18] !REPORT         performed by '[NOOB] tapor500conto': rafael.br
+[2018-02-21 19:19] !REPORT         performed by '[NOOB] tapor500conto': rafael.br roubo de asset
+[2018-02-21 19:21] !REPORT         performed by ' [NOOB]3SG-HerickyBR': rafael.br roubou o nosso humeve
+[2018-02-21 19:21] !WARN           performed by '[BAD] Sniper-JP' on ' rafael.br2468': Voce roubou Asset! Retorne imediatamente para MAINBASE!! - Robaste Asset! Vuelva inmediatamente para MAINBASE!
+[2018-02-21 19:27] !KICK           performed by '[BAD] PILOTO.RS' on ' .jack': ant
+[2018-02-21 19:33] !KICK           performed by '[BAD] Sniper-JP' on ' .jack': Proibido fazer anti-jogo! Bugs/Exploits - Prohibido hacer anti-juego! Bugs/Exploits
+[2018-02-21 19:51] !WARN           performed by '[BAD] Sniper-JP' on 'sS|- gvN': Necessario mais jogadores para trancar SQUAD! Abra seu SQUAD! - Necesitas mas jugadores para bloquear su SQUAD! Abra su SQUAD!
+[2018-02-21 19:57] !REPORT         performed by '[RONE] MaxBr': passa o balboa pfvr?
+[2018-02-21 19:57] !REPORT         performed by '[RONE] MaxBr': pra joar comigo , co meu clan pls
+[2018-02-21 19:58] !REPORT         performed by '[RONE] MaxBr': tm como algum admin passar o rone balboa pra jogar com o rone por favor?
+[2018-02-21 20:00] !REPORT         performed by ' Arthur14': vote
+[2018-02-21 20:04] !REPORT         performed by '=1BIM= HenriqueMDS': vote
+[2018-02-21 20:04] !REPORT         performed by ' Arthur14': faz vote
+[2018-02-21 20:14] !REPORT         performed by ' [NOOB]-MJ-Xibata': vote
+[2018-02-21 20:18] !SAY            performed by '[BAD] PILOTO.RS': jean vaz vot - [BAD] PILOTO.RS
+[2018-02-21 20:19] !MAPVOTE        performed by '=SF=TN JeanCaast': Mapvote:    1: Aas    2: Ins   | Type '1' or '2' in squad chat!
+[2018-02-21 20:19] !SETNEXT        performed by '=SF=TN JeanCaast': Beirut (AAS, Std)
+[2018-02-21 20:20] !MAPVOTE        performed by '=SF=TN JeanCaast': Mapvote:    1: Beirut    2: Nuijamaa    3: Route E-106 - BETA   | Type '1', '2' or '3' in squad chat!
+[2018-02-21 20:20] !SETNEXT        performed by '=SF=TN JeanCaast': Route E-106 - BETA (AAS, Std)
+[2018-02-21 20:21] !WARN           performed by '[BAD] Sniper-JP' on ' .jack': Necessario mais jogadores para trancar SQUAD! Abra seu SQUAD! - Necesitas mas jugadores para bloquear su SQUAD! Abra su SQUAD!
+[2018-02-21 20:22] !SAY            performed by '[BAD] Sniper-JP': Jack abra a Squad - [BAD] Sniper-JP
+[2018-02-21 20:22] !RESIGN         performed by '[BAD] Sniper-JP' on ' .jack': Necessario mais jogadores para trancar SQUAD! Abra seu SQUAD! - Necesitas mas jugadores para bloquear su SQUAD! Abra su SQUAD!
+[2018-02-21 20:22] !SETNEXT        performed by '=SF=TN JeanCaast': Beirut (AAS, Std)
+[2018-02-21 20:23] !WARN           performed by '[BAD] Sniper-JP' on '=*V*= joonaasgoo': Necessario mais jogadores para trancar SQUAD! Abra seu SQUAD! - Necesitas mas jugadores para bloquear su SQUAD! Abra su SQUAD!
+[2018-02-21 20:23] !WARN           performed by '[BAD] Sniper-JP' on '=*V*= joonaasgoo': Necessario mais jogadores para trancar SQUAD! Abra seu SQUAD! - Necesitas mas jugadores para bloquear su SQUAD! Abra su SQUAD!
+[2018-02-21 20:25] !SAY            performed by '[BAD] marcaoweb': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! - [BAD] marcaoweb
+[2018-02-21 20:33] !TEMPBAN        performed by '=SF=TN JeanCaast' on ' Musttafah': tk
+[2018-02-21 20:43] !SAY            performed by '[BAD] marcaoweb': Pare de fazer SPAM no MUMBLE (RADIO)! - Deja de hacer SPAM en MUMBLE (RADIO)! - Stop MUMBLE-spamming (RADIO)! - [BAD] marcaoweb
+[2018-02-21 21:33] !MAPVOTE        performed by '=SF=TN JeanCaast': Mapvote:    1: Aas    2: Ins   | Type '1' or '2' in squad chat!
+[2018-02-21 21:41] !MAPVOTE        performed by '=SF=TN JeanCaast': Mapvote:    1: Yamalia    2: Saaremaa    3: Wanda Shan   | Type '1', '2' or '3' in squad chat!
+[2018-02-21 21:41] !SETNEXT        performed by '=SF=TN JeanCaast': Saaremaa (AAS, Std)
+[2018-02-21 21:42] !SETNEXT        performed by '=SF=TN JeanCaast': Saaremaa (AAS, Alt)
+[2018-02-21 21:56] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] kaisertyr': Instantly
+[2018-02-21 21:56] !SWITCH         performed by '[BAD] kaisertyr' on ' DoideraMan': Instantly
+[2018-02-21 22:20] !REPORT         performed by ' DoideraMan': kassifir nao se comunica com squads
+[2018-02-21 22:25] !REPORT         performed by '[NOOB] xandedamata1010': vote
+[2018-02-21 22:27] !MAPVOTE        performed by '[BAD] kaisertyr': Mapvote:    1: Muttrah City    2: Operation Marlin    3: Jabal Al Burj   | Type '1', '2' or '3' in squad chat!
+[2018-02-21 22:29] !SETNEXT        performed by '[BAD] kaisertyr': Muttrah City (AAS, Alt)
+[2018-02-21 22:40] !WARN           performed by '[BAD] kaisertyr' on '[BAD] KOREIA_RJ': deixa de ser noob
+[2018-02-21 22:42] !WARN           performed by '[BAD] Sniper-JP' on '[27RS] Tnt.-Neo': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-21 22:46] !WARN           performed by '[BAD] Sniper-JP' on '[27RS] Tnt.-Neo': Voce deu TeamKill! Aprenda a dar SORRY! - Usted dio TeamKill! Aprende a dar SORRY!
+[2018-02-21 23:06] !WARN           performed by '[BAD] Sniper-JP' on '[27RS] Tnt.-Neo': Necessario mais jogadores para trancar SQUAD! Abra seu SQUAD! - Necesitas mas jugadores para bloquear su SQUAD! Abra su SQUAD!
+[2018-02-21 23:16] !REPORT         performed by '[BAD] fbolonha': luksalves baderna main...disparando no portaavioes
+[2018-02-21 23:16] !REPORT         performed by '[BAD] fbolonha': VIU O REPORT?
+[2018-02-21 23:34] !SETNEXT        performed by '[BAD] kaisertyr': Gaza (AAS, Alt)
+[2018-02-22 00:04] !SETNEXT        performed by '[BAD] kaisertyr': Kokan (Skirmish, Alt)
+[2018-02-22 00:12] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] julianobrusto': Instantly
+[2018-02-22 00:13] !SAY            performed by '[BAD] julianobrusto': Ow vai rolar skirmish - [BAD] julianobrusto
+[2018-02-22 00:13] !SAY            performed by '[BAD] julianobrusto': Quem achar ruim faz bo - [BAD] julianobrusto
+[2018-02-22 00:13] !SETNEXT        performed by '[BAD] julianobrusto': Shijia Valley (Skirmish, Inf)
+[2018-02-22 00:13] !SETNEXT        performed by '[BAD] julianobrusto': Kashan Desert (Skirmish, Inf)
+[2018-02-22 00:13] !SETNEXT        performed by '[BAD] julianobrusto': Kozelsk (Skirmish, Inf)
+[2018-02-22 00:14] !RUNNEXT        performed by '[BAD] julianobrusto': 
+[2018-02-22 00:17] !SAY            performed by '[BAD] julianobrusto': Boa noite principes e princesas - [BAD] julianobrusto
+[2018-02-22 00:17] !SAY            performed by '[BAD] julianobrusto': Agora vai ser a sessao CS da dv - [BAD] julianobrusto
+[2018-02-22 00:18] !KICK           performed by 'SERVER' on ' [G.A.T.E]=>OmegaBR': Creating too many early squads!
+[2018-02-22 00:18] !SETNEXT        performed by '[BAD] julianobrusto': Dragon Fly (Skirmish, Inf)
+[2018-02-22 00:18] !SETNEXT        performed by '[BAD] julianobrusto': Lashkar Valley (Skirmish, Inf)
+[2018-02-22 00:19] !SAY            performed by '[BAD] julianobrusto': bem vindos ao CS do Jubs - [BAD] julianobrusto
+[2018-02-22 00:19] !SAY            performed by '[BAD] julianobrusto': Matem geral e sejam felizes - [BAD] julianobrusto
+[2018-02-22 00:20] !SAY            performed by '[BAD] julianobrusto': Os mapas do skirmish serao setados - [BAD] julianobrusto
+[2018-02-22 00:20] !SAY            performed by '[BAD] julianobrusto': Mas eu aceito sugestoes... So nao rola vote - [BAD] julianobrusto
+[2018-02-22 00:50] !SAY            performed by '[BAD] julianobrusto': Os ties irao sofrer scramble - [BAD] julianobrusto
+[2018-02-22 00:53] !MAPVOTE        performed by '[BAD] julianobrusto': Mapvote:    1: Soco    2: Faca   | Type '1' or '2' in squad chat!
+[2018-02-22 09:25] !KICK           performed by 'SERVER' on ' Nerodavi16': Creating too many early squads!
+[2018-02-22 14:21] !SETNEXT        performed by '[BAD] PILOTO.RS': Kokan (Skirmish, Std)
+[2018-02-22 15:50] !REPORT         performed by '=SF=SG gabriel_lopes': coloca um mapa pequeno p nois PILOTO...tipo um ASAD
+[2018-02-22 16:13] !SETNEXT        performed by '[BAD] PILOTO.RS': Korengal Valley (Skirmish, Inf)
+[2018-02-22 16:14] !REPORT         performed by ' SnakeGhost': Marcus Tk intensional
+[2018-02-22 16:39] !KICK           performed by 'SERVER' on ' Sgt.Zorzoli': Creating too many early squads!
+[2018-02-22 16:59] !REPORT         performed by '=SF=SG gabriel_lopes': faz vote piloto
+[2018-02-22 16:59] !REPORT         performed by ' Matts'': faz vote
+[2018-02-22 17:00] !SAY            performed by '[BAD] PILOTO.RS': eu pulo o vote - [BAD] PILOTO.RS
+[2018-02-22 17:00] !MAPVOTE        performed by '=SF=SG gabriel_lopes': Mapvote:    1: Asad Khal    2: Gaza    3: Shadaha   | Type '1', '2' or '3' in squad chat!
+[2018-02-22 17:03] !SETNEXT        performed by '=SF=SG gabriel_lopes': Asad Khal (AAS, Std)
+[2018-02-22 17:23] !REPORT         performed by 'Levis SGT.258.BR': se setar um mutrah enche rapidin nao ?
+[2018-02-22 17:55] !SAY            performed by '=SF=SG gabriel_lopes': sugestoes de mapas - =SF=SG gabriel_lopes
+[2018-02-22 17:55] !REPORT         performed by 'Levis SGT.258.BR': headhunter derrespeito
+[2018-02-22 17:56] !REPORT         performed by ' HeadHunterTGA': rafael desesrespeito
+[2018-02-22 17:56] !MAPVOTE        performed by '=SF=SG gabriel_lopes': Mapvote:    1: Jabal Al Burj    2: Beirut    3: Goose Green   | Type '1', '2' or '3' in squad chat!
+[2018-02-22 17:56] !TEMPBAN        performed by '[BAD] PILOTO.RS' on ' PanBRA': ant
+[2018-02-22 17:58] !SAY            performed by '=SF=SG gabriel_lopes': votem - =SF=SG gabriel_lopes
+[2018-02-22 17:58] !REPORT         performed by 'Levis SGT.258.BR': headhunter derrespeitando
+[2018-02-22 18:10] !SETNEXT        performed by '=SF=SG gabriel_lopes': Jabal Al Burj (AAS, Std)
+[2018-02-22 18:25] !REPORT         performed by ' Matts'': da switch gabriel
+[2018-02-22 18:25] !SWITCH         performed by '=SF=SG gabriel_lopes' on ' Matts'': Instantly
+[2018-02-22 18:37] !REPORT         performed by ' Matts'': Kubrahh passou de time no meio da partida
+[2018-02-22 19:12] !SWITCH         performed by '[BAD] marcaoweb' on '[BAD] marcaoweb': Instantly
+[2018-02-22 19:14] !REPORT         performed by ' VASiliPR': bugou squad
+[2018-02-22 19:14] !REPORT         performed by ' Matts'': bugou squad
+[2018-02-22 19:16] !RELOAD         performed by '=*V*= Mechanico0': 
+[2018-02-22 19:44] !REPORT         performed by '[BAD] marcaoweb': mechanico estao atacando east beach
+[2018-02-22 19:44] !REPORT         performed by '=*V*= Mechanico0': ESTAO EM J9
+[2018-02-22 19:45] !REPORT         performed by '[BAD] marcaoweb': mas derrubaram heli em east beach
+[2018-02-22 19:45] !REPORT         performed by '[BAD] marcaoweb': ele tava indo levar um membro do meu squad pra pegar o supply
+[2018-02-22 19:50] !REPORT         performed by ' [NOOB]-MJ-Xibata': yesyes liderando de markisman
+[2018-02-22 19:55] !REPORT         performed by ' [NOOB]-MJ-Xibata': da swit no thestina por favor
+[2018-02-22 19:59] !KILL           performed by '=*V*= Mechanico0' on ' Sgt.Zorzoli': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-22 20:06] !REPORT         performed by 'URRAH1 VictorMCD': aleman desperdicando asset
+[2018-02-22 20:06] !KICK           performed by '[BAD] marcaoweb' on ' AlemanRG': Voce roubou Asset! Retorne imediatamente para MAINBASE!! - Robaste Asset! Vuelva inmediatamente para MAINBASE!
+[2018-02-22 20:07] !REPORT         performed by '=*V*= Mechanico0': FAZ O VOTE MARCAO
+[2018-02-22 20:07] !REPORT         performed by '[BAD] marcaoweb': ok
+[2018-02-22 20:12] !MAPVOTE        performed by '[BAD] marcaoweb': Mapvote:    1: Assault on Grozny    2: Karbala    3: Kokan   | Type '1', '2' or '3' in squad chat!
+[2018-02-22 20:14] !SETNEXT        performed by '[BAD] marcaoweb': Assault on Grozny (Insurgency, Std)
+[2018-02-22 20:15] !REPORT         performed by 'URRAH1 AGRONOMO94': Teamswitch Styl3wolf, crashou estava jogando cmg
+[2018-02-22 20:23] !REPORT         performed by '=1BIM= COREA_': SETTA MAPPA
+[2018-02-22 20:26] !REPORT         performed by '=1BIM= COREA_': SETTA MAPPA
+[2018-02-22 20:38] !REPORT         performed by '=SF=GE fenixcinza': CAS americano atirando de area de desercao
+[2018-02-22 20:40] !REPORT         performed by ' Matts'': OsamaBiladeiro TK intencional
+[2018-02-22 21:05] !REPORT         performed by ' VASiliPR': run next
+[2018-02-22 21:06] !REPORT         performed by ' VASiliPR': runnext
+[2018-02-22 21:07] !REPORT         performed by ' VASiliPR': quem esta no apc??
+[2018-02-22 21:07] !REPORT         performed by ' VASiliPR': quem esta no apc??
+[2018-02-22 22:00] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Gaza    2: Korengal Valley    3: Operation Ghost Train   | Type '1', '2' or '3' in squad chat!
+[2018-02-22 22:02] !SETNEXT        performed by '[FODA] Fabiano_': Gaza (AAS, Std)
+[2018-02-22 22:08] !SAY            performed by '[FODA] Fabiano_': ja fiz o vote - [FODA] Fabiano_
+[2018-02-22 22:08] !REPORT         performed by ' junior95': vote
+[2018-02-22 22:11] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Runnext    2: Continua   | Type '1' or '2' in squad chat!
+[2018-02-22 22:14] !RUNNEXT        performed by '[FODA] Fabiano_': 
+[2018-02-22 22:21] !SAY            performed by '[FODA] Fabiano_': allahu akbar! - [FODA] Fabiano_
+[2018-02-22 22:37] !REPORT         performed by ' junior95': faz vote
+[2018-02-22 22:37] !REPORT         performed by '=1BIM= raulmachado1': hique tk intencional
+[2018-02-22 22:37] !REPORT         performed by ' Matts'': hique tk intencional
+[2018-02-22 22:37] !KICK           performed by '[FODA] Fabiano_' on ' Hique': tk intencional
+[2018-02-22 22:41] !MAPVOTE        performed by '[FODA] Fabiano_': Mapvote:    1: Asad Khal    2: Tad Sae Offensive    3: Hill 488   | Type '1', '2' or '3' in squad chat!
+[2018-02-22 22:46] !REPORT         performed by ' .jack': faz um vote vw ai pra nois
+[2018-02-22 23:00] !KICK           performed by 'SERVER' on ' windows_x_seven': Creating too many early squads!
+[2018-02-23 09:26] !KICK           performed by 'SERVER' on ' rafael.br2468': Creating too many early squads!
+[2018-02-23 12:08] !KICK           performed by 'SERVER' on ' SeeFour': Creating too many early squads!
+[2018-02-23 14:30] !MAPVOTE        performed by '=SF=SG gabriel_lopes': Mapvote:    1: Fallujah West    2: Kokan    3: Gaza   | Type '1', '2' or '3' in squad chat!
+[2018-02-23 14:32] !SETNEXT        performed by '=SF=SG gabriel_lopes': Fallujah West (Insurgency, Std)
+[2018-02-23 14:33] !REPORT         performed by ' glazz': next
+[2018-02-23 14:51] !WARN           performed by '=SF=SG gabriel_lopes' on ' MV_BALA': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-23 14:51] !WARN           performed by '=SF=SG gabriel_lopes' on ' MV_BALA': tk
+[2018-02-23 15:14] !REPORT         performed by ' Matts'': vasili monotriuplando Humbee up armored
+[2018-02-23 15:15] !WARN           performed by '=SF=SG gabriel_lopes' on ' VASiliPR': Proibido fazer anti-jogo! Bugs/Exploits - Prohibido hacer anti-juego! Bugs/Exploits
+[2018-02-23 15:29] !KILL           performed by '=SF=TN Hydra-N3xus' on ' Matts'': Cuidado com o seu linguajar! - Tenga cuidado con su lenguaje! - Watch your language
+[2018-02-23 15:31] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] kaisertyr': Instantly
+[2018-02-23 15:32] !SWITCH         performed by '[BAD] kaisertyr' on ' Gskill140': Instantly
+[2018-02-23 15:33] !REPORT         performed by ' [NOOB]-MJ-Xibata': apc pode ta atirando na area de dod
+[2018-02-23 15:33] !REPORT         performed by ' [NOOB]-MJ-Xibata': ?
+[2018-02-23 15:33] !REPORT         performed by ' [NOOB]-MJ-Xibata': apc acabou de me matar em area de dod
+[2018-02-23 15:37] !TEMPBAN        performed by '[BAD] kaisertyr' on '[Nr49] Lucius1488': xenofobia
+[2018-02-23 16:02] !SAY            performed by '[BAD] kaisertyr': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! - [BAD] kaisertyr
+[2018-02-23 16:02] !SAY            performed by '=SF=SG gabriel_lopes': sugestoes de mapas AAS - =SF=SG gabriel_lopes
+[2018-02-23 16:02] !KILL           performed by '[BAD] kaisertyr' on '[Nr49] Aik4n': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-23 16:03] !MAPVOTE        performed by '=SF=SG gabriel_lopes': Mapvote:    1: Operation Barracuda    2: Outpost    3: Muttrah City   | Type '1', '2' or '3' in squad chat!
+[2018-02-23 16:04] !KILL           performed by '[BAD] kaisertyr' on '[NR49] NomeComum': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-23 16:04] !KICK           performed by '[BAD] kaisertyr' on '[Nr49] Aik4n': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-23 16:05] !KILL           performed by '[BAD] kaisertyr' on '[Nr49] AxelSterling': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-23 16:06] !REPORTP        performed by '[BAD] SPGhost' on ' DeadShadowBR': desperdicio de asset, tava com 4 cara na spg, mas nenhum pra atirar a spg
+[2018-02-23 16:06] !KICK           performed by '[BAD] kaisertyr' on '[Nr49] AxelSterling': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-23 16:06] !WARN           performed by '=SF=SG gabriel_lopes' on ' DeadShadowBR': des
+[2018-02-23 16:15] !SETNEXT        performed by '=SF=SG gabriel_lopes': Muttrah City (AAS, Alt)
+[2018-02-23 16:28] !WARN           performed by '=SF=SG gabriel_lopes' on ' rafael.br2468': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-23 16:32] !REPORT         performed by ' [NOOB]-MJ-Xibata': nego atirando em area de dod
+[2018-02-23 16:32] !REPORT         performed by ' [NOOB]-MJ-Xibata': isso pode?
+[2018-02-23 16:32] !SAY            performed by '=SF=SD Lobo_Sentado': Quem, onde, pra onde? - =SF=SD Lobo_Sentado
+[2018-02-23 16:33] !RESIGN         performed by '[BAD] kaisertyr' on ' VASiliPR': liderando de marks
+[2018-02-23 16:36] !WARN           performed by '=SF=SD Lobo_Sentado' on '[RONE] OliveiraPR': Voce deu TeamKill! Aprenda a dar SORRY! - Usted dio TeamKill! Aprende a dar SORRY!
+[2018-02-23 16:37] !TEMPBAN        performed by '=SF=SD Lobo_Sentado' on '[NOOB] xandedamata1010': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-23 16:42] !REPORT         performed by ' VASiliPR': siwtch moraes
+[2018-02-23 16:43] !KICK           performed by '=SF=SD Lobo_Sentado' on ' rafael.br2468': Pare de fazer SPAM no MUMBLE (RADIO)! - Deja de hacer SPAM en MUMBLE (RADIO)! - Stop MUMBLE-spamming (RADIO)!
+[2018-02-23 16:45] !REPORT         performed by ' VASiliPR': shiwtch
+[2018-02-23 16:45] !REPORT         performed by ' WMoraes': switch please
+[2018-02-23 16:45] !REPORT         performed by ' VASiliPR': shiwtch morae
+[2018-02-23 16:45] !REPORT         performed by ' WMoraes': switch por favor!!!! Moraes
+[2018-02-23 16:53] !SAY            performed by '=SF=SD Lobo_Sentado': Time americano ta ON? - =SF=SD Lobo_Sentado
+[2018-02-23 17:10] !REPORT         performed by '[GOE] MiKEWaZoWsKi': me troca de time de volta
+[2018-02-23 17:32] !RESIGN         performed by '=SF=SD Lobo_Sentado' on '[UBGE] anjo-morte': .
+[2018-02-23 17:32] !REPORT         performed by ' [NOOB]-MJ-Xibata': vote
+[2018-02-23 17:36] !REPORT         performed by ' VASiliPR': vote?
+[2018-02-23 17:36] !SAY            performed by '=SF=SG gabriel_lopes': sugestoes - =SF=SG gabriel_lopes
+[2018-02-23 17:37] !MAPVOTE        performed by '=SF=SD Lobo_Sentado': Mapvote:    1: Sahad    2: Assault on Grozny    3: Goose Green   | Type '1', '2' or '3' in squad chat!
+[2018-02-23 17:39] !SETNEXT        performed by '=SF=SD Lobo_Sentado': Assault on Grozny (AAS, Std)
+[2018-02-23 18:05] !REPORT         performed by '[UBGE] LuanWolff': vote
+[2018-02-23 18:10] !REPORT         performed by ' WMoraes': sgt zorzoli tirou usando log como transport....
+[2018-02-23 18:10] !REPORT         performed by ' WMoraes': politando sozinho
+[2018-02-23 18:10] !WARN           performed by '=SF=SD LF*' on ' Sgt.Zorzoli': Voce roubou Asset! Retorne imediatamente para MAINBASE!! - Robaste Asset! Vuelva inmediatamente para MAINBASE!
+[2018-02-23 18:10] !WARN           performed by '=SF=SD LF*' on ' Sgt.Zorzoli': Voce roubou Asset! Retorne imediatamente para MAINBASE!! - Robaste Asset! Vuelva inmediatamente para MAINBASE!
+[2018-02-23 18:10] !WARN           performed by '[BAD] marcaoweb' on ' Sgt.Zorzoli': Proibido monotripular ASSET! Volte a MAINBASE! - Prohibido monotripular ASSET! Vuelva a la MAINBASE!
+[2018-02-23 18:23] !SWITCH         performed by '[BAD] marcaoweb' on '[BAD] marcaoweb': Instantly
+[2018-02-23 18:28] !SWITCH         performed by '=SF=SG gabriel_lopes' on '=SF=SG gabriel_lopes': Instantly
+[2018-02-23 18:30] !WARN           performed by '[BAD] kaisertyr' on ' Matts'': abra squad
+[2018-02-23 18:36] !WARN           performed by '[BAD] marcaoweb' on ' glazz': SQUAD de ASSET Duplicado! Entre no SQUAD CORRETO! - SQUAD de ASSET DUPLICADO! Entre a la SQUAD correcto!
+[2018-02-23 18:36] !REPORT         performed by ' glazz': donde esta el otro "tank"
+[2018-02-23 19:17] !REPORT         performed by ' VASiliPR': como ja pegaram nossa ofb em h9????
+[2018-02-23 19:24] !REPORT         performed by '=EASY= EspagueteVoador': ja teve vote?
+[2018-02-23 19:24] !SAY            performed by '=SF=SD Lobo_Sentado': vai ter vote - =SF=SD Lobo_Sentado
+[2018-02-23 19:25] !REPORT         performed by 'URRAH1 VictorMCD': sgt.zorzoli dando tk na base
+[2018-02-23 19:25] !REPORT         performed by 'URRAH1 VictorMCD': sgt.zorzoli eh gringo dando tk na base
+[2018-02-23 19:27] !MAPVOTE        performed by '=SF=SD Lobo_Sentado': Mapvote:    1: Dragon Fly    2: Gaza    3: Karbala   | Type '1', '2' or '3' in squad chat!
+[2018-02-23 19:27] !SAY            performed by '=SF=SD Lobo_Sentado': Vote para INS - =SF=SD Lobo_Sentado
+[2018-02-23 19:29] !SETNEXT        performed by '=SF=SD Lobo_Sentado': Gaza (Insurgency, Std)
+[2018-02-23 19:53] !SAY            performed by '=SF=SD Lobo_Sentado': e? - =SF=SD Lobo_Sentado
+[2018-02-23 19:54] !SAY            performed by '=SF=SD Lobo_Sentado': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! - =SF=SD Lobo_Sentado
+[2018-02-23 20:04] !RESIGN         performed by '=SF=SD Lobo_Sentado' on ' MasterZitu': Lider sem objetivo
+[2018-02-23 20:05] !RESIGN         performed by '=SF=SD Lobo_Sentado' on ' pedrolimabr': Abra seu SQUAD! - Abra su SQUAD! - Open your locked squad!
+[2018-02-23 20:12] !KICK           performed by '=SF=SD Lobo_Sentado' on ' (ROTAM-PA)_Italo': nao monotipule veiculos
+[2018-02-23 20:14] !SAY            performed by '=SF=SD Lobo_Sentado': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! - =SF=SD Lobo_Sentado
+[2018-02-23 20:14] !SAY            performed by '=SF=SD Lobo_Sentado': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! - =SF=SD Lobo_Sentado
+[2018-02-23 20:27] !REPORT         performed by 'URRAH1 AGRONOMO94': Teamswitch URUTAU por favor ele tomou balance, estava jogando de bluefor
+[2018-02-23 20:28] !REPORT         performed by 'URRAH1 Styl3Wolf': hique roubando assets
+[2018-02-23 20:28] !REPORT         performed by '=1BIM= raulmachado1': at no dod
+[2018-02-23 20:28] !REPORT         performed by '=1BIM= raulmachado1': at atirando em dod
+[2018-02-23 20:28] !REPORTP        performed by '[ALCr] BliitzKrieg' on '[RONE] MaxBr': linguajar
+[2018-02-23 21:05] !REPORT         performed by '[RONE] MaxBr': givelead xivits
+[2018-02-23 21:09] !REPORT         performed by '[R] Malaquias': passa pra IDF pfv tava de la e cai
+[2018-02-23 21:14] !REPORT         performed by 'IIIRBR Pizza_Rus': alguem poderia me trocar de time? (to esperando 20min ja pra tentar passar)
+[2018-02-23 21:16] !REPORT         performed by ' SnakeGhost': ja teve vote?
+[2018-02-23 21:50] !REPORT         performed by '[RONE] MaxBr': adm , ja teve 2 ins seguidos , tem como fazer mapvote ?
+[2018-02-23 21:50] !REPORT         performed by '[RONE] MaxBr': pra dar runnext pls
+[2018-02-23 21:55] !WARN           performed by '[BAD] Sniper-JP' on ' [NOOB]CB*temeusbr1': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-23 22:04] !MAPVOTE        performed by '[BAD] Sniper-JP': Mapvote:    1: Beirut    2: Nuijamaa    3: Marlin   | Type '1', '2' or '3' in squad chat!
+[2018-02-23 22:07] !SETNEXT        performed by '[BAD] Sniper-JP': Operation Marlin (AAS, Std)
+[2018-02-23 22:19] !WARN           performed by '[BAD] Sniper-JP' on 'IIIRBR Kassfir': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-23 22:24] !REPORT         performed by ' Malaquias': me passa pra Milicia pfv
+[2018-02-23 22:40] !WARN           performed by '[BAD] Sniper-JP' on ' klot': Voce deu TeamKill! Aprenda a dar SORRY! - Usted dio TeamKill! Aprende a dar SORRY!
+[2018-02-23 22:44] !WARN           performed by '[BAD] Sniper-JP' on ' klot': Voce deu TeamKill! Aprenda a dar SORRY! - Usted dio TeamKill! Aprende a dar SORRY!
+[2018-02-23 22:44] !REPORT         performed by ' klot': meu amigo tk de mina e tao espotada
+[2018-02-23 22:44] !REPORT         performed by ' klot': posso fazer nada nao
+[2018-02-23 22:55] !SAY            performed by '[BAD] Sniper-JP': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! - [BAD] Sniper-JP
+[2018-02-23 22:56] !SAY            performed by '[BAD] Sniper-JP': Cessa All Chat - [BAD] Sniper-JP
+[2018-02-23 23:41] !SETNEXT        performed by ' Ferreira': Operation Archer (Insurgency, Inf)
+[2018-02-23 23:41] !REPORT         performed by ' Ferreira': sem vote para INS!
+[2018-02-23 23:42] !SETNEXT        performed by ' Ferreira': Operation Archer (Insurgency, Std)
+[2018-02-23 23:49] !REPORT         performed by '[RONE] Generalnick54': adm poderia passar um afk de la pra ca, e me passar de time? e nois amo vcs
+[2018-02-23 23:59] !SAY            performed by ' Ferreira': vote naotem, mas pode ter sugestao... -  Ferreira
+[2018-02-24 00:01] !SETNEXT        performed by ' Ferreira': Sbeneh Outskirts (Vehicle Warfare, Std)
+[2018-02-24 00:01] !SETNEXT        performed by ' Ferreira': Sbeneh Outskirts (Insurgency, Std)
+[2018-02-24 00:01] !REPORT         performed by '[RONE] KubraHH': faz voteeee
+[2018-02-24 00:07] !REPORT         performed by '[RONE] KubraHH': bismarck caiu passa ele de time faz favor
+[2018-02-24 00:07] !REPORT         performed by '[RONE] SpezialKrafte': switch Bismarck caiu do jogo
+[2018-02-24 00:07] !SWITCH         performed by ' Ferreira' on '[RONE] BismarckReis': Instantly
+[2018-02-24 00:10] !REPORT         performed by ' BrunoLasteee': int tk
+[2018-02-24 00:12] !REPORTP        performed by '=1BIM= Pastel' on '[BAD] wolfblack><': nao sabe usar hat
+[2018-02-24 00:15] !SAYTEAM        performed by ' Ferreira' on 'team 1': VAMO GALERA!!! VAMO ACABAR COM ISTO!!!! -  Ferreira
+[2018-02-24 00:15] !SAYTEAM        performed by ' Ferreira' on 'team 2': vamos porra!!!!! ganhar!!!! -  Ferreira
+[2018-02-24 00:16] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Aas    2: Ins   | Type '1' or '2' in squad chat!
+[2018-02-24 00:16] !SAY            performed by ' Ferreira': sugestoes AAS -  Ferreira
+[2018-02-24 00:17] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Drove W    2: The Falklands    3: Operation Ghost Train   | Type '1', '2' or '3' in squad chat!
+[2018-02-24 00:25] !SAY            performed by '[BAD] Sniper-JP': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! - [BAD] Sniper-JP
+[2018-02-24 00:26] !REPORT         performed by ' [NOOB]-MJ-Xibata': wanda sham porfavor
+[2018-02-24 00:27] !SWITCH         performed by '[BAD] Sniper-JP' on ' Espartano': On next death
+[2018-02-24 00:28] !SWITCH         performed by '[BAD] Sniper-JP' on ' Musttafah': Instantly
+[2018-02-24 00:29] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Mapa Pequeno    2: Mapa Vw    3: Mapa Skir   | Type '1', '2' or '3' in squad chat!
+[2018-02-24 00:29] !SAY            performed by '[BAD] Sniper-JP': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! - [BAD] Sniper-JP
+[2018-02-24 00:32] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Vw Inf(Black)    2: Vw Tank(Tank/Tank-Cas)    3: Vw Cas   | Type '1', '2' or '3' in squad chat!
+[2018-02-24 00:35] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Operation Soul Rebel    2: The Falklands    3: Kah   | Type '1', '2' or '3' in squad chat!
+[2018-02-24 00:35] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Operation Soul Rebel    2: The Falklands    3: Khamisiyah   | Type '1', '2' or '3' in squad chat!
+[2018-02-24 00:38] !SETNEXT        performed by ' Ferreira': The Falklands (Vehicle Warfare, Std)
+[2018-02-24 00:38] !REPORT         performed by '=1BIM= raulmachado1': goldboy monotripulando o tnk
+[2018-02-24 00:38] !REPORT         performed by '=1BIM= raulmachado1': goldboy monotripulando o tank
+[2018-02-24 00:40] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Runnext    2: +10Mim   | Type '1' or '2' in squad chat!
+[2018-02-24 00:41] !RUNNEXT        performed by ' Ferreira': 
+[2018-02-24 00:44] !SWITCH         performed by ' Ferreira' on ' GALAO': Instantly
+[2018-02-24 00:57] !SAY            performed by ' Ferreira': BC nao pode!! -  Ferreira
+[2018-02-24 01:05] !SAY            performed by '[BAD] Sniper-JP': Parem o BC - [BAD] Sniper-JP
+[2018-02-24 01:05] !SAY            performed by '[BAD] Sniper-JP': Ferreira veja quem estar fazendo bc ai - [BAD] Sniper-JP
+[2018-02-24 01:06] !SAY            performed by '[BAD] Sniper-JP': atiraram sim - [BAD] Sniper-JP
+[2018-02-24 02:13] !REPORTP        performed by ' 2am_In_Jupiter' on ' dudukiller': tk
+[2018-02-24 09:51] !KICK           performed by 'SERVER' on ' Lobinho007': Creating too many early squads!
+[2018-02-24 11:41] !SAY            performed by '|ALC| JOFFRE': O PR FICOU BONITO PRA VCS? - |ALC| JOFFRE
+[2018-02-24 11:52] !SAY            performed by '|ALC| JOFFRE': SALVE O PR - |ALC| JOFFRE
+[2018-02-24 13:00] !MAPVOTE        performed by '|ALC| JOFFRE': Mapvote:    1: Aas    2: Ins   | Type '1' or '2' in squad chat!
+[2018-02-24 13:04] !SETNEXT        performed by '|ALC| JOFFRE': Bijar Canyons (Skirmish, Inf)
+[2018-02-24 13:04] !SETNEXT        performed by '|ALC| JOFFRE': Kokan (Skirmish, Std)
+[2018-02-24 13:13] !KICK           performed by 'SERVER' on ' PudimxD': Creating too many early squads!
+[2018-02-24 13:16] !MAPVOTE        performed by '|ALC| JOFFRE': Mapvote:    1: Assault on Mestia    2: Tad Sae Offensive    3: Gaza   | Type '1', '2' or '3' in squad chat!
+[2018-02-24 13:18] !SETNEXT        performed by '|ALC| JOFFRE': Gaza (AAS, Inf)
+[2018-02-24 13:49] !WARN           performed by '|ALC| JOFFRE' on '[Nr49] Rossato': Abra seu SQUAD! - Abra su SQUAD! - Open your locked squad!
+[2018-02-24 13:59] !REPORT         performed by '=SF=SD niloThies': switch me pls
+[2018-02-24 14:01] !MAPVOTE        performed by '|ALC| JOFFRE': Mapvote:    1: Outpost    2: Shada    3: Dragon Fly   | Type '1', '2' or '3' in squad chat!
+[2018-02-24 14:04] !SETNEXT        performed by '|ALC| JOFFRE': Outpost (AAS, Std)
+[2018-02-24 14:42] !REPORT         performed by '[BAD] SR.IRINEU': vei tem um comander na polonia arg star fica ruchando pra dentro da bandeira
+[2018-02-24 14:43] !RESIGN         performed by '[BAD] kaisertyr' on ' (ARG)STARlord': suicida
+[2018-02-24 14:54] !REPORT         performed by ' VASiliPR': esse apc d vcs
+[2018-02-24 15:02] !REPORT         performed by '=*V*= Mechanico0': TA AI JOFRE?????
+[2018-02-24 15:03] !REPORT         performed by '=*V*= Mechanico0': TA AI JOFRE???
+[2018-02-24 15:04] !MAPVOTE        performed by '|ALC| JOFFRE': Mapvote:    1: Shadalah    2: Al Basrah    3: Iron Ridge   | Type '1', '2' or '3' in squad chat!
+[2018-02-24 15:06] !SETNEXT        performed by '|ALC| JOFFRE': Al Basrah (Insurgency, Std)
+[2018-02-24 15:13] !SWITCH         performed by '=*V*= Mechanico0' on ' .jack': Instantly
+[2018-02-24 15:15] !WARN           performed by '=SF=SD LF*' on ' Luzzzi': liderando de sniper
+[2018-02-24 15:17] !WARN           performed by '=SF=SD LF*' on 'Santin santinif': liderando de sniper
+[2018-02-24 15:17] !KILL           performed by '=SF=SD LF*' on 'Santin santinif': liderando de sniper
+[2018-02-24 15:33] !KICK           performed by '|ALC| JOFFRE' on ' Matts'': Proibido monotripular ASSET! Volte a MAINBASE! - Prohibido monotripular ASSET! Vuelva a la MAINBASE!
+[2018-02-24 15:37] !REPORT         performed by '=SF=GE fenixcinza': Netcode monotripulando humvee
+[2018-02-24 15:37] !WARN           performed by '=SF=SD LF*' on ' NetcodeFixer': monotripulando humvee
+[2018-02-24 15:37] !WARN           performed by '=SF=SD LF*' on ' NetcodeFixer': monotripulando humvee
+[2018-02-24 15:39] !REPORT         performed by ' Matts'': qual o motivo do kick alguem pode falar
+[2018-02-24 15:40] !WARN           performed by '=SF=SD LF*' on ' NetcodeFixer': monotripulando
+[2018-02-24 15:40] !KICK           performed by '=SF=SD LF*' on ' NetcodeFixer': monotripulando humvee
+[2018-02-24 15:48] !WARN           performed by '[BAD] kaisertyr' on ' Lobinho007': abra squad
+[2018-02-24 15:48] !RESIGN         performed by '[BAD] kaisertyr' on ' Lobinho007': sf
+[2018-02-24 15:49] !REPORTP        performed by '[GOT] Foice' on ' quequel008': aconteceu: meu Lider foi resign, por que
+[2018-02-24 15:49] !WARN           performed by '[BAD] kaisertyr' on 'xvm xvm': abra squad
+[2018-02-24 15:50] !KICK           performed by '|ALC| JOFFRE' on 'xvm xvm': Abra seu SQUAD! - Abra su SQUAD! - Open your locked squad!
+[2018-02-24 16:04] !REPORT         performed by ' [NOOB]3SG-HerickyBR': ja teve vote?
+[2018-02-24 16:09] !REPORT         performed by '=1BIM= renansilas': me da switch, estava de britanico e perdi conexao
+[2018-02-24 16:09] !SWITCH         performed by '|ALC| JOFFRE' on '=1BIM= renansilas': Instantly
+[2018-02-24 16:10] !REPORT         performed by 'URRAH1 frankyybr': vote??
+[2018-02-24 16:10] !MAPVOTE        performed by '|ALC| JOFFRE': Mapvote:    1: Assault on Grozny    2: Iron Ridge    3: Nuijamma   | Type '1', '2' or '3' in squad chat!
+[2018-02-24 16:20] !MAPVOTE        performed by '|ALC| JOFFRE': Mapvote:    1: Assault on Grozny    2: Iron Ridge   | Type '1' or '2' in squad chat!
+[2018-02-24 16:22] !SETNEXT        performed by '|ALC| JOFFRE': Iron Ridge (AAS, Std)
+[2018-02-24 16:36] !REPORT         performed by ' LucasSousa353': pedroloco liderando de sniper
+[2018-02-24 16:38] !KILL           performed by '|ALC| JOFFRE' on ' PedroLocco': antijogo
+[2018-02-24 16:45] !REPORT         performed by '=1BIM= Pastel': sugiro vote
+[2018-02-24 16:45] !REPORT         performed by '=1BIM= Pastel': vai acabar rapido
+[2018-02-24 16:46] !REPORT         performed by '=1BIM= renansilas': minha meretriz sugiro que por obsequio fassa o novo voto para que podemos jogar um proximo mapa, pois
+[2018-02-24 16:46] !REPORT         performed by '=1BIM= COREA_': VOTTE
+[2018-02-24 16:47] !REPORT         performed by '=SF=SD LF*': vote
+[2018-02-24 16:47] !SETNEXT        performed by '|ALC| JOFFRE': Operation Thunder - BETA (AAS, Std)
+[2018-02-24 16:48] !REPORT         performed by '|ALC| JOFFRE': tive que setar
+[2018-02-24 16:56] !REPORT         performed by 'M-26-3 SlipKnoT': andpark afk na main logi truck
+[2018-02-24 16:56] !WARN           performed by '=SF=SD LF*' on ' Andpark': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-24 16:57] !WARN           performed by '=SF=SD LF*' on ' Andpark': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-24 17:16] !REPORTP        performed by ' .jack': tk sem pedir sorry sgrmalaquias
+[2018-02-24 17:17] !REPORT         performed by ' .jack': sgrmaliquias tk sem pedir sorry
+[2018-02-24 17:17] !KILL           performed by '|ALC| JOFFRE' on ' sgtmalaquias': Voce deu TeamKill! Aprenda a dar SORRY! - Usted dio TeamKill! Aprende a dar SORRY!
+[2018-02-24 17:18] !REPORT         performed by '=SF=SD LF*': vote
+[2018-02-24 17:19] !REPORT         performed by '|ALC| JOFFRE': faz vc poha so tem eu aqui?
+[2018-02-24 17:19] !REPORT         performed by '=SF=SD LF*': quem comecou termina, e a regra e sempre foi
+[2018-02-24 17:19] !REPORT         performed by '=SF=SD LF*': ou vc ta rescrevendo a regra?
+[2018-02-24 17:19] !REPORT         performed by '|ALC| JOFFRE': to passando o vote faz tempo poha
+[2018-02-24 17:19] !SAY            performed by '=SF=SD LF*': SUGESTOES INS - =SF=SD LF*
+[2018-02-24 17:20] !MAPVOTE        performed by '=SF=SD LF*': Mapvote:    1: Ramiel    2: Sbeneh Outskirts    3: Operation Archer   | Type '1', '2' or '3' in squad chat!
+[2018-02-24 17:26] !REPORT         performed by '=1BIM= COREA_': SETTA ALTT LF
+[2018-02-24 17:39] !REPORT         performed by 'Levis SGT.258.BR': se o cas pasar em visual da main pode abrir fogo com AA dela ?
+[2018-02-24 17:43] !SAY            performed by '=SF=SD Lobo_Sentado': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! - =SF=SD Lobo_Sentado
+[2018-02-24 17:43] !REPORT         performed by 'URRAH1 frankyybr': vote??
+[2018-02-24 17:44] !REPORT         performed by '|ALC| JOFFRE': lf faz bem setar o mapa
+[2018-02-24 17:44] !REPORT         performed by '|ALC| JOFFRE': lf faz bem setar o mapa
+[2018-02-24 17:44] !SETNEXT        performed by '=SF=SD LF*': Sbeneh Outskirts (Insurgency, Std)
+[2018-02-24 17:44] !REPORT         performed by '=1BIM= COREA_': ALTT de dia
+[2018-02-24 17:44] !SETNEXT        performed by '=SF=SD LF*': Sbeneh Outskirts (Insurgency, Alt)
+[2018-02-24 17:50] !RESIGN         performed by '=SF=SD Lobo_Sentado' on ' Lobinho007': espaco para o transporte
+[2018-02-24 17:50] !RESIGN         performed by '=SF=SD Lobo_Sentado' on '[UBGE] nicolaskilll': .
+[2018-02-24 17:50] !WARN           performed by '=SF=SD LF*' on ' TENENTINHO': abra o squad
+[2018-02-24 17:51] !RESIGN         performed by '=SF=SD LF*' on ' TENENTINHO': squad fechado com 1 pessoa
+[2018-02-24 18:05] !REPORT         performed by '|ALC| JOFFRE': vo passando o vote pra cada um
+[2018-02-24 18:14] !REPORTP        performed by '[DATE] S.A.N.T.O.S' on ' Matts'': spamando no radio
+[2018-02-24 18:15] !WARN           performed by '=SF=SD Lobo_Sentado' on ' Matts'': Pare de fazer SPAM no MUMBLE (RADIO)! - Deja de hacer SPAM en MUMBLE (RADIO)! - Stop MUMBLE-spamming (RADIO)!
+[2018-02-24 18:17] !WARN           performed by '=SF=SD Lobo_Sentado' on ' SirCarvalho': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-24 18:44] !REPORT         performed by 'URRAH1 Humano_Normal': faz vote pf
+[2018-02-24 18:44] !REPORT         performed by '=SF=SD Lobo_Sentado': vai fazer?
+[2018-02-24 18:49] !REPORT         performed by '[R] Malaquias': passa pra mec pfv tava de la e crashou
+[2018-02-24 18:50] !REPORT         performed by '[R] Malaquias': deixa
+[2018-02-24 18:58] !REPORT         performed by '[RONE] OliveiraPR': vote
+[2018-02-24 18:58] !MAPVOTE        performed by '=SF=SD Lobo_Sentado': Mapvote:    1: Muttrah City    2: Jabal Al Burj    3: Kashan Desert   | Type '1', '2' or '3' in squad chat!
+[2018-02-24 19:00] !SETNEXT        performed by '=SF=SD Lobo_Sentado': Muttrah City (AAS, Alt)
+[2018-02-24 19:03] !REPORT         performed by '=SF=SD Lobo_Sentado': vai dar scramble?
+[2018-02-24 19:10] !REPORT         performed by '[BAD] GustavoP': da switch please
+[2018-02-24 19:14] !REPORT         performed by '|ALC| JOFFRE': quem ta marcado saida de main?
+[2018-02-24 19:14] !WARN           performed by '=SF=SD Lobo_Sentado' on 'URRAH1 AGRONOMO94': Proibido fazer BC! Saia dai imediatamente! - Prohibido hacer BC! Salga de ahi inmediatamente!
+[2018-02-24 19:14] !TEMPBAN        performed by '|ALC| JOFFRE' on 'URRAH1 AGRONOMO94': Proibido fazer BC! Saia dai imediatamente! - Prohibido hacer BC! Salga de ahi inmediatamente!
+[2018-02-24 19:54] !TEMPBAN        performed by '|ALC| JOFFRE' on '[GOE] MiKEWaZoWsKi': Voce desperdicou Asset! Vai treinar em CO-OP! - Desperdiciaste Asset! Vaya a entrenar en CO-OP!
+[2018-02-24 19:56] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] MacBueno': Instantly
+[2018-02-24 19:57] !SWITCH         performed by '[BAD] kaisertyr' on ' SeeFour': Instantly
+[2018-02-24 19:59] !SWITCH         performed by '[BAD] kaisertyr' on '[KKCK] CriCriminal': Instantly
+[2018-02-24 20:11] !TEMPBAN        performed by '|ALC| JOFFRE' on ' Sgt.Zorzoli': Voce desperdicou Asset! Vai treinar em CO-OP! - Desperdiciaste Asset! Vaya a entrenar en CO-OP!
+[2018-02-24 20:13] !REPORT         performed by '=1BIM= renansilas': blackgus squad de cas, e jogando de morteiro
+[2018-02-24 20:13] !SWITCH         performed by '[BAD] marcaoweb' on '[BAD] marcaoweb': Instantly
+[2018-02-24 20:16] !REPORT         performed by ' CNaville': alex desperdicando heli
+[2018-02-24 20:16] !REPORT         performed by ' CNaville': alef **]
+[2018-02-24 20:23] !REPORT         performed by '[RONE] OliveiraPR': vote
+[2018-02-24 20:23] !REPORT         performed by '=SF=SG vibrabuletas': gallardo666 monotripulando apc
+[2018-02-24 20:23] !WARN           performed by '|ALC| JOFFRE' on ' Gallardo666': Proibido monotripular ASSET! Volte a MAINBASE! - Prohibido monotripular ASSET! Vuelva a la MAINBASE!
+[2018-02-24 20:25] !REPORT         performed by '[RONE] MaxBr': givelead black
+[2018-02-24 20:25] !REPORT         performed by '[RONE] MaxBr': eita desculo
+[2018-02-24 20:29] !TEMPBAN        performed by '|ALC| JOFFRE' on ' Gallardo666': Proibido monotripular ASSET! Volte a MAINBASE! - Prohibido monotripular ASSET! Vuelva a la MAINBASE!
+[2018-02-24 20:37] !REPORT         performed by '[RONE] OliveiraPR': vote
+[2018-02-24 20:41] !REPORT         performed by ' VASiliPR': black gud
+[2018-02-24 20:43] !REPORT         performed by ' [NOOB]-MJ-Xibata': ja teve vote?
+[2018-02-24 20:44] !REPORT         performed by '[RONE] MaxBr': ja teve map vote
+[2018-02-24 20:44] !SAY            performed by '=SF=SD LF*': SUGESTOES - =SF=SD LF*
+[2018-02-24 20:44] !MAPVOTE        performed by '=SF=SD LF*': Mapvote:    1: Yamalia    2: Sahel    3: Kashan Desert   | Type '1', '2' or '3' in squad chat!
+[2018-02-24 20:45] !MAPVOTE        performed by '=SF=SD LF*': Mapvote:    1: Sahel    2: Yamalia    3: Beirut   | Type '1', '2' or '3' in squad chat!
+[2018-02-24 20:51] !REPORT         performed by '=SF=SG vibrabuletas': blackgus me matou pq estava usando o morteiro
+[2018-02-24 20:51] !REPORT         performed by ' Matts'': era um vez um cobra q foi roubado
+[2018-02-24 20:52] !REPORT         performed by 'M-26-3 Lt_Alexei': S1rodrigues roubando cobra
+[2018-02-24 20:52] !REPORT         performed by '[CR-C] BlackGus': Rodrigues robando Cobra
+[2018-02-24 20:52] !KICK           performed by '=SF=SD LF*' on '[CORE] S1Rodrigues': Voce desperdicou Asset! Vai treinar em CO-OP! - Desperdiciaste Asset! Vaya a entrenar en CO-OP!
+[2018-02-24 20:52] !REPORT         performed by '[CR-C] BlackGus': Rodrigues monotripulando
+[2018-02-24 20:52] !KICK           performed by '=SF=SD LF*' on '[CR-C] BlackGus': Voce deu TeamKill! Aprenda a dar SORRY! - Usted dio TeamKill! Aprende a dar SORRY!
+[2018-02-24 20:53] !REPORT         performed by 'M-26-3 Lt_Alexei': voce baneo a Black por dar a tk a um cara que estaba ocupando o mortero do sq 1
+[2018-02-24 20:58] !REPORT         performed by '=SF=SG vibrabuletas': blackgus baderna
+[2018-02-24 20:59] !REPORT         performed by '=SF=SG vibrabuletas': ta fechando a fob por querer
+[2018-02-24 20:59] !TEMPBAN        performed by '=SF=SD LF*' on '[CR-C] BlackGus': baderna
+[2018-02-24 20:59] !REPORT         performed by '=SF=SG vibrabuletas': n quer dx ngm passar
+[2018-02-24 21:01] !SETNEXT        performed by '=SF=SD LF*': Beirut (AAS, Alt)
+[2018-02-24 21:04] !KICK           performed by 'SERVER' on ' gonzalezBR': Creating too many early squads!
+[2018-02-24 21:06] !KICK           performed by '[BAD] marcaoweb' on ' sgtmalaquias': Pare de fazer SPAM no MUMBLE (RADIO)! - Deja de hacer SPAM en MUMBLE (RADIO)! - Stop MUMBLE-spamming (RADIO)!
+[2018-02-24 21:09] !REPORT         performed by '[BAD] GustavoP': da switch
+[2018-02-24 21:10] !SWITCH         performed by '[BAD] marcaoweb' on '[BAD] GustavoP': Instantly
+[2018-02-24 21:12] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] kaisertyr': Instantly
+[2018-02-24 21:15] !REPORT         performed by ' klot': alguem me passa pro outro time
+[2018-02-24 21:15] !REPORT         performed by ' klot': eu era de la e cai man
+[2018-02-24 21:17] !REPORT         performed by ' klot': me muda de time pf !!!
+[2018-02-24 21:17] !SWITCH         performed by '=SF=SD LF*' on ' klot': On next death
+[2018-02-24 21:17] !REPORT         performed by ' klot': net de pobre aqui caiu
+[2018-02-24 21:17] !KILL           performed by '=SF=SD LF*' on ' klot': afk
+[2018-02-24 21:17] !SWITCH         performed by '=SF=SD LF*' on ' klot': Instantly
+[2018-02-24 21:17] !REPORT         performed by ' klot': obrigado
+[2018-02-24 21:17] !REPORT         performed by ' klot': osh nao me mudaram
+[2018-02-24 21:17] !REPORT         performed by ' klot': a mudaram sim
+[2018-02-24 21:33] !REPORT         performed by 'URRAH1 Humano_Normal': faz vote pf
+[2018-02-24 21:33] !SAY            performed by '=SF=SD LF*': SUGESTOES INS - =SF=SD LF*
+[2018-02-24 21:33] !REPORT         performed by '[BAD] kaisertyr': 600 tcks
+[2018-02-24 21:33] !MAPVOTE        performed by '=SF=SD LF*': Mapvote:    1: Assault on Grozny    2: Gaza    3: Ramiel   | Type '1', '2' or '3' in squad chat!
+[2018-02-24 21:42] !SETNEXT        performed by '=SF=SD LF*': Assault on Grozny (Insurgency, Std)
+[2018-02-24 21:53] !REPORT         performed by ' Lucas123456789': troca de time
+[2018-02-24 21:53] !REPORT         performed by ' SnakeGhost': troca o lucas123456789 de time ele caiu
+[2018-02-24 21:54] !REPORT         performed by ' Lucas123456789': troca de time q eu cai
+[2018-02-24 22:05] !RESIGN         performed by '[BAD] kaisertyr' on '[kkkk] lhsniper157': sf
+[2018-02-24 22:23] !KILL           performed by '[BAD] kaisertyr' on ' tim92_92': tk
+[2018-02-24 22:23] !REPORT         performed by 'IIIRBR Pizza_Rus': tim tk intencional em amigo
+[2018-02-24 22:23] !KICK           performed by '[BAD] kaisertyr' on ' tim92_92': tk
+[2018-02-24 22:32] !REPORT         performed by ' Lucas123456789': troca de time eu cai
+[2018-02-24 22:51] !REPORT         performed by '=1BIM= renansilas': black rone se recusando ajudar o time, e nao se comunica com os squad liders
+[2018-02-24 23:05] !REPORT         performed by '[RONE] KubraHH': tem como me passar de time?
+[2018-02-24 23:10] !REPORT         performed by '=1BIM= renansilas': black rone squad de apc e nao ajudando o time
+[2018-02-24 23:32] !SAY            performed by 'M-26-3 Criisw': Sugerencias AAS - M-26-3 Criisw
+[2018-02-24 23:32] !SAY            performed by 'M-26-3 Criisw': Sugerencias AAS - M-26-3 Criisw
+[2018-02-24 23:33] !MAPVOTE        performed by 'M-26-3 Criisw': Mapvote:    1: Dovre Winter    2: Outpost    3: Silent Eagle   | Type '1', '2' or '3' in squad chat!
+[2018-02-24 23:36] !REPORT         performed by '[RONE] jojocap': adm me passa pra russia pls
+[2018-02-24 23:37] !SETNEXT        performed by 'M-26-3 Criisw': Outpost (AAS, Std)
+[2018-02-24 23:37] !REPORT         performed by '[RONE] jojocap': adm me da sqitch pls
+[2018-02-24 23:37] !SAY            performed by 'M-26-3 Criisw': Nao posso - M-26-3 Criisw
+[2018-02-24 23:48] !WARN           performed by 'M-26-3 Criisw' on ' martupechez': Deja de facer isso
+[2018-02-25 00:26] !MAPVOTE        performed by 'M-26-3 Criisw': Mapvote:    1: Asad    2: Gaza    3: Hill   | Type '1', '2' or '3' in squad chat!
+[2018-02-25 00:38] !SETNEXT        performed by 'M-26-3 Criisw': Asad Khal (AAS, Std)
+[2018-02-25 00:39] !REPORT         performed by ' [NOOB]-MJ-Xibata': skirmih
+[2018-02-25 00:40] !REPORT         performed by ' caezabombero': temeus tk
+[2018-02-25 00:41] !REPORT         performed by ' caezabombero': temeusbr tk
+[2018-02-25 00:41] !SETNEXT        performed by 'M-26-3 Criisw': Asad Khal (Skirmish, Inf)
+[2018-02-25 00:41] !REPORT         performed by 'M-26-3 parkerosca': thesniper monotipula asset
+[2018-02-25 00:55] !SWITCH         performed by 'M-26-3 Criisw' on '[NOOB] NEKKROS': Instantly
+[2018-02-25 01:17] !SWITCH         performed by 'M-26-3 Criisw' on '[UBGE] megatomgames': Instantly
+[2018-02-25 01:19] !SAY            performed by 'M-26-3 Criisw': Para reportar usen !R - M-26-3 Criisw
+[2018-02-25 01:25] !SWITCH         performed by 'M-26-3 Criisw' on 'xvm xvm': Instantly
+[2018-02-25 01:35] !SETNEXT        performed by 'M-26-3 Criisw': Tad Sae Offensive (Skirmish, Inf)
+[2018-02-25 02:05] !SWITCH         performed by 'M-26-3 Criisw' on ' 2am_In_Jupiter': Instantly
+[2018-02-25 02:20] !MAPVOTE        performed by 'M-26-3 Criisw': Mapvote:    1: Continua    2: Runnext   | Type '1' or '2' in squad chat!
+[2018-02-25 02:20] !RUNNEXT        performed by 'M-26-3 Criisw': 
+[2018-02-25 02:24] !SWITCH         performed by 'M-26-3 Criisw' on 'M-26-3 SlipKnoT': Instantly
+[2018-02-25 02:40] !REPORT         performed by 'TESTE AscrixZ': vote
+[2018-02-25 02:47] !SAY            performed by 'M-26-3 Criisw': Vou Setar otro, este rolo solo - M-26-3 Criisw
+[2018-02-25 02:49] !SETNEXT        performed by 'M-26-3 Criisw': Fallujah West (Skirmish, Inf)
+[2018-02-25 02:49] !RUNNEXT        performed by 'M-26-3 Criisw': 
+[2018-02-25 10:55] !SAY            performed by ' Ferreira': bom dia -  Ferreira
+[2018-02-25 11:01] !MAPVOTE        performed by ' Ferreira': Mapvote:    1: Operation Barracuda    2: Karbala    3: Saaremaa   | Type '1', '2' or '3' in squad chat!
+[2018-02-25 11:04] !SETNEXT        performed by ' Ferreira': Operation Barracuda (Skirmish, Inf)
+[2018-02-25 11:50] !WARN           performed by ' Ferreira' on '[UBGE] nicolaskilll': que foi isto?
+[2018-02-25 11:54] !KICK           performed by 'SERVER' on ' Gringo_CH': Creating too many early squads!
+[2018-02-25 11:59] !REPORT         performed by '=SF=SG gabriel_lopes': ferreira
+[2018-02-25 12:00] !MAPVOTE        performed by '=SF=SG gabriel_lopes': Mapvote:    1: Aas    2: Ins   | Type '1' or '2' in squad chat!
+[2018-02-25 12:03] !REPORT         performed by ' Ferreira': dragon fly
+[2018-02-25 12:03] !MAPVOTE        performed by '=SF=SG gabriel_lopes': Mapvote:    1: Kokan    2: Dragon Fly    3: Assault on Mestia   | Type '1', '2' or '3' in squad chat!
+[2018-02-25 12:05] !SAY            performed by '=SF=SG gabriel_lopes': votem - =SF=SG gabriel_lopes
+[2018-02-25 12:06] !SETNEXT        performed by '=SF=SG gabriel_lopes': Kokan (Insurgency, Std)
+[2018-02-25 12:36] !KICK           performed by ' Ferreira' on ' rafael.br2468': teste
+[2018-02-25 13:00] !REPORT         performed by ' [NOOB]3SG-HerickyBR': nao tem pouca gente pra um mapa de ins
+[2018-02-25 13:12] !INIT           performed by '=*V*= Mechanico0': 
+[2018-02-25 13:12] !REPORT         performed by ' Ferreira': Welcome Killer!
+[2018-02-25 13:13] !REPORT         performed by '=*V*= Mechanico0': TESTE
+[2018-02-25 13:13] !REPORT         performed by '=*V*= killer_br': teste
+[2018-02-25 13:14] !WARN           performed by '=*V*= killer_br' on '=*V*= Mechanico0': teste
+[2018-02-25 13:16] !MAPVOTE        performed by '=*V*= Mechanico0': Mapvote:    1: Teste1    2: Teste2    3: Teste3   | Type '1', '2' or '3' in squad chat!
+[2018-02-25 13:17] !MAPVOTE        performed by '=*V*= killer_br': Mapvote:    1: Teste1    2: Teste2    3: Teste3   | Type '1', '2' or '3' in squad chat!
+[2018-02-25 13:21] !SETNEXT        performed by '=*V*= Mechanico0': Muttrah City (AAS, Alt)
+[2018-02-25 13:22] !MAPVOTE        performed by '=*V*= Mechanico0': Mapvote:    1: Dragon Fly    2: Cq    3: Alt   | Type '1', '2' or '3' in squad chat!
+[2018-02-25 13:23] !SETNEXT        performed by '=*V*= Mechanico0': Dragon Fly (AAS, Alt)
+[2018-02-25 13:24] !SETNEXT        performed by '=*V*= killer_br': Jabal Al Burj (AAS, Alt)
+[2018-02-25 13:28] !SETNEXT        performed by '=*V*= Mechanico0': Kokan (Insurgency, Std)
+[2018-02-25 13:29] !SETNEXT        performed by '=*V*= Mechanico0': Kokan (Skirmish, Inf)
+[2018-02-25 13:31] !SETNEXT        performed by '=*V*= killer_br': Ramiel (AAS, Std)
+[2018-02-25 13:34] !SETNEXT        performed by '=*V*= killer_br': Iron Ridge (AAS, Lrg)
+[2018-02-25 13:34] !REPORT         performed by ' [NOOB]3SG-HerickyBR': ja teve vote?
+[2018-02-25 13:34] !REPORT         performed by '=SF=SG gabriel_lopes': ainda nao fiz
+[2018-02-25 13:36] !SETNEXT        performed by '=*V*= killer_br': Muttrah City (AAS, Alt)
+[2018-02-25 13:37] !SETNEXT        performed by '=*V*= Mechanico0': Muttrah City (AAS, Inf)
+[2018-02-25 13:40] !REPORT         performed by ' .jack': killer
+[2018-02-25 13:41] !REPORT         performed by '=*V*= Mechanico0': killer teste
+[2018-02-25 13:41] !REPORT         performed by ' .jack': killer viado
+[2018-02-25 13:42] !KILL           performed by '=*V*= killer_br' on '=*V*= Mechanico0': teste
+[2018-02-25 13:42] !REPORT         performed by ' .jack': mechanico tk sem pedir sorry
+[2018-02-25 13:52] !REPORT         performed by ' LucasSousa353': raulmachado enchendo o saco e spam no teamchat
+[2018-02-25 14:02] !KILL           performed by '=*V*= killer_br' on ' Gringo_Traid0r': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-25 14:06] !REPORT         performed by '=*V*= Mechanico0': O GABRIEL, PODE FAZER O VOTE , EU ESTAVA TREINANDO O KILLER
+[2018-02-25 14:06] !REPORT         performed by '=SF=SG gabriel_lopes': ok
+[2018-02-25 14:10] !MAPVOTE        performed by '=SF=SG gabriel_lopes': Mapvote:    1: Burning Sands    2: Jabal Al Burj    3: Beirut   | Type '1', '2' or '3' in squad chat!
+[2018-02-25 14:14] !SETNEXT        performed by '=SF=SG gabriel_lopes': Burning Sands (AAS, Std)
+[2018-02-25 14:14] !REPORT         performed by '[R] Malaquias': e passa pra EUA pfv, tava de la e cai
+[2018-02-25 14:15] !REPORT         performed by ' .jack': ta bugado os cache??
+[2018-02-25 14:36] !WARN           performed by '[BAD] kaisertyr' on '>TT<09 Vandew32': abra squad
+[2018-02-25 14:37] !WARN           performed by '[BAD] kaisertyr' on '>TT<09 Vandew32': abra squad
+[2018-02-25 15:01] !KICK           performed by '=SF=SD Lobo_Sentado' on '07.CO Bitencourt.eremit': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 15:07] !WARN           performed by '[BAD] kaisertyr' on 'IT Igortaubate': abra squad
+[2018-02-25 15:13] !REPORT         performed by '[RONE] SpezialKrafte': gabe tk intencional
+[2018-02-25 15:14] !REPORTP        performed by '[RONE] SpezialKrafte' on ' gabeee': tk intencional
+[2018-02-25 15:21] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] saraiva_caparzzo': Instantly
+[2018-02-25 15:21] !KICK           performed by 'SERVER' on ' gabeee': Creating too many early squads!
+[2018-02-25 15:21] !REPORT         performed by '=SF=SG gabriel_lopes': bem vindo a ADM killer
+[2018-02-25 15:25] !WARN           performed by '=*V*= killer_br' on '[BAD] kaisertyr': vc faz vote por favor
+[2018-02-25 15:35] !REPORT         performed by '=SF=SD Detomi': deadshadow desperdicio de asset, n sabe jogar de heli
+[2018-02-25 16:14] !REPORT         performed by '=1BIM= renansilas': votew
+[2018-02-25 16:15] !REPORT         performed by '=1BIM= COREA_': VOTTE
+[2018-02-25 16:15] !REPORT         performed by '|ALC| WMoraes': gerau tk intencional
+[2018-02-25 16:15] !REPORT         performed by '|ALC| WMoraes': gerau vasques tk intencional
+[2018-02-25 16:17] !SAY            performed by '[BAD] julianobrusto': Sugestes Ass - [BAD] julianobrusto
+[2018-02-25 16:18] !MAPVOTE        performed by '[BAD] julianobrusto': Mapvote:    1: Kammy    2: Xiang    3: Yamalia   | Type '1', '2' or '3' in squad chat!
+[2018-02-25 16:20] !SETNEXT        performed by '[BAD] julianobrusto': Xiangshan (AAS, Std)
+[2018-02-25 16:23] !KILL           performed by '[BAD] kaisertyr' on ' Lobinho007': fora de qualquer objetivo
+[2018-02-25 16:24] !REPORT         performed by '[BAD] julianobrusto': mata geral em highway entao kaiser
+[2018-02-25 16:25] !KILL           performed by '[BAD] kaisertyr' on 'UBGE* MajorAmpolas': fora de objetivo
+[2018-02-25 16:25] !KILL           performed by '[BAD] kaisertyr' on ' karlox19': fora de objetivo
+[2018-02-25 16:25] !KILL           performed by '[BAD] kaisertyr' on ' HarTz': fora de objetivo
+[2018-02-25 16:25] !KILL           performed by '[BAD] kaisertyr' on ' sd_teixeira_2gacl': fora de objetivo
+[2018-02-25 16:37] !REPORT         performed by '[BAD] kaisertyr': killer
+[2018-02-25 16:50] !SAY            performed by '[BAD] julianobrusto': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! - [BAD] julianobrusto
+[2018-02-25 16:50] !SAY            performed by '[BAD] julianobrusto': Pare de fazer SPAM no MUMBLE (RADIO)! - Deja de hacer SPAM en MUMBLE (RADIO)! - Stop MUMBLE-spamming (RADIO)! - [BAD] julianobrusto
+[2018-02-25 16:50] !MAPVOTE        performed by '[BAD] julianobrusto': Mapvote:    1: Xiangshan    2: Revote   | Type '1' or '2' in squad chat!
+[2018-02-25 16:50] !REPORT         performed by '=*V*= Mechanico0': DEIXA RODAR POR UNS 5 MIN
+[2018-02-25 16:51] !REPORT         performed by '[BAD] julianobrusto': positivo
+[2018-02-25 16:51] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] saraiva_caparzzo': Instantly
+[2018-02-25 16:53] !SETNEXT        performed by '[BAD] julianobrusto': Xiangshan (AAS, Std)
+[2018-02-25 16:53] !MAPVOTE        performed by '[BAD] julianobrusto': Mapvote:    1: Muttrah    2: Jabal    3: Dovre   | Type '1', '2' or '3' in squad chat!
+[2018-02-25 16:54] !WARN           performed by '[BAD] julianobrusto' on '=1BIM= raulmachado1': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-25 16:54] !WARN           performed by '[BAD] julianobrusto' on '=1BIM= renansilas': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-25 16:54] !SETNEXT        performed by '[BAD] julianobrusto': Muttrah City (AAS, Alt)
+[2018-02-25 16:55] !KICK           performed by '[BAD] julianobrusto' on '=1BIM= renansilas': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-25 16:55] !WARN           performed by '[BAD] julianobrusto' on '=1BIM= raulmachado1': Cuidado com o seu linguajar! - Tenga cuidado con su lenguaje! - Watch your language
+[2018-02-25 16:55] !KICK           performed by '[BAD] julianobrusto' on '=1BIM= raulmachado1': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-25 16:55] !WARN           performed by '[BAD] julianobrusto' on ' Ferreira': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-25 16:56] !WARN           performed by '[BAD] julianobrusto' on '=1BIM= Phx37': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-25 16:56] !KICK           performed by '[BAD] julianobrusto' on '=1BIM= Phx37': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-25 16:58] !SWITCH         performed by '=*V*= Mechanico0' on ' Juhabi': Instantly
+[2018-02-25 16:58] !SWITCH         performed by '=*V*= Mechanico0' on '[GOT] Foice': Instantly
+[2018-02-25 16:59] !RUNNEXT        performed by '[BAD] julianobrusto': 
+[2018-02-25 17:01] !SWITCH         performed by '=*V*= Mechanico0' on '=*V*= Scob@r_18': Instantly
+[2018-02-25 17:01] !KICK           performed by 'SERVER' on 'Six-Yo Bruno_Gamer211': Creating too many early squads!
+[2018-02-25 17:02] !SWITCH         performed by '=*V*= Mechanico0' on '=*V*= killer_br': Instantly
+[2018-02-25 17:02] !KICK           performed by 'SERVER' on ' Mantell_Chegou': Creating too many early squads!
+[2018-02-25 17:02] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] julianobrusto': Instantly
+[2018-02-25 17:02] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] marcaoweb': Instantly
+[2018-02-25 17:02] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] SPGhost': Instantly
+[2018-02-25 17:03] !REPORT         performed by 'URRAH1 Humano_Normal': da shiwtc troquei sem querer
+[2018-02-25 17:03] !SWITCH         performed by '[BAD] julianobrusto' on '[BAD] marcaoweb': Instantly
+[2018-02-25 17:03] !SWITCH         performed by '=*V*= Mechanico0' on '=*V*= Chirullitos': Instantly
+[2018-02-25 17:03] !REPORT         performed by '>TT<09 Vandew32': me muda de time por favor eu era no mapa anterios russo
+[2018-02-25 17:03] !SWITCH         performed by '[BAD] julianobrusto' on '>TT<09 Vandew32': Instantly
+[2018-02-25 17:03] !REPORT         performed by '>TT<09 Vandew32': obrigado
+[2018-02-25 17:04] !RESIGN         performed by '[BAD] julianobrusto' on 'Lizard Lizardino': Proibido fazer anti-jogo! Bugs/Exploits - Prohibido hacer anti-juego! Bugs/Exploits
+[2018-02-25 17:06] !REPORT         performed by 'URRAH1 Humano_Normal': lider 2 liderando de sniper
+[2018-02-25 17:07] !WARN           performed by '[BAD] marcaoweb' on ' KoMaNDoo0': liderando de sniper
+[2018-02-25 17:07] !WARN           performed by '[BAD] julianobrusto' on ' KoMaNDoo0': liderando de sniper
+[2018-02-25 17:07] !RESIGN         performed by '[BAD] julianobrusto' on ' KoMaNDoo0': liderando de sniper
+[2018-02-25 17:07] !REPORT         performed by 'URRAH1 Humano_Normal': da kill nele please
+[2018-02-25 17:10] !WARN           performed by '[BAD] kaisertyr' on ' Mantell_Chegou': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-25 17:12] !WARN           performed by '[BAD] julianobrusto' on '=EASY= Nick0': abra o squad pra ele ser apc
+[2018-02-25 17:13] !REPORT         performed by '>TT<09 Vandew32': pode atirar de mec fortens
+[2018-02-25 17:14] !SAY            performed by '[BAD] julianobrusto': Nao sendo dod e sob ataque sim - [BAD] julianobrusto
+[2018-02-25 17:21] !WARN           performed by '[BAD] kaisertyr' on ' Mantell_Chegou': nao monotripule
+[2018-02-25 17:22] !REPORT         performed by '[RONE] jojocap': da sqitch ae admin
+[2018-02-25 17:22] !KICK           performed by '[BAD] kaisertyr' on ' Mantell_Chegou': monotripulando
+[2018-02-25 17:26] !REPORT         performed by '[RONE] jojocap': adm me d switch pls
+[2018-02-25 17:26] !SWITCH         performed by '[BAD] julianobrusto' on '[RONE] jojocap': Instantly
+[2018-02-25 17:26] !REPORT         performed by '[BAD] kaisertyr': pediram para abrir squad para o cara monotripular o apc ...
+[2018-02-25 17:27] !REPORT         performed by '[BAD] julianobrusto': ai eh com o lider
+[2018-02-25 17:28] !REPORT         performed by ' Ferreira': prox e INS ?
+[2018-02-25 17:29] !REPORT         performed by ' Ferreira': vou fazer o vote ...
+[2018-02-25 17:29] !REPORT         performed by ' Ferreira': vou fazer o vote
+[2018-02-25 17:30] !REPORT         performed by '[BAD] kaisertyr': deixa o killer
+[2018-02-25 17:30] !MAPVOTE        performed by '[BAD] julianobrusto': Mapvote:    1: Kokan    2: Karbala    3: Gronzy   | Type '1', '2' or '3' in squad chat!
+[2018-02-25 17:30] !REPORT         performed by '=1BIM= renansilas': kokan ja rodou jhoje
+[2018-02-25 17:31] !MAPVOTE        performed by '[BAD] julianobrusto': Mapvote:    1: Karbala    2: Korengal    3: Gronzy   | Type '1', '2' or '3' in squad chat!
+[2018-02-25 17:33] !SETNEXT        performed by '[BAD] julianobrusto': Karbala (Insurgency, Std)
+[2018-02-25 17:51] !REPORT         performed by ' Matts'': da switch eu tava la
+[2018-02-25 17:52] !SWITCH         performed by '[BAD] julianobrusto' on ' Matts'': Instantly
+[2018-02-25 17:52] !SWITCH         performed by '=*V*= Mechanico0' on ' Matts'': Instantly
+[2018-02-25 17:59] !REPORT         performed by ' klot': ja teve vote?
+[2018-02-25 18:00] !REPORT         performed by '=1BIM= renansilas': oliveira tk proposital e nao pedu sorry
+[2018-02-25 18:00] !KILL           performed by '=*V*= Mechanico0' on '[RONE] OliveiraPR': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-25 18:06] !REPORT         performed by '[RONE] MaxBr': ja teve mapvote?
+[2018-02-25 18:09] !REPORT         performed by '=*V*= Mechanico0': TA AI JULIANO
+[2018-02-25 18:09] !REPORT         performed by '=*V*= Mechanico0': KAISER TA AI
+[2018-02-25 18:09] !REPORT         performed by '[BAD] kaisertyr': ?
+[2018-02-25 18:10] !REPORT         performed by '=*V*= Mechanico0': FAZ VO VOTE
+[2018-02-25 18:10] !REPORT         performed by '[BAD] kaisertyr': foi feito
+[2018-02-25 18:10] !REPORT         performed by '[BAD] kaisertyr': mas por mim era o killer
+[2018-02-25 18:26] !SWITCH         performed by '[BAD] marcaoweb' on '[BAD] kaisertyr': Instantly
+[2018-02-25 18:33] !SAY            performed by '[BAD] marcaoweb': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! - [BAD] marcaoweb
+[2018-02-25 18:33] !WARN           performed by '[BAD] marcaoweb' on 'UBGE*r _GhostKillerBR_': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming!
+[2018-02-25 18:34] !REPORT         performed by '[BAD] marcaoweb': killer seja bem-vindo a administracao seu lindo
+[2018-02-25 18:35] !REPORT         performed by '=SF=GE fenixcinza': _Ghostkiller recebendo informacao do time inimigo fora do jogo
+[2018-02-25 18:36] !SWITCH         performed by '[BAD] marcaoweb' on '[UBGE] CB-franca': Instantly
+[2018-02-25 18:38] !REPORT         performed by '[BAD] marcaoweb': killer ts divsul
+[2018-02-25 18:41] !REPORT         performed by '[RONE] SpezialKrafte': tinha at na saida da main
+[2018-02-25 18:49] !SWITCH         performed by '|ALC| JOFFRE' on '|ALC| JOFFRE': Instantly
+[2018-02-25 18:51] !SAY            performed by ' LadyMystic': boa tarde :) -  LadyMystic
+[2018-02-25 18:52] !WARN           performed by '=SF=SD LF*' on '|ALC| WMoraes': fala muito, te amo nene
+[2018-02-25 18:52] !REPORT         performed by '|ALC| WMoraes': vou reportar no forum o abuso ta lf? blz lindao
+[2018-02-25 19:01] !REPORT         performed by '=1BIM= renansilas': vote?!
+[2018-02-25 19:02] !REPORT         performed by 'URRAH1 Humano_Normal': faz vote pf
+[2018-02-25 19:03] !REPORT         performed by '[RONE] MaxBr': faz vote ai
+[2018-02-25 19:05] !REPORT         performed by '[RONE] MaxBr': vote?
+[2018-02-25 19:05] !SAY            performed by '=SF=SD LF*': SUGESTOES AAS - =SF=SD LF*
+[2018-02-25 19:05] !REPORT         performed by '=SF=SD LF*': vou puxar, blz?
+[2018-02-25 19:07] !MAPVOTE        performed by '=SF=SD LF*': Mapvote:    1: The Falklands    2: Kashan Desert    3: Ulyanovsk   | Type '1', '2' or '3' in squad chat!
+[2018-02-25 19:08] !REPORT         performed by '[RONE] SpezialKrafte': falklands AAS?
+[2018-02-25 19:10] !SETNEXT        performed by '=SF=SD LF*': Kashan Desert (AAS, Alt)
+[2018-02-25 19:14] !SAY            performed by '=SF=SD LF*': Pare de fazer SPAM no CHAT! - Deja de hacer SPAM en CHAT! - Stop CHAT-spamming! - =SF=SD LF*
+[2018-02-25 19:23] !KILL           performed by '|ALC| JOFFRE' on 'BDF SamuraiVelho87': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-25 19:30] !WARN           performed by '[BAD] kaisertyr' on '[DATE] Zartan': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 19:30] !WARN           performed by '[BAD] kaisertyr' on '[DATE] MoiTaa': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 19:30] !WARN           performed by '[BAD] kaisertyr' on ' [NOOB]eOCoringaa': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 19:31] !KICK           performed by '[BAD] kaisertyr' on '[DATE] Zartan': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 19:31] !KICK           performed by '[BAD] kaisertyr' on ' [NOOB]eOCoringaa': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 19:34] !KICK           performed by '[BAD] kaisertyr' on ' _Mithrandir_': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 19:35] !SWITCH         performed by '[BAD] kaisertyr' on '[RONE] MaxBr': Instantly
+[2018-02-25 19:37] !REPORT         performed by '[BAD] kaisertyr': killer tira os away
+[2018-02-25 19:43] !REPORT         performed by '=1BIM= Pastel': alguem pode dar switch?
+[2018-02-25 19:43] !SWITCH         performed by '=SF=SD LF*' on '=1BIM= Pastel': Instantly
+[2018-02-25 19:44] !KILL           performed by '=SF=SD LF*' on '=SF=SD ramon.rocha': afk
+[2018-02-25 19:46] !REPORT         performed by '|ALC| WMoraes': squad 4 fechado soh com 4 player e tem 3 apc
+[2018-02-25 19:52] !KILL           performed by '=*V*= killer_br' on '=1BIM= Phx37': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-25 19:57] !REPORT         performed by '=*V*= killer_br': admins
+[2018-02-25 19:57] !REPORTP        performed by ' =*rV*=jack': santos com ofenas
+[2018-02-25 19:58] !REPORTP        performed by ' =*rV*=jack': santos com ofensas
+[2018-02-25 19:58] !KICK           performed by '|ALC| JOFFRE' on '[DATE] S.A.N.T.O.S': Cuidado com o seu linguajar! - Tenga cuidado con su lenguaje! - Watch your language
+[2018-02-25 20:19] !SAY            performed by '=SF=SD LF*': SUGESTOES AAS 2km ou 4km - =SF=SD LF*
+[2018-02-25 20:19] !MAPVOTE        performed by '=SF=SD LF*': Mapvote:    1: Hades Peak    2: Black Gold    3: Operation Marlin   | Type '1', '2' or '3' in squad chat!
+[2018-02-25 20:20] !REPORTP        performed by '[GOT] Foice' on '[RONE] JotaPeBTK': intencional tisuuu
+[2018-02-25 20:21] !REPORT         performed by '[GOT] Foice': tk itencional Tsuuu
+[2018-02-25 20:21] !WARN           performed by '=SF=SD LF*' on '=SF=SD Tsuuu': Pare de atirar em amigo! - Deje de disparar a los amigos! - Stop teamkilling!
+[2018-02-25 20:21] !WARN           performed by '=SF=SD LF*' on '=SF=SD Tsuuu': Voce deu TeamKill! Aprenda a dar SORRY! - Usted dio TeamKill! Aprende a dar SORRY!
+[2018-02-25 20:23] !REPORTP        performed by '[GOT] Foice' on '[RONE] JotaPeBTK': intencional Tsuu
+[2018-02-25 20:27] !BAN            performed by '|ALC| JOFFRE' on '[GOT] Foice': Voce deu TeamKill! Aprenda a dar SORRY! - Usted dio TeamKill! Aprende a dar SORRY!
+[2018-02-25 20:27] !KICK           performed by '|ALC| JOFFRE' on 'Six Bruno_Gamer211': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 20:43] !REPORT         performed by '[RONE] JotaPeBTK': me passa de time, perdei conexao e fui jogado pra ca
+[2018-02-25 20:43] !SWITCH         performed by '=SF=SD LF*' on '[RONE] JotaPeBTK': Instantly
+[2018-02-25 20:43] !REPORT         performed by ' Matts'': da switch eu tava la
+[2018-02-25 20:43] !REPORT         performed by '[RONE] MaxBr': vote
+[2018-02-25 20:43] !SWITCH         performed by '|ALC| JOFFRE' on ' Matts'': Instantly
+[2018-02-25 20:43] !SETNEXT        performed by '=SF=SD LF*': Operation Marlin (AAS, Std)
+[2018-02-25 20:48] !KICK           performed by '=*V*= Mechanico0' on '=*V*= Chirullitos': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 21:06] !KICK           performed by 'SERVER' on ' Gustao': Creating too many early squads!
+[2018-02-25 21:09] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] SR.IRINEU': On next death
+[2018-02-25 21:10] !SWITCH         performed by '[BAD] kaisertyr' on '[BAD] SR.IRINEU': On next death
+[2018-02-25 21:11] !KILL           performed by '[BAD] kaisertyr' on '[BAD] SR.IRINEU': burro do caralho
+[2018-02-25 21:16] !SWITCH         performed by '=*V*= Mechanico0' on '=*V*= Chirullitos': Instantly
+[2018-02-25 21:16] !KICK           performed by '=*V*= Mechanico0' on '>TT<06 Aspira': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 21:35] !SWITCH         performed by '=*V*= Mechanico0' on '=*V*= killer_br': Instantly
+[2018-02-25 21:36] !SWITCH         performed by '=*V*= Mechanico0' on '=*V*= killer_br': Instantly
+[2018-02-25 21:42] !REPORTP        performed by ' Matts'' on ' ODIO.PURO': TK
+[2018-02-25 21:43] !KILL           performed by '=*V*= Mechanico0' on ' ODIO.PURO': Voce deu TeamKill! Aprenda a dar SORRY! - Usted dio TeamKill! Aprende a dar SORRY!
+[2018-02-25 21:44] !REPORT         performed by '[R] Malaquias': me passa pro MEC pfv
+[2018-02-25 21:44] !SWITCH         performed by '|ALC| JOFFRE' on '[R] Malaquias': Instantly
+[2018-02-25 21:45] !REPORT         performed by '[R] Malaquias': obg
+[2018-02-25 21:58] !TEMPBAN        performed by '|ALC| JOFFRE' on ' [NOOB]-MJ-Xibata': Voce desperdicou Asset! Vai treinar em CO-OP! - Desperdiciaste Asset! Vaya a entrenar en CO-OP!
+[2018-02-25 22:02] !REPORTP        performed by ' Matts'' on ' Zeus': monotripulando apc
+[2018-02-25 22:05] !MAPVOTE        performed by '[BAD] kaisertyr': Mapvote:    1: Gaza    2: Fallujah West    3: Korengal Valley   | Type '1', '2' or '3' in squad chat!
+[2018-02-25 22:06] !SETNEXT        performed by '[BAD] kaisertyr': Fallujah West (Insurgency, Std)
+[2018-02-25 22:12] !KICK           performed by '[BAD] kaisertyr' on '[UBGE] CB-franca': brefing
+[2018-02-25 22:14] !REPORT         performed by '[DATE] Saci-Lotti': porfavor me trocar para USMC, meu clan todo esta
+[2018-02-25 22:14] !SWITCH         performed by '=*V*= Mechanico0' on '[DATE] Saci-Lotti': Instantly
+[2018-02-25 22:15] !SWITCH         performed by '=*V*= Mechanico0' on ' Madrax': Instantly
+[2018-02-25 22:17] !REPORT         performed by '[RONE] SpezialKrafte': da switch nos caras do RONE pls
+[2018-02-25 22:17] !REPORT         performed by '[RONE] OliveiraPR': passe o matheus18 pra ca
+[2018-02-25 22:18] !SWITCH         performed by '=*V*= Mechanico0' on ' Fuck_Norris': Instantly
+[2018-02-25 22:18] !SWITCH         performed by '=*V*= Mechanico0' on ' vitorklock': Instantly
+[2018-02-25 22:28] !WARN           performed by '[BAD] kaisertyr' on ' [NOOB]eOCoringaa': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 22:28] !WARN           performed by '[BAD] kaisertyr' on 'UBGE*r DouglasBr': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 22:29] !WARN           performed by '[BAD] kaisertyr' on ' LoboGuara_naBR': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 22:29] !KICK           performed by '=*V*= Mechanico0' on '=*V*= NAVAL': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 22:29] !WARN           performed by '[BAD] kaisertyr' on ' caezabombero': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 22:30] !KICK           performed by '[BAD] kaisertyr' on ' [NOOB]eOCoringaa': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 22:31] !KICK           performed by '[BAD] kaisertyr' on 'UBGE*r DouglasBr': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 22:31] !KICK           performed by '[BAD] kaisertyr' on ' caezabombero': Voce estava AWAY! - Usted estaba AWAY! - You were AWAY!
+[2018-02-25 23:17] !REPORT         performed by '[BAD] SR.IRINEU': pedormar atirano a ase
+[2018-02-25 23:18] !KILL           performed by '[BAD] kaisertyr' on ' pedrolimabr': baderna na main
+[2018-02-25 23:20] !REPORT         performed by '=*V*= Mechanico0': VAI JOGAR A PROX KAISER?
+[2018-02-25 23:20] !REPORT         performed by '[BAD] kaisertyr': nop
+[2018-02-25 23:20] !REPORT         performed by '[BAD] kaisertyr': coloca o killer pra treinar
+[2018-02-25 23:20] !REPORT         performed by '[BAD] SR.IRINEU': pedrolima
+[2018-02-25 23:20] !KICK           performed by '[BAD] kaisertyr' on ' pedrolimabr': baderna
+[2018-02-25 23:24] !SETNEXT        performed by '=*V*= Mechanico0': Asad Khal (AAS, Std)
+[2018-02-25 23:24] !SETNEXT        performed by '=*V*= Mechanico0': Asad Khal (AAS, Alt)
+[2018-02-25 23:36] !REPORT         performed by '[BAD] SR.IRINEU': set map 174
