@@ -36,7 +36,7 @@ foreach($config['servers_list'] as $server_list){
         echo 'Saved';
 
         $content = date('Y-m-d H:i:s');
-        $fp = fopen( getenv("DOCUMENT_ROOT") . 'logs/'.$server_list['local_name'].'.timestamp',"wb");
+        $fp = fopen( './logs/'.$server_list['local_name'].'.timestamp',"wb");
         fwrite($fp,$content);
         fclose($fp);
         
