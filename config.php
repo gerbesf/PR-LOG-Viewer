@@ -5,18 +5,17 @@ require "app/Session.php";
 /* ----------- APP ---------- */
 $config['app'] = [
     'name'=>'PR LOG Viewer',
-    'desc'=>'The tool you can se the log by ONLY one CLICK! (actually with three clicks)' // old description
 ];
 
 /* ---------- DATE ---------- */
-$config['date_format']="d/m/Y";
+$config['date_format']="Y/m/d";
 $config['hour_format']="H:i:s";
 
 /* ---------- AUTH ---------- */
-$config['require_login'] = false;
+$config['require_login'] = true;
 $config['with_md5']=false;
 
-// Hide Full IP
+// Hide the last IP
 $config['hide_ips'] = false;
 
 /* --------- USERS --------- */
@@ -25,58 +24,46 @@ $config['auth'] = [
         'id' => 1,
         'username' => 'admin',
         'password' => 'admin',
-        'name'=>'Administrator'
+        'name'=>'Admin'
     ],
     1 => [
         'id' => 1,
-        'username' => 'custom',
-        'password' => 'custom',
-        'name'=>'Administrator'
+        'username' => 'user',
+        'password' => 'user',
+        'name'=>'User'
     ],
 ];
 
 /* --------- SERVERS --------- */
 $config['servers_list'][] = [
-    'id' => 1, // sequential please
-    'name' => 'DIVSUL-BR', // server display name
+    'id' => 1, // keep the sequential order
+    'name' => 'DIVSUL BR', // server name
 
     // log files
-    'path' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // for complete log, after restart
-    'active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // for active log, before restart
+    'active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // filelog 1
+    'path' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // filelog 2
 
     // hash files
-    'path_hash' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash_main.txt', // for complete log, after restart
-    'hash_active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash.txt', // for active log, before restart
+    'hash_active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash.txt', // filelog 1
+    'path_hash' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash_main.txt', // filelog 2
 
-    /* Windows Example
-    // log files
-    'path' => 'c:/server_log/ra_adminlog_main.txt', // for complete log, after restart
-    'active_log' => 'c:/server_log/ra_adminlog.txt', // for active log, before restart
-
-    // hash files
-    'path_hash' => 'c:/server_log/cdhash_main.txt', // for complete log, after restart
-    'hash_active_log' => 'c:/server_log/cdhash.txt', // for active log, before restart
-    */
-
-    'local_name' => 'divsul_01_main.txt', // local created base filename
+    'local_name' => 'divsul_br.txt', // file name for this server
 ];
-/*
- * $config['servers_list'][] = [
-        'id' => 2,
-        'name' => 'DIVSUL - US',
 
-        // log files
-        'path' => '',
-        'active_log' => '',
+$config['servers_list'][] = [
+    'id' => 2, // keep the sequential order
+    'name' => 'DIVSUL USA', // server name
 
-        // hash files
-        'path_hash' => '',
-        'hash_active_log' => '',
+    // log files
+    'active_log' => 'http://miaserver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // filelog 1
+    'path' => 'http://miaserver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // filelog 2
 
-        'local_name' => 'divsul_01_main.txt',
-    ];
+    // hash files
+    'hash_active_log' => 'http://miaserver.divsul.com:666/PRServer/logs/cdhash.txt', // filelog 1
+    'path_hash' => 'http://miaserver.divsul.com:666/PRServer/logs/cdhash_main.txt', // filelog 2
 
- */
+    'local_name' => 'divsul_usa.txt', // file name for this server
+];
 
 /* --------- COMMANDS --------- */
 $config['server_commands'] = [
@@ -127,7 +114,7 @@ $config['server_commands'] = [
     ],
     [
         'name' => 'HISTORY',
-        'color' => 'danger',
+        'color' => 'success',
         'value' => ['HISTORY',]
     ],
     [
@@ -137,35 +124,37 @@ $config['server_commands'] = [
     ],
     [
         'name' => 'SAY / SAYTEAM',
-        'color' => 'danger',
+        'color' => 'success',
         'value' => ['SAY','SAYTEAM']
     ],
     [
         'name' => 'SWITCH',
-        'color' => 'danger',
+        'color' => 'success',
         'value' => ['SWITCH']
     ],
-
+    [
+        'name' => 'SWAPTEAMS',
+        'color' => 'success',
+        'value' => 'SWAPTEAMS'
+    ],
     [
         'name' => 'FLY',
-        'color' => 'danger',
+        'color' => 'success',
         'value' => ['FLY']
     ],
-
     [
         'name' => 'UNBAN',
         'color' => 'danger',
         'value' => ['UNBAN']
     ],
-
     [
         'name' => 'INIT',
-        'color' => 'primary',
+        'color' => 'success',
         'value' => 'INIT'
     ],
     [
         'name' => 'RELOAD',
-        'color' => 'primary',
+        'color' => 'success',
         'value' => 'RELOAD'
     ],
     [
@@ -173,40 +162,30 @@ $config['server_commands'] = [
         'color' => 'warning',
         'value' => 'TICKETS'
     ],
-
     [
         'name' => 'TIMEBAN',
         'color' => 'danger',
         'value' => 'TIMEBAN'
     ],
-
     [
         'name' => 'STOPSERVER',
         'color' => 'danger',
         'value' => 'STOPSERVER'
     ],
-
     [
         'name' => 'MESSAGE',
-        'color' => 'danger',
+        'color' => 'success',
         'value' => 'MESSAGE'
     ],
-
     [
         'name' => 'KILL',
         'color' => 'danger',
         'value' => 'KILL'
     ],
-
     [
         'name' => 'RESIGNALL',
         'color' => 'danger',
         'value' => 'RESIGNALL'
-    ],
-    [
-        'name' => 'SWAPTEAMS',
-        'color' => 'danger',
-        'value' => 'SWAPTEAMS'
     ],
 ];
 
