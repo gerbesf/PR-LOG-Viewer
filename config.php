@@ -15,7 +15,7 @@ $config['hour_format']="H:i:s";
 $config['require_login'] = true;
 $config['with_md5']=false;
 
-// Hide the last IP
+// Hide the last two blocks from the IP
 $config['hide_ips'] = false;
 
 /* --------- USERS --------- */
