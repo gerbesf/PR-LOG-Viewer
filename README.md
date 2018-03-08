@@ -13,6 +13,7 @@ $config['hour_format']="H:i:s";
  
 #### Set your log file server
 You need to host the ra_adminlog.txt and cd_hash.log or have internally access to configure the link/folder on 'path'.
+
 Local file example for windows:
 'path' => 'c:/prserver/logs/ra_admin_or_cdhash.txt',
  

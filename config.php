@@ -42,7 +42,6 @@ $config['auth'] = [
 // Local file example for linux:
 // 'path' => '/home/prserver/logs/ra_admin_or_cdhash.txt',
 
-
 $config['servers_list'][] = [
     'id' => 1, // keep the sequential order
     'name' => 'DIVSUL BRA', // server name
