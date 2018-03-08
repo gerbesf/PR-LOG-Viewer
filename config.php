@@ -3,9 +3,7 @@ session_start();
 require "app/Session.php";
 
 /* ----------- APP ---------- */
-$config['app'] = [
-    'name'=>'PR LOG Viewer',
-];
+$config['app_name'] = 'PR LOG Viewer';
 
 /* ---------- DATE ---------- */
 $config['date_format']="Y/m/d";
