@@ -35,9 +35,16 @@ $config['auth'] = [
 ];
 
 /* --------- SERVERS --------- */
+
+// Local file example for windows:
+// 'path' => 'c:/prserver/logs/ra_admin_or_cdhash.txt',
+
+// Local file example for linux:
+// 'path' => 'c:/prserver/logs/ra_admin_or_cdhash.txt',
+
 $config['servers_list'][] = [
     'id' => 1, // keep the sequential order
-    'name' => 'DIVSUL BR', // server name
+    'name' => 'DIVSUL BRA', // server name
 
     // log files
     'active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // filelog 1
@@ -47,7 +54,7 @@ $config['servers_list'][] = [
     'hash_active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash.txt', // filelog 1
     'path_hash' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash_main.txt', // filelog 2
 
-    'local_name' => 'divsul_br.txt', // file name for this server
+    'local_name' => 'divsul_bra.txt', // file name for this server
 ];
 
 $config['servers_list'][] = [

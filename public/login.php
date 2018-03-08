@@ -64,8 +64,7 @@ if(isset($_POST['username'])){
 
                 <form action="login.php" method="post" class="form-horizontal m-t-20" role='form' name='formLogin' novalidate="">
 
-                    <h1><?php echo $config['app']['name']; ?></h1>
-                    <?php /*<p><?php echo $config['app']['desc']; ?></p> */ ?>
+                    <h1><?php echo $config['app_name']; ?></h1>
 
                     <?php
                             if(isset($message)){

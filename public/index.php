@@ -1,9 +1,7 @@
 <?php
 
-// config file
 require '../config.php';
-// sux session class and redirect
-$Session = new \App\Session();
+$Session = new \App\Session(); // sux session class and redirect
 if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
     return header('Location: login.php');
 }
@@ -65,6 +63,8 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
         .container { width: 98%!important; }
         <?php } ?>
 
+        .pl-3 { padding-left:10px}
+
     </style>
 </head>
 
@@ -79,12 +79,12 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
         <?php if( $GLOBALS['config']['require_login'] == true ) { ?>
 
         <div class="pull-right">
+
             Hello, <b><?php echo $_SESSION['user_name']; ?></b> <small><a href="logout.php">Logout</a></small>
         </div>
         <?php } ?>
 
-        <h1><?php echo $config['app']['name']; ?></h1>
-        <!--<p><?php echo $config['app']['desc']; ?></p>-->
+        <h1><?php echo $config['app_name']; ?></h1>
 
     </div>
 
@@ -393,6 +393,16 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
         </div>
     </div>
 
+
+    <div class="pull-right" style="opacity: 0.4; padding-top: 35px;">
+        <div class="pull-right">
+            <small class="text-muted pl-3">DIVSUL 2014-<?php echo date('Y'); ?></small>
+        </div>
+        <a class="github-button" href="https://github.com/gerbesf/PR-LOG-Viewer" aria-label="Watch gerbesf/PR-LOG-Viewer on GitHub"></a>
+        <a class="github-button" href="https://github.com/gerbesf/PR-LOG-Viewer/fork" data-icon="octicon-repo-forked" aria-label="Fork gerbesf/PR-LOG-Viewer on GitHub">Fork</a>
+        <a class="github-button" href="https://github.com/gerbesf/PR-LOG-Viewer/issues" data-icon="octicon-issue-opened" aria-label="Issue gerbesf/PR-LOG-Viewer on GitHub">Issue</a>
+    </div>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 </body>
 </html>

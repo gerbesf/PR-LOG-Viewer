@@ -30,7 +30,6 @@ foreach($GLOBALS['config']['servers_list'] as $server_list){
             $command_color = 'primary';
         }
 
-
         $file = explode ( '
 ', (mb_convert_encoding($curl, 'HTML-ENTITIES', "UTF-8")) );
         $index=0;
@@ -42,13 +41,13 @@ foreach($GLOBALS['config']['servers_list'] as $server_list){
             $line_command = trim(substr($line [0], 20));
             $data = trim(substr($line [0], 1, 16));
             $data_format = date_create(str_replace("'", '', $data));
-            
+
             $message_e = explode("': ", @$line[1]);
             if($checkMultiples>=2){
 
                 if ( in_array($line_command,$checkMultiples)) {
 
-                    $res[] = [
+                    $res[ $server_list['id'] ][] = [
                         'server'=>$server_list['name'],
                         'date' => date_format($data_format, $config['date_format']),
                         'hour' => date_format($data_format, $config['hour_format']),
@@ -64,7 +63,7 @@ foreach($GLOBALS['config']['servers_list'] as $server_list){
 
                 if ($line_command == $command_search or $command_search=='ALL') {
 
-                    $res[] = [
+                    $res[ $server_list['id'] ][] = [
                         'server'=>$server_list['name'],
                         'date' => date_format($data_format, $config['date_format']),
                         'hour' => date_format($data_format, $config['hour_format']),
@@ -84,6 +83,14 @@ foreach($GLOBALS['config']['servers_list'] as $server_list){
 
 }
 
+$final = [];
+
+foreach($res as $indexServer=>$values){
+    foreach(array_reverse($values) as $value){
+        array_push($final,$value);
+    }
+}
+
 echo json_encode([
-    'server_log'=>($res)
+    'server_log'=>($final)
 ]);

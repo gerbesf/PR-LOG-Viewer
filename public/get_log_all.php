@@ -2,11 +2,10 @@
 
 include "../config.php";
 header('Content-Type: application/json');
-
 $res = [];
+
 // list servers
 foreach($config['servers_list'] as $server_list){
-
 
     $servers_ids = explode(',',substr($_GET['server_id'],0,-1));
 
@@ -32,7 +31,7 @@ foreach($config['servers_list'] as $server_list){
             $search = $_GET['search_all'];
             $pattern = "/^.*".$search.".*\$/m";
             if (strpos(strtolower($linha), strtolower($search)) !== false) {
-                $res[] = [
+                $res[ $server_list['id'] ][] = [
                     'server'=>$server_list['name'],
                     'date' => date_format($data_format, $config['date_format']),
                     'hour' => date_format($data_format, $config['hour_format']),
@@ -44,16 +43,20 @@ foreach($config['servers_list'] as $server_list){
                 ];
             }
 
-
-
         }
 
     }
 
+}
 
+$final = [];
 
+foreach($res as $indexServer=>$values){
+    foreach(array_reverse($values) as $value){
+        array_push($final,$value);
+    }
 }
 
 echo json_encode([
-    'server_log'=>($res)
+    'server_log'=>($final)
 ]);
