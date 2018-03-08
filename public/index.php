@@ -9,7 +9,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
 <html lang="en" ng-app="App">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $config['app']['name']; ?></title>
+    <title><?php echo $config['app_name']; ?></title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
     <script src="https://code.angularjs.org/1.5.0/angular.min.js"></script>
     <script src="https://code.angularjs.org/1.5.0/angular-sanitize.min.js"></script>

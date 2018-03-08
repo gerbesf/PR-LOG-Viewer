@@ -42,7 +42,7 @@ if(isset($_POST['username'])){
 <head>
     <meta charset="UTF-8">
 
-    <title><?php echo $config['app']['name']; ?>Login Page</title>
+    <title><?php echo $config['app_name']; ?></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
     <script src="js/custom.js"></script>
