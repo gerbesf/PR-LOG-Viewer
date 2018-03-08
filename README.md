@@ -17,7 +17,7 @@ Local file example for windows:
 'path' => 'c:/prserver/logs/ra_admin_or_cdhash.txt',
  
 Local file example for linux:
-'path' => 'c:/prserver/logs/ra_admin_or_cdhash.txt',
+'path' => '/home/prserver/logs/ra_admin_or_cdhash.txt',
 ```php
 /* --------- SERVERS --------- */
 $config['servers_list'][] = [

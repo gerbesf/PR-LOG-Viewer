@@ -40,7 +40,8 @@ $config['auth'] = [
 // 'path' => 'c:/prserver/logs/ra_admin_or_cdhash.txt',
 
 // Local file example for linux:
-// 'path' => 'c:/prserver/logs/ra_admin_or_cdhash.txt',
+// 'path' => '/home/prserver/logs/ra_admin_or_cdhash.txt',
+
 
 $config['servers_list'][] = [
     'id' => 1, // keep the sequential order
