@@ -2,7 +2,6 @@
 
 // config file
 require '../config.php';
-
 // sux session class and redirect
 $Session = new \App\Session();
 if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
@@ -61,7 +60,6 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
         .footer { margin-top: 30px;}
 
         .modal-lg { width: 100%!important; }
-
 
         <?php if( $GLOBALS['config']['full_width'] == true ) { ?>
         .container { width: 98%!important; }
@@ -206,9 +204,6 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                         </div>
                     </div>
 
-
-
-
                     <form ng-submit="searchHash()">
 
                        <div class="input-group input-group-lg">
@@ -282,10 +277,6 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
     <div ng-show="loading_hash">
         Searching...
     </div>
-    <!--
-
-     ng-show="results_hash.length!=0 || results_hash!=[]"
-    -->
     <div   ng-show="results_hash.length!=0">
     <div  ng-show="tab=='player'" >
 
@@ -343,64 +334,64 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
     </div>
     </div>
 
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-    <div class="modal-dialog modal-lg">
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
 
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">History of: <b> {{ active_nickname }}</b></h4>
-            </div>
-            <div class="modal-body">
-                <div ng-show="result_player.server_log">
-                <div style="height: <?php echo $config['modal_height']; ?>; overflow-x: scroll">
-                    <table class="table table-condensed table-hover">
-                        <thead>
-                        <tr>
-                            <th>
-                                Server
-                            </th>
-                            <th>
-                                Date
-                            </th>
-                            <th>
-                                Command
-                            </th>
-                            <th>
-                                Authors
-                            </th>
-                            <th>
-                                Content
-                            </th>
-                        </tr>
-                        </thead>
-                        <tr ng-repeat="item in result_player.server_log">
-                            <td class="authors_td">
-                                {{ item.server }}
-                            </td>
-                            <td class="col-md-2">
-                                {{ item.date  }} <b>{{ item.hour }}</b>
-                            </td>
-                            <td class="col-md-1">
-                                <span class="text-{{ item.color }}">{{ item.command }}</span>
-                            </td>
-                            <td class="col-md-3 authors_td">
-                                <b>'{{ item.players }}'</b>
-                            </td>
-                            <td>
-                                {{ item.content }}
-                            </td>
-                        </tr>
-                    </table>
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">History of: <b> {{ active_nickname }}</b></h4>
                 </div>
+                <div class="modal-body">
+                    <div ng-show="result_player.server_log">
+                    <div style="height: <?php echo $config['modal_height']; ?>; overflow-x: scroll">
+                        <table class="table table-condensed table-hover">
+                            <thead>
+                            <tr>
+                                <th>
+                                    Server
+                                </th>
+                                <th>
+                                    Date
+                                </th>
+                                <th>
+                                    Command
+                                </th>
+                                <th>
+                                    Authors
+                                </th>
+                                <th>
+                                    Content
+                                </th>
+                            </tr>
+                            </thead>
+                            <tr ng-repeat="item in result_player.server_log">
+                                <td class="authors_td">
+                                    {{ item.server }}
+                                </td>
+                                <td class="col-md-2">
+                                    {{ item.date  }} <b>{{ item.hour }}</b>
+                                </td>
+                                <td class="col-md-1">
+                                    <span class="text-{{ item.color }}">{{ item.command }}</span>
+                                </td>
+                                <td class="col-md-3 authors_td">
+                                    <b>'{{ item.players }}'</b>
+                                </td>
+                                <td>
+                                    {{ item.content }}
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    </div>
                 </div>
             </div>
+
         </div>
-
     </div>
-</div>
 
 
 </body>

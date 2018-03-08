@@ -11,17 +11,14 @@ foreach($GLOBALS['config']['server_commands'] as $server_commands){
 }
 
 $res = [];
+
 // list servers
 foreach($GLOBALS['config']['servers_list'] as $server_list){
-
 
     $servers_ids = explode(',',substr($_GET['server_id'],0,-1));
 
     // Lock in active Server
     if( in_array($server_list['id'],$servers_ids) ){
-
-        // Execute Request on Server
-        #$curl = file_get_contents( $server_list['path'] );
 
         // Read on server
         $curl = file_get_contents( 'logs/'.$server_list['local_name']);
@@ -85,13 +82,8 @@ foreach($GLOBALS['config']['servers_list'] as $server_list){
 
     }
 
-    #$res = array_reverse($res);
-
-
-   // krsort($res);
-
 }
 
 echo json_encode([
-    'server_log'=>array_reverse($res)
+    'server_log'=>($res)
 ]);

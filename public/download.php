@@ -1,7 +1,6 @@
 <?php
 
 include "../config.php";
-//header('Content-Type: application/json');
 
 foreach($config['servers_list'] as $server_list){
 
@@ -32,7 +31,6 @@ foreach($config['servers_list'] as $server_list){
         // save active log
         file_put_contents('logs/hash_'.$server_list['local_name'],$curlDataHash.$curlDataActiveServerHash);
 
-        
         echo 'Saved';
 
         $content = date('Y-m-d H:i:s');

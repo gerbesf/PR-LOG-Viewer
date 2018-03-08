@@ -13,21 +13,14 @@ foreach($config['servers_list'] as $server_list){
     // Lock in active Server
     if( in_array($server_list['id'],$servers_ids) ){
 
-        // Execute Request on Server
-        #$curl = file_get_contents( $server_list['path'] );
-
         // Read on server
         $curl = file_get_contents( 'logs/'.$server_list['local_name']);
-
-       # $command_search = $_GET['command'];
-       # $checkMultiples = explode(',',$command_search);
 
         $file = explode ( '
 ', (mb_convert_encoding($curl, 'HTML-ENTITIES', "UTF-8")) );
         $index=0;
         foreach ( $file as $linha ) {
             
-        
             $index++;
             $line = explode('performed by', $linha);
             $line_command = trim(substr($line [0], 20));
@@ -62,5 +55,5 @@ foreach($config['servers_list'] as $server_list){
 }
 
 echo json_encode([
-    'server_log'=>array_reverse($res)
+    'server_log'=>($res)
 ]);

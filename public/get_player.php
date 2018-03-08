@@ -48,8 +48,6 @@ foreach($config['servers_list'] as $server_list){
             $results[$item[$g]][$unique_index] = $item;
         }
 
-
-
     }
 }
 
