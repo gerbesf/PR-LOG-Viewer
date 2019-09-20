@@ -1,7 +1,5 @@
 # PR LOG Viewer 1.1
  
-[LIVE DEMO](http://logs.divsul.com/adminpanel)
- 
 ## How to Configure (config.php)
  
 #### Set Date/Time format
