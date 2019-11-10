@@ -38,8 +38,6 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
             echo "window.checkTime('".$_SESSION['expires']."');";
         }
 
-        echo "window.timeZone = '".$config['timezone']."'";
-
         ?>
     </script>
     <style>
