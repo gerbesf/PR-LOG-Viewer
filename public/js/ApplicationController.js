@@ -1,5 +1,5 @@
 
-Application.controller('ApplicationController',['$scope','$filter','$http',function($scope,$filter,$http){
+Application.controller('ApplicationController',['$scope','$filter','$http','$interval',function($scope,$filter,$http,$interval){
 
     // lol params
     $scope.server_list = 1;
@@ -160,7 +160,6 @@ Application.controller('ApplicationController',['$scope','$filter','$http',funct
     // Execute download of log file
     $scope.downloadLog = function( server ){
 
-
         server.loading = true;
 
         console.log('Downloading '+server.id);
@@ -168,11 +167,31 @@ Application.controller('ApplicationController',['$scope','$filter','$http',funct
         // Execute download from request url
         $http.get('download.php?server_id='+server.id).success(function(data){
 
+            if(data.success==false){
+                alert(data.message);
+            }else{
+
+            }
             $scope.timeStamp(server);
 
         }).error(function(data,status){
             console.log('Error: '+status);
         });
     };
+
+    // Check session
+    $scope.checkSession = function() {
+        // Check Session URI
+        $http.get('get_session.php').success(function(data){
+            if(data.status!=true){
+                window.location = '/logout.php';
+            }
+        }).error(function(data,status){
+            window.location = '/logout.php';
+        });
+    }
+
+    // Interval to check Session
+    $interval( function(){ $scope.checkSession(); }, 10000);
 
 }]);
