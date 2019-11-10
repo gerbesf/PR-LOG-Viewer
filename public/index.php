@@ -10,9 +10,10 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
 <head>
     <meta charset="UTF-8">
     <title><?php echo $config['app_name']; ?></title>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-    <script src="https://code.angularjs.org/1.5.0/angular.min.js"></script>
-    <script src="https://code.angularjs.org/1.5.0/angular-sanitize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.7/angular-sanitize.js"></script>
     <script src="js/app.js"></script>
     <script src="js/ApplicationController.js?v=1.1"></script>
 
@@ -30,6 +31,11 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
         // servers commands
         $server_commands = json_encode($config['server_commands']);
         echo "var server_commands = ". $server_commands . ";\n";
+
+        if( isset($_SESSION['expires']) ){
+            echo "console.log('session valid to: ".$_SESSION['expires']."');";
+        }
+
         ?>
     </script>
     <style>

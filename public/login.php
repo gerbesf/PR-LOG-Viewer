@@ -14,6 +14,8 @@ if(isset($_POST['username'])){
                 if($auth['password']==$_POST['password']){
                     $_SESSION['user_id']    = $auth['id'];
                     $_SESSION['user_name']  = $auth['name'];
+                    $_SESSION['uid']=md5($auth['password']);
+                    $_SESSION['expires']  = date('Y-m-d H:i:s', strtotime(date('Y-m-d H:i:s'). ' + 30 minute'));
                     echo header('Location: index.php');
                 }else{
                     $message = 'User name or password incorrect.';
@@ -43,16 +45,18 @@ if(isset($_POST['username'])){
     <meta charset="UTF-8">
 
     <title><?php echo $config['app_name']; ?></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.7/angular-sanitize.js"></script>
+
     <script src="js/app.js"></script>
     <script src="js/LoginController.js"></script>
     <link href='style/template.css' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
 </head>

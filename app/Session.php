@@ -51,9 +51,22 @@ class Session
     public function isLogged()
     {
         if($this->user_id!=null){
+            if( $this->checkSession() ) return $this->checkSession();
             return true;
         }
         return false;
+    }
+
+    /**
+     * Check Session
+     */
+    public function checkSession(){
+
+        // Expiration Date
+        if($_SESSION['expires']<=date('Y-m-d H:i:s')){
+            session_destroy();
+            return header('Location: index.php');
+        }
     }
 
 }
