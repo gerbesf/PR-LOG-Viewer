@@ -32,12 +32,6 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
         // servers commands
         $server_commands = json_encode($config['server_commands']);
         echo "var server_commands = ". $server_commands . ";\n";
-
-        if( isset($_SESSION['expires']) ){
-            echo "console.log('session valid to: ".$_SESSION['expires']."');";
-            echo "window.checkTime('".$_SESSION['expires']."');";
-        }
-
         ?>
     </script>
     <style>
