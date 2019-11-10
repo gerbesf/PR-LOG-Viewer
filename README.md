@@ -1,4 +1,4 @@
-# PR LOG Viewer 1.1
+# PR LOG Viewer 1.2
  
 ## How to Configure (config.php)
  
@@ -7,6 +7,11 @@ Configure the date/time format.
 ```php
 $config['date_format']="Y-m-d";
 $config['hour_format']="H:i:s";
+```
+Configure expiration.
+```php
+// Expiration time examples: 4 hours, 20 hours, 10 seconds
+$config['expiration_time'] = '30 minutes';
 ```
  
 #### Set your log file server

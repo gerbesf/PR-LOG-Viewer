@@ -4,6 +4,7 @@ require "app/Session.php";
 
 /* ----------- APP ---------- */
 $config['app_name'] = 'PR LOG Viewer';
+$config['expiration_time'] = '30 minutes'; // 1 hour, 30 days, 10 seconds
 
 /* ---------- DATE ---------- */
 $config['date_format']="Y/m/d";

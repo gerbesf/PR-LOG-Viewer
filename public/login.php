@@ -14,8 +14,7 @@ if(isset($_POST['username'])){
                 if($auth['password']==$_POST['password']){
                     $_SESSION['user_id']    = $auth['id'];
                     $_SESSION['user_name']  = $auth['name'];
-                    $_SESSION['uid']=md5($auth['password']);
-                    $_SESSION['expires']  = date('Y-m-d H:i:s', strtotime(date('Y-m-d H:i:s'). ' + 30 minute'));
+                    $_SESSION['expires']  = date('Y-m-d H:i:s', strtotime(date('Y-m-d H:i:s'). ' + '. $config['expiration_time'] ?: '30 minute'));
                     echo header('Location: index.php');
                 }else{
                     $message = 'User name or password incorrect.';
