@@ -18,9 +18,10 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
     <script src="js/ApplicationController.js?v=1.1"></script>
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css" >
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
 
     <script>
@@ -35,19 +36,19 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
         ?>
     </script>
     <style>
-        /* Label of name server */
+        /*!* Label of name server *!
         .labelServer {
             font-size:25px;
             line-height: 40px;
             cursor: pointer;
         }
 
-        /* no break line on author collum */
+        !* no break line on author collum *!
         .authors_td {
             white-space: nowrap;
         }
 
-        /* block padding fix */
+        !* block padding fix *!
         .tab-block {
             padding:10px 0;
         }
@@ -65,7 +66,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
         .container { width: 98%!important; }
         <?php } ?>
 
-        .pl-3 { padding-left:10px}
+        .pl-3 { padding-left:10px}*/
 
     </style>
 </head>
@@ -74,81 +75,94 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
 <body ng-controller="ApplicationController">
 
 <!-- load contents on angular js -->
-<div class="container" ng-init="loadContents()">
+<div class="" ng-init="loadContents()">
 
-    <div class="row-fluid">
-        <?php /* if login is required */ ?>
-        <?php if( $GLOBALS['config']['require_login'] == true ) { ?>
+    <div class="shadow-sm">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-md-9">
+                    <h1 class="m-2"><?php echo $config['app_name']; ?></h1>
+                </div>
+                <div class="col-md-3">
 
-        <div class="pull-right">
+                    <div class="p-4">
+                        <?php /* if login is required */ ?>
+                        <?php if( $GLOBALS['config']['require_login'] == true ) { ?>
+                            <div class="pull-right">
+                                Hello, <b><?php echo $_SESSION['user_name']; ?></b> <small><a href="logout.php">Logout</a></small>
+                            </div>
+                        <?php } ?>
+                    </div>
 
-            Hello, <b><?php echo $_SESSION['user_name']; ?></b> <small><a href="logout.php">Logout</a></small>
+                </div>
+            </div>
         </div>
-        <?php } ?>
-
-        <h1><?php echo $config['app_name']; ?></h1>
-
     </div>
 
-        <div class="row">
+    <div class="container p-4">
+    <div class="row">
 
-            <div class="col-md-6">
-
-                <h3>Choose the Server ( {{ selected_server.length }}  <span ng-if="selected_server.length==1">server</span> <span ng-if="selected_server.length>=2">servers</span> selected )</h3>
-
-                <ul class="list-group">
-                    <li  class="list-group-item"  ng-click="toogleServer(server.id)" ng-class="{'active':inArray(server.id)==true}" ng-repeat="server in server_list">
-                        <label class="labelServer" >
-                            {{ server.name }}
-                        </label>
-                        <button class="btn btn-xs btn-primary pull-right" ng-click="setServer(server);downloadLog(server);toogleServer(server.id)">
-                            <div ng-show="server.loading">Loading</div>
-                            <div ng-hide="server.loading">
+        <div class="col-md-12">
+            <h5 class="mb-3">Choose the Server ( {{ selected_server.length }}  <span ng-if="selected_server.length==1">server</span> <span ng-if="selected_server.length>=2">servers</span> selected )</h5>
+            <ul class="list-group cursor">
+                <li  class="list-group-item py-1"  ng-click="toogleServer(server.id)" ng-class="{'bg-light':inArray(server.id)==true}" ng-repeat="server in server_list">
+                    <div class="float-left p-1 font-weight-bold" >
+                        {{ server.name }}
+                    </div>
+                    <button class="btn btn-link  float-right" ng-click="setServer(server);downloadLog(server);toogleServer(server.id)">
+                        <div ng-show="server.loading">Loading</div>
+                        <div ng-hide="server.loading">
                             <small><span class="fa fa-time"> </span> Updated on: <span ng-if="!server.timestamp">loading...</span> {{ server.timestamp }}</small>
-                            </div>
-                        </button>
-                    </li>
-                </ul>
+                        </div>
+                    </button>
+                </li>
+            </ul>
+        </div>
 
-            </div>
-
-            <div class="col-md-6" ng-hide="selected_server.length==0">
-
+            <div class="col-md-12" ng-hide="selected_server.length==0">
                 <div style="height: 17px"></div>
                 <!-- tabs -->
-                    <label ng-click="tab='default';results=[];results_hash=[]" >
-                        <input type="radio" name="tab" ng-checked="tab=='default'" >
-                        Admin Logs
-                    </label>
-                    <label  ng-click="tab='player';results=[];results_hash=[]">
-                        <input  type="radio"  name="tab"  ng-checked="tab=='player'" >
-                        Player Logs
-                    </label>
+
+                <div class="row justify-content-center mb-2">
+                    <div class="col-md-3 text-center">
+                        <label ng-click="tab='default';results=[];results_hash=[]" >
+                            <input type="radio" name="tab" ng-checked="tab=='default'" >
+                            Admin Logs
+                        </label>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <label  ng-click="tab='player';results=[];results_hash=[]">
+                            <input  type="radio"  name="tab"  ng-checked="tab=='player'" >
+                            Player Logs
+                        </label>
+                    </div>
+                </div>
 
                 <div class="tab-block" ng-show="tab=='default'">
-
+                    <div style="height: 300px; width: 100%; overflow-y: scroll">
                     <ul class="list-group divide-col" >
                         <li  class="list-group-item"   ng-click="setCommand(command.value)" ng-class="{'active':active_command==command.value}" ng-repeat="command in server_commands">
-                            <label>
+                            <label class="p-0 m-0">
                                 {{ command.name }}
                             </label>
                         </li>
                     </ul>
+                        <ul class="list-group mt-3" >
+                            <li  class="list-group-item"   ng-click="setCommand('ALL')" ng-class="{'active':active_command=='ALL'}">
+                                <label>
+                                    ALL COMMANDS PER PLAYER
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
 
-                    <ul class="list-group" >
-                        <li  class="list-group-item"   ng-click="setCommand('ALL')" ng-class="{'active':active_command=='ALL'}">
-                            <label>
-                                ALL COMMANDS PER PLAYER
-                            </label>
-                        </li>
-                    </ul>
 
                     <div ng-if="active_command=='ALL'">
 
                         <div class="input-group input-group-lg">
                             <input type="text" name="search_fall" id="search_fall" class="form-control"  ng-model="search_fall" placeholder="Search in all data">
                             <span class="input-group-btn">
-                                <button class="btn btn-default" ng-click="searchAllCommands()" ng-disabled="selected_server.length==0 || search_all.length==0"  type="button">Search!</button>
+                                <button class="btn btn-success btn-lg" ng-click="searchAllCommands()" ng-disabled="selected_server.length==0 || search_all.length==0"  type="button">Search</button>
                               </span>
                         </div><!-- /input-group -->
                         <br>
@@ -156,7 +170,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                     </div>
 
                     <div ng-if="active_command!='ALL'">
-                    <button class="btn btn-default btn-lg btn-block" ng-click="showLog()" ng-disabled="selected_server.length==0 || active_command==null" >Show log</button>
+                        <button class="btn btn-success btn-lg btn-block" ng-click="showLog()" ng-disabled="selected_server.length==0 || active_command==null" >Show log</button>
                     </div>
 
                 </div>
@@ -208,137 +222,171 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
 
                     <form ng-submit="searchHash()">
 
-                       <div class="input-group input-group-lg">
-                           <input type="text" class="form-control" id="search"  ng-click="results_hash=[]" ng-model="search" placeholder="Search for...">
-                           <span class="input-group-btn">
-                        <button class="btn btn-default" ng-click="searchHash()" ng-disabled="selected_server.length==0 || search.length==0"  type="button">Search!</button>
+                        <div class="input-group input-group-lg mt-3" >
+                            <input type="text" class="form-control" id="search"  ng-click="results_hash=[]" ng-model="search" placeholder="Search for...">
+                            <span class="input-group-btn">
+                        <button class="btn btn-success btn-lg" ng-click="searchHash()" ng-disabled="selected_server.length==0 || search.length==0"  type="button">Search!</button>
                       </span>
-                       </div><!-- /input-group -->
-                   </form>
+                        </div><!-- /input-group -->
+                    </form>
 
                 </div>
 
             </div>
 
-        </div>
+
+    </div>
+    </div>
+
+
+    <div class="container p-4">
         <div class="row"  ng-hide="selected_server.length==0"  ng-show="tab=='default'">
             <div class="col-md-12">
-               <div ng-show="loading">
+                <div ng-show="loading">
                     <img src="images/loading.gif"><br>
                     Loading
                 </div>
                 <div ng-show="results.server_log">
 
                     <div class="well well-sm" ng-init="filter_list=''">
-
                         <input class="form-control" ng-model="filter_list" class="form-control form-lg" placeholder="Filter">
 
                     </div>
-                    <table class="table table-condensed table-hover">
-                            <thead>
-                            <tr>
-                                <th style="width: 100px">
-                                    Server
-                                </th>
-                                <th style="width: 100px">
-                                    Date
-                                </th>
-                                <th style="width: 100px">
-                                    Command
-                                </th>
-                                <th>
-                                    Authors
-                                </th>
-                                <th>
-                                    Content
-                                </th>
-                            </tr>
-                            </thead>
-                            <tr ng-repeat="item in results.server_log | filter:filter_list">
-                                <td class="authors_td">
-                                    {{ item.server }}
-                                </td>
-                                <td class="col-md-2">
-                                    {{ item.date  }} <b>{{ item.hour }}</b>
-                                </td>
-                                <td class="col-md-1">
-                                    <span class="text-{{ item.color }}">{{ item.command }}</span>
-                                </td>
-                                <td class="col-md-3 authors_td">
-                                    <b>'{{ item.players }}'</b>
-                                </td>
-                                <td>
-                                    {{ item.content }}
-                                </td>
-                            </tr>
-                        </table>
+                    <table class="table table-hover table-sm small">
+                        <thead>
+                        <tr>
+                            <th style="width: 100px">
+                                Server
+                            </th>
+                            <th >
+                                Date
+                            </th>
+                            <th >
+                                Command
+                            </th>
+                            <th>
+                                Authors
+                            </th>
+                            <th>
+                                Content
+                            </th>
+                        </tr>
+                        </thead>
+                        <tr ng-repeat="item in results.server_log | filter:filter_list">
+                            <td >
+                                {{ item.server }}
+                            </td>
+                            <td>
+                                {{ item.date  }} <b>{{ item.hour }}</b>
+                            </td>
+                            <td >
+                                <span class="text-{{ item.color }}">{{ item.command }}</span>
+                            </td>
+                            <td>
+                                <b>'{{ item.players }}'</b>
+                            </td>
+                            <td>
+                                {{ item.content }}
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
 
-    <div ng-show="loading_hash">
-        Searching...
-    </div>
-    <div   ng-show="results_hash.length!=0">
-    <div  ng-show="tab=='player'" >
+        <div ng-show="loading_hash">
+            Searching...
+        </div>
+        <div   ng-show="results_hash.length!=0">
+            <div  ng-show="tab=='player'" >
 
-        <table class="table table-condensed table-hover">
-            <thead>
-            <tr>
-                <th>
-                    Server
-                </th>
-                <th>
-                    Date
-                </th>
-                <th>
-                    Hash
-                </th>
-                <th>
-                    Nickname
-                </th>
-                <th>
-                    Ip Address
-                </th>
-            </tr>
-            </thead>
-            <tbody  ng-repeat="(keyGroup,lines) in results_hash">
+                <table class="table table-hover table-sm small">
+                    <thead>
+                    <tr>
+                        <th>
+                            Server
+                        </th>
+                        <th>
+                            Date
+                        </th>
+                        <th>
+                            Hash
+                        </th>
+                        <th>
+                            State
+                        </th>
+                        <th>
+                            Steam Level
+                        </th>
+                        <th>
+                            Nickname
+                        </th>
+                        <th>
+                            Ip Address
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody  ng-repeat="(keyGroup,lines) in results_hash">
 
-            <tr>
-                <td colspan="5" style="background: #ddd">
-                    <b ng-show="group_by=='nick'">Nick:</b>
-                    <b ng-show="group_by=='hash'">Hash:</b>
-                    <b ng-show="group_by=='data'">Data:</b>
-                    <b ng-show="group_by=='ip'">IP:</b>
-                    {{ keyGroup  }}
-                </td>
-            </tr>
-            <tr ng-repeat="line in lines">
-                <td>
-                    {{ line.server }}
-                </td>
-                <td>
-                    {{ line.data }}
-                </td>
-                <td>
-                    {{ line.hash  }}
-                </td>
-                <td>
-                    <a ng-click="getPlayerInfo(line.nick)" data-toggle="modal" data-target="#myModal" >{{ line.nick  }}</a>
-                </td>
-                <td>
-                    <img style="width: 32px;" ng-src="./flag.php?ip={{ line.ip  }}">
-                    {{ line.ip  }}
-                </td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+                    <tr>
+                        <td colspan="7" style="background: #eeeeee">
+                            <b ng-show="group_by=='nick'">Nick:</b>
+                            <b ng-show="group_by=='hash'">Hash:</b>
+                            <b ng-show="group_by=='data'">Data:</b>
+                            <b ng-show="group_by=='ip'">IP:</b>
+                            {{ keyGroup  }}
+                        </td>
+                    </tr>
+                    <tr ng-repeat="line in lines">
+                        <td>
+                            {{ line.server }}
+                        </td>
+                        <td>
+                            {{ line.data }}
+                        </td>
+                        <td>
+                            <code>{{ line.hash  }}</code>
+                        </td>
+                        <td>
+                            <div ng-if="line.tags.length==0"><span class="badge badge-warning">New Account</span></div>
+                            <div ng-repeat="tag in  line.tags ">
+                        <span class="badge badge-success" ng-if="tag==='LEGACY'">
+                            Legacy
+                        </span>
+                                <div class="badge badge-danger"  ng-if="tag==='VAC BANNED'">
+                                    Vac Banned
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                        <span class="badge badge-danger" ng-if="line.steam_level==='0'">
+                            High risk
+                        </span>
+                            <span class="badge badge-info" ng-if="line.steam_level==='1'">
+                            Medium risk
+                        </span>
+                            <span class="badge badge-success" ng-if="line.steam_level==='2'">
+                            Low risk
+                        </span>
+                        </td>
+                        <td>
+                            <a ng-click="getPlayerInfo(line.nick)" data-toggle="modal" data-target="#myModal" >{{ line.nick  }}</a>
+                        </td>
+                        <td>
+                            <img style="width: 24px;" ng-src="./flag.php?ip={{ line.ip  }}">
+                            {{ line.ip  }}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
     </div>
 
     <!-- Modal -->
     <div id="myModal" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog" style="max-width: 100%!important;">
 
             <!-- Modal content-->
             <div class="modal-content">
@@ -348,46 +396,46 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                 </div>
                 <div class="modal-body">
                     <div ng-show="result_player.server_log">
-                    <div style="height: <?php echo $config['modal_height']; ?>; overflow-x: scroll">
-                        <table class="table table-condensed table-hover">
-                            <thead>
-                            <tr>
-                                <th>
-                                    Server
-                                </th>
-                                <th>
-                                    Date
-                                </th>
-                                <th>
-                                    Command
-                                </th>
-                                <th>
-                                    Authors
-                                </th>
-                                <th>
-                                    Content
-                                </th>
-                            </tr>
-                            </thead>
-                            <tr ng-repeat="item in result_player.server_log">
-                                <td class="authors_td">
-                                    {{ item.server }}
-                                </td>
-                                <td class="col-md-2">
-                                    {{ item.date  }} <b>{{ item.hour }}</b>
-                                </td>
-                                <td class="col-md-1">
-                                    <span class="text-{{ item.color }}">{{ item.command }}</span>
-                                </td>
-                                <td class="col-md-3 authors_td">
-                                    <b>'{{ item.players }}'</b>
-                                </td>
-                                <td>
-                                    {{ item.content }}
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div style="height: <?php echo $config['modal_height']; ?>; overflow-x: scroll">
+                            <table class="table table-condensed table-hover">
+                                <thead>
+                                <tr>
+                                    <th>
+                                        Server
+                                    </th>
+                                    <th>
+                                        Date
+                                    </th>
+                                    <th>
+                                        Command
+                                    </th>
+                                    <th>
+                                        Authors
+                                    </th>
+                                    <th>
+                                        Content
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tr ng-repeat="item in result_player.server_log">
+                                    <td class="">
+                                        {{ item.server }}
+                                    </td>
+                                    <td class="">
+                                        {{ item.date  }} <b>{{ item.hour }}</b>
+                                    </td>
+                                    <td class="">
+                                        <span class="text-{{ item.color }}">{{ item.command }}</span>
+                                    </td>
+                                    <td class="">
+                                        <b>'{{ item.players }}'</b>
+                                    </td>
+                                    <td>
+                                        {{ item.content }}
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -396,15 +444,16 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
     </div>
 
 
-    <div class="pull-right" style="opacity: 0.4; padding-top: 35px;">
-        <div class="pull-right">
+    <div  style="opacity: 0.4; padding-top: 35px;">
+        <div class="text-center">
             <small class="text-muted pl-3">DIVSUL 2014-<?php echo date('Y'); ?></small>
         </div>
-        <a class="github-button" href="https://github.com/gerbesf/PR-LOG-Viewer" aria-label="Watch gerbesf/PR-LOG-Viewer on GitHub"></a>
+        <!--<a class="github-button" href="https://github.com/gerbesf/PR-LOG-Viewer" aria-label="Watch gerbesf/PR-LOG-Viewer on GitHub"></a>
         <a class="github-button" href="https://github.com/gerbesf/PR-LOG-Viewer/fork" data-icon="octicon-repo-forked" aria-label="Fork gerbesf/PR-LOG-Viewer on GitHub">Fork</a>
-        <a class="github-button" href="https://github.com/gerbesf/PR-LOG-Viewer/issues" data-icon="octicon-issue-opened" aria-label="Issue gerbesf/PR-LOG-Viewer on GitHub">Issue</a>
+        <a class="github-button" href="https://github.com/gerbesf/PR-LOG-Viewer/issues" data-icon="octicon-issue-opened" aria-label="Issue gerbesf/PR-LOG-Viewer on GitHub">Issue</a>-->
     </div>
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <!--<script async defer src="https://buttons.github.io/buttons.js"></script>-->
 
 </body>
 </html>

@@ -55,22 +55,24 @@ echo json_encode($results);
 
 function explodeLine($line){
 
-    $data = substr($line,1,16).':00';
-    $hash = substr($line,19,32);
-    $nick_ip = explode('  ',substr($line,52,100));
+    $params_line = explode("\t",$line);
 
-    $ip = $nick_ip[1];
-    if($GLOBALS['config']['hide_ips']==true){
-        $eIp = explode('.',$nick_ip[1]);
-        $ip = $eIp[0].'.'.$eIp['1'].'.'.str_repeat('0',strlen($eIp['2'])).'.'.str_repeat('0',strlen($eIp['2']));
-    }
+    $data = substr($params_line[0],1,16).':00';
+    $hash = $params_line[1];
+    $steam_level = $params_line[2];
+    $nickname = $params_line[3];
+    $entity_date = $params_line[4];
+    $ip = $params_line[5];
+    $tags = array_filter(explode(')',str_replace('(','',trim($params_line[6]))));
 
     return [
         'data_index'=>date($GLOBALS['config']['date_format'],strtotime($data)),
         'data'=>date($GLOBALS['config']['date_format'].' '.$GLOBALS['config']['hour_format'],strtotime($data)),
         'hash'=>$hash,
-        'nick'=>$nick_ip[0],
+        'nick'=>$nickname,
         'ip'=>$ip,
+        'tags'=>$tags,
+        'steam_level'=>$steam_level,
     ];
 
 }
