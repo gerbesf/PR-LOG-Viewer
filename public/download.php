@@ -7,45 +7,58 @@ try{
 
 foreach($config['servers_list'] as $server_list){
 
-    // Lock in active Server
-    if($server_list['id']==$_GET['server_id']){
 
-        // download full log
-        $curlData = file_get_contents( $server_list['path'] );
-        if(!$curlData) throw new \Exception('Downloader error');
+		
+		// Lock in active Server
+		if($server_list['id']==$_GET['server_id']){
 
-        // download active log
-        $curlDataActiveServer = '';
-        if( $server_list['active_log'] ) {
-            $curlDataActiveServer = file_get_contents( $server_list['active_log'] );
-        }
+			// download full log
+			$curlData = file_get_contents( $server_list['path'] );
+			if(!$curlData) throw new \Exception('Downloader error');
 
-        // save active log
-        file_put_contents('logs/'.$server_list['local_name'],$curlData.$curlDataActiveServer);
+			// download active log
+			$curlDataActiveServer = '';
+			if( $server_list['active_log'] ) {
+				$curlDataActiveServer = @file_get_contents( $server_list['active_log'] );
+			}
+			
+			if(strlen($curlDataActiveServer)==0){
+					echo json_encode([
+						'success'=>false,
+						'message'=>'Failed to read files. Check your config.php',
+					]);
+					exit();
+			}
+			#var_dump(strlen($curlDataActiveServer));
 
-        // download full hash players
-        $curlDataHash = file_get_contents( $server_list['path_hash'] );
+			// save active log
+			file_put_contents('logs/'.$server_list['local_name'],$curlData.$curlDataActiveServer);
 
-        // download active hash players
-        $curlDataActiveServerHash = '';
-        if( $server_list['hash_active_log'] ) {
-            $curlDataActiveServerHash = file_get_contents( $server_list['hash_active_log'] );
-        }
+			// download full hash players
+			$curlDataHash = file_get_contents( $server_list['path_hash'] );
 
-        // save active log
-        file_put_contents('logs/hash_'.$server_list['local_name'],$curlDataHash.$curlDataActiveServerHash);
+			// download active hash players
+			$curlDataActiveServerHash = '';
+			if( $server_list['hash_active_log'] ) {
+				$curlDataActiveServerHash = file_get_contents( $server_list['hash_active_log'] );
+			}
 
-        $content = date('Y-m-d H:i:s');
-        $fp = fopen( './logs/'.$server_list['local_name'].'.timestamp',"wb");
-        fwrite($fp,$content);
-        fclose($fp);
+			// save active log
+			file_put_contents('logs/hash_'.$server_list['local_name'],$curlDataHash.$curlDataActiveServerHash);
 
-        echo json_encode([
-            'success'=>true,
-            'message'=>'Success on download',
-        ]);
-        
-    }
+			$content = date('Y-m-d H:i:s');
+			$fp = fopen( './logs/'.$server_list['local_name'].'.timestamp',"wb");
+			fwrite($fp,$content);
+			fclose($fp);
+
+			echo json_encode([
+				'success'=>true,
+				'message'=>'Success on download',
+			]);
+			
+
+	
+    } 
     
 }
 
