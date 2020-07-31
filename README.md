@@ -1,4 +1,4 @@
-# PR LOG Viewer 1.3
+# PR LOG Viewer 1.3.2
  
 ## How to Configure (config.php)
  
