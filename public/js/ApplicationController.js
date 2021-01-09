@@ -184,10 +184,10 @@ Application.controller('ApplicationController',['$scope','$filter','$http','$int
         // Check Session URI
         $http.get('get_session.php').success(function(data){
             if(data.status!=true){
-                window.location = '/logout.php';
+                window.location = './logout.php';
             }
         }).error(function(data,status){
-            window.location = '/logout.php';
+            window.location = './logout.php';
         });
     }
 

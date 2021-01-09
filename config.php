@@ -45,31 +45,41 @@ $config['servers_list'][] = [
     'id' => 1, // keep the sequential order
     'name' => 'DIVSUL BRA', // server name
 
-    // log files
-    'active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // filelog 1
-    'path' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // filelog 2
+    // Administration Log Files
+    'ra_adminlog' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog.txt',
+    'ra_adminlog_main' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt',
 
-    // hash files
-    'hash_active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash.txt', // filelog 1
-    'path_hash' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash_main.txt', // filelog 2
+    // Players Hash Files
+    'cdhash' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash.txt',
+    'cdhash_main' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash_main.txt',
+
+    // Server Files
+    'whitelist' => 'http://sposerver.divsul.com:666/PRServer/logs/whitelist.txt',
+    'banlist' => 'http://sposerver.divsul.com:666/PRServer/logs/banlist.con',
 
     'local_name' => 'divsul_bra.txt', // file name for this server
 ];
 
+// Example second server
+/*
 $config['servers_list'][] = [
     'id' => 2, // keep the sequential order
     'name' => 'DIVSUL USA', // server name
 
-    // log files
-    'active_log' => 'http://miaserver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // filelog 1
-    'path' => 'http://miaserver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // filelog 2
+    'ra_adminlog' => 'http://miaserver.divsul.com:666/PRServer/logs/ra_adminlog.txt',
+    'ra_adminlog_main' => 'http://miaserver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt',
 
-    // hash files
-    'hash_active_log' => 'http://miaserver.divsul.com:666/PRServer/logs/cdhash.txt', // filelog 1
-    'path_hash' => 'http://miaserver.divsul.com:666/PRServer/logs/cdhash_main.txt', // filelog 2
+    // Players Hash Files
+    'cdhash' => 'http://miaserver.divsul.com:666/PRServer/logs/cdhash.txt',
+    'cdhash_main' => 'http://miaserver.divsul.com:666/PRServer/logs/cdhash_main.txt',
+
+    // Server Files
+    'whitelist' => 'http://miaserver.divsul.com:666/PRServer/logs/whitelist.txt',
+    'banlist' => 'http://miaserver.divsul.com:666/PRServer/logs/banlist.con',
 
     'local_name' => 'divsul_usa.txt', // file name for this server
 ];
+*/
 
 /* --------- COMMANDS --------- */
 $config['server_commands'] = [
@@ -77,6 +87,11 @@ $config['server_commands'] = [
         'name' => 'SETNEXT',
         'color' => 'success',
         'value' => ['SETNEXT']
+    ],
+    [
+        'name' => 'RUNNEXT',
+        'color' => 'danger',
+        'value' => ['RUNNEXT']
     ],
     [
         'name' => 'MAPVOTE',

@@ -6,3 +6,23 @@
 .modal-lg, .modal-xl {
     max-width: 100%!important;
 }
+
+.list-group-item {
+    padding: 3px 10px!important;
+}
+
+.list-group-item label {
+    margin:0
+}
+
+.list-group-item:last-child {
+    margin-bottom: 20px;
+}
+
+.modal-header .close {
+    margin: 0;
+}
+
+.table-sm {
+    font-size: 11px;
+}

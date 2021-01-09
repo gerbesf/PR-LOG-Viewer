@@ -5,67 +5,86 @@ header('Content-Type: application/json');
 
 try{
 
-foreach($config['servers_list'] as $server_list){
+    foreach($config['servers_list'] as $server_list){
 
+        // Lock in active Server
+        if($server_list['id']==$_GET['server_id']){
 
-		
-		// Lock in active Server
-		if($server_list['id']==$_GET['server_id']){
+            saveLogFiles( $server_list );
+            saveHashFiles( $server_list );
+            saveServerFiles( $server_list );
 
-			// download full log
-			$curlData = file_get_contents( $server_list['path'] );
-			if(!$curlData) throw new \Exception('Downloader error');
+            // registra o tempo
+            $content = date('Y-m-d H:i:s');
+            $fp = fopen( './logs/'.$server_list['local_name'].'.timestamp',"wb");
+            fwrite($fp,$content);
+            fclose($fp);
 
-			// download active log
-			$curlDataActiveServer = '';
-			if( $server_list['active_log'] ) {
-				$curlDataActiveServer = @file_get_contents( $server_list['active_log'] );
-			}
-			
-			if(strlen($curlDataActiveServer)==0){
-					echo json_encode([
-						'success'=>false,
-						'message'=>'Failed to read files. Check your config.php',
-					]);
-					exit();
-			}
-			#var_dump(strlen($curlDataActiveServer));
+            echo json_encode([
+                'success'=>true,
+                'message'=>'Success on download',
+            ]);
 
-			// save active log
-			file_put_contents('logs/'.$server_list['local_name'],$curlData.$curlDataActiveServer);
+        }
 
-			// download full hash players
-			$curlDataHash = file_get_contents( $server_list['path_hash'] );
-
-			// download active hash players
-			$curlDataActiveServerHash = '';
-			if( $server_list['hash_active_log'] ) {
-				$curlDataActiveServerHash = file_get_contents( $server_list['hash_active_log'] );
-			}
-
-			// save active log
-			file_put_contents('logs/hash_'.$server_list['local_name'],$curlDataHash.$curlDataActiveServerHash);
-
-			$content = date('Y-m-d H:i:s');
-			$fp = fopen( './logs/'.$server_list['local_name'].'.timestamp',"wb");
-			fwrite($fp,$content);
-			fclose($fp);
-
-			echo json_encode([
-				'success'=>true,
-				'message'=>'Success on download',
-			]);
-			
-
-	
-    } 
-    
-}
+    }
 
 }catch ( Exception $exception ){
-     echo json_encode([
-         'success'=>false,
-         'code'=>$exception->getCode(),
-         'message'=>$exception->getMessage(),
-     ]);
+    echo json_encode([
+        'success'=>false,
+        'code'=>$exception->getCode(),
+        'message'=>$exception->getMessage(),
+    ]);
 }
+
+
+function saveLogFiles( $server ){
+
+    // mater file
+    $masterFile = file_get_contents( $server['ra_adminlog'] );
+
+    // incremental file
+    $getIncremental = '';
+    if( $server['ra_adminlog_main'] ) {
+        $getIncremental = @file_get_contents( $server['ra_adminlog_main'] );
+    }
+
+    // save file
+    file_put_contents('logs/'.$server['local_name'],$masterFile.$getIncremental);
+
+}
+
+
+function saveHashFiles( $server ){
+
+    // mater file
+    $masterFile = file_get_contents( $server['cdhash'] );
+
+    // incremental file
+    $getIncremental = '';
+    if( $server['cdhash_main'] ) {
+        $getIncremental = @file_get_contents( $server['cdhash_main'] );
+    }
+
+    // save file
+    file_put_contents('logs/hash_'.$server['local_name'],$masterFile.$getIncremental);
+
+}
+
+
+function saveServerFiles( $server ){
+
+    // banlist
+    $banlist = file_get_contents( $server['banlist'] );
+    $lines = str_replace(['admin.addKeyToBanList '],'',$banlist);
+    file_put_contents('logs/banlist_'.$server['local_name'],$lines);
+
+    // whitelist
+    $whitelist = file_get_contents( $server['whitelist'] );
+    file_put_contents('logs/whitelist_'.$server['local_name'],$whitelist);
+
+}
+
+
+
+

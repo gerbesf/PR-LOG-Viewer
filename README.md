@@ -1,4 +1,4 @@
-# PR LOG Viewer 1.3.2
+# PR LOG Viewer 1.4
  
 ## How to Configure (config.php)
  
@@ -29,27 +29,36 @@ $config['servers_list'][] = [
     'name' => 'DIVSUL BRA', // server name
 
     // log files
-    'active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // filelog 1
-    'path' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // filelog 2
+    'ra_adminlog' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog.txt', 
+    'ra_adminlog_main' => 'http://sposerver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', 
 
     // hash files
-    'hash_active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash.txt', // filelog 1
-    'path_hash' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash_main.txt', // filelog 2
+    'hash_active_log' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash.txt', 
+    'path_hash' => 'http://sposerver.divsul.com:666/PRServer/logs/cdhash_main.txt', 
+
+    // server Files
+    'whitelist' => 'http://sposerver.divsul.com:666/PRServer/logs/whitelist.txt',
+    'banlist' => 'http://sposerver.divsul.com:666/PRServer/logs/banlist.con',
 
     'local_name' => 'divsul_bra.txt', // file name for this server
 ];
+
 
 $config['servers_list'][] = [
     'id' => 2, // keep the sequential order
     'name' => 'DIVSUL USA', // server name
 
     // log files
-    'active_log' => 'http://miaserver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // filelog 1
-    'path' => 'http://miaserver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // filelog 2
+    'ra_adminlog' => 'http://miaserver.divsul.com:666/PRServer/logs/ra_adminlog.txt', // filelog 1
+    'ra_adminlog_main' => 'http://miaserver.divsul.com:666/PRServer/logs/ra_adminlog_main.txt', // filelog 2
 
     // hash files
     'hash_active_log' => 'http://miaserver.divsul.com:666/PRServer/logs/cdhash.txt', // filelog 1
     'path_hash' => 'http://miaserver.divsul.com:666/PRServer/logs/cdhash_main.txt', // filelog 2
+
+    // server Files
+    'whitelist' => 'http://miaserver.divsul.com:666/PRServer/logs/whitelist.txt',
+    'banlist' => 'http://miaserver.divsul.com:666/PRServer/logs/banlist.con',
 
     'local_name' => 'divsul_usa.txt', // file name for this server
 ];

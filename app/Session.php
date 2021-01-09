@@ -50,6 +50,9 @@ class Session
      */
     public function isLogged()
     {
+       /* if($config['auth_enabled']==true){
+            return true;
+        }*/
         if($this->user_id!=null){
             if( $this->checkSession() ) return $this->checkSession();
             return true;

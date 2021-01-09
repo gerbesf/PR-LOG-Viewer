@@ -3,6 +3,17 @@
 include "../config.php";
 header('Content-Type: application/json');
 
+function configureBanneds( $banlist ){
+
+    $banneds_temp = [];
+
+    foreach( $banlist as $item ){
+        $line_x = explode(' ',$item);
+        $banneds_temp[$line_x[0]] = $line_x[1];
+    }
+    return $banneds_temp;
+}
+
 $results = [];
 // list servers
 foreach($config['servers_list'] as $server_list){
@@ -15,6 +26,16 @@ foreach($config['servers_list'] as $server_list){
         $hash = [];
         $search = strtolower($_GET['search']);
         $file = file(__DIR__ . '/logs/hash_' . $server_list['local_name']);
+
+        $whitelist_base = file(__DIR__ . '/logs/whitelist_' . $server_list['local_name']);
+        $banlist =  file(__DIR__ . '/logs/banlist_' . $server_list['local_name']);
+
+        $banned_list = configureBanneds( $banlist) ;
+
+        $whitelist_list = [];
+        foreach($whitelist_base as $item){
+            $whitelist_list[] = str_replace('<br />','',trim(nl2br($item)));
+        }
 
         $list = array_reverse($file);
         foreach($list as $line) {
@@ -35,6 +56,24 @@ foreach($config['servers_list'] as $server_list){
 
         foreach($hash as $item){
 
+
+
+            $unique_index = md5($item['hash'].$item['nick'].$item['ip']);
+            if(isset($banned_list[$item['hash']])) {
+                $item['banned'] = true;
+                $item['banned_detail'] = str_replace(array( "\r", "\r\n", "\n" ),'',$banned_list[$item['hash']]);
+            }else{
+                $item['banned'] = false;
+            }
+
+            if(in_array( $item['hash'], $whitelist_list )){
+                $item['whitelisted']=true;
+            }else{
+                $item['whitelisted']=false;
+            }
+
+
+
             $item['server']=$server_list['name'];
 
             if($_GET['hide']=='true'){
@@ -44,7 +83,6 @@ foreach($config['servers_list'] as $server_list){
                 $results[$item[$g]][] = $item;
             }
 
-            $unique_index = md5($item['hash'].$item['nick'].$item['ip']);
             $results[$item[$g]][$unique_index] = $item;
         }
 

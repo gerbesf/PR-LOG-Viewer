@@ -17,9 +17,12 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
     <script src="js/app.js"></script>
     <script src="js/ApplicationController.js?v=1.1"></script>
 
-    <!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS    -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="style/template.css" rel="stylesheet">
 
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -141,7 +144,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                 </div>
 
                 <div class="tab-block" ng-show="tab=='default'">
-                    <div style="height: 300px; width: 100%; overflow-y: scroll">
+                    <div style="height: 200px; width: 100%; overflow-y: scroll">
                     <ul class="list-group divide-col" >
                         <li  class="list-group-item"   ng-click="setCommand(command.value)" ng-class="{'active':active_command==command.value}" ng-repeat="command in server_commands">
                             <label class="p-0 m-0">
@@ -321,6 +324,9 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                             Steam Level
                         </th>
                         <th>
+                            Player Status
+                        </th>
+                        <th>
                             Nickname
                         </th>
                         <th>
@@ -331,7 +337,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                     <tbody  ng-repeat="(keyGroup,lines) in results_hash">
 
                     <tr>
-                        <td colspan="7" style="background: #eeeeee">
+                        <td colspan="8" style="background: #eeeeee">
                             <b ng-show="group_by=='nick'">Nick:</b>
                             <b ng-show="group_by=='hash'">Hash:</b>
                             <b ng-show="group_by=='data'">Data:</b>
@@ -372,7 +378,18 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                         </span>
                         </td>
                         <td>
-                            <a ng-click="getPlayerInfo(line.nick)" data-toggle="modal" data-target="#myModal" >{{ line.nick  }}</a>
+                            <span ng-if="line.whitelisted" class="badge badge-success" title="Whitelist">Whitelisted</span>
+                            <span ng-if="line.banned" class="badge badge-danger" title="BANNED">
+                                <span ng-if="line.banned_detail=='Perm'" >
+                                    Banned
+                                </span>
+                                <span ng-if="line.banned_detail!='Perm'" >
+                                    Temp Ban
+                                </span>
+                            </span>
+                        </td>
+                        <td>
+                            <a ng-click="getPlayerInfo(line.nick)" data-toggle="modal" data-target="#myModal" class="text-primary">{{ line.nick  }}</a>
                         </td>
                         <td>
                             <img style="width: 24px;" ng-src="./flag.php?ip={{ line.ip  }}">
@@ -393,13 +410,16 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title">History of: <b> {{ active_nickname }}</b></h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body p-0">
+                    <div ng-show="!result_player.server_log">
+                        <h4 class="text-center">Loading</h4>
+                    </div>
                     <div ng-show="result_player.server_log">
                         <div style="height: <?php echo $config['modal_height']; ?>; overflow-x: scroll">
-                            <table class="table table-condensed table-hover">
+                            <table class="table table-sm table-condensed table-hover">
                                 <thead>
                                 <tr>
                                     <th>
