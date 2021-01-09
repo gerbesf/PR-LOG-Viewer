@@ -56,8 +56,6 @@ foreach($config['servers_list'] as $server_list){
 
         foreach($hash as $item){
 
-
-
             $unique_index = md5($item['hash'].$item['nick'].$item['ip']);
             if(isset($banned_list[$item['hash']])) {
                 $item['banned'] = true;

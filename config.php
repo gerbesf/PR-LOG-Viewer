@@ -11,7 +11,7 @@ $config['date_format']="Y/m/d";
 $config['hour_format']="H:i:s";
 
 /* ---------- AUTH ---------- */
-$config['require_login'] = true;
+$config['require_login'] = false;
 $config['with_md5']=false;
 
 // Hide the last two blocks from the IP

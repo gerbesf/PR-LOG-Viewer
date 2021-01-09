@@ -2,18 +2,15 @@
 
 include "../config.php";
 header('Content-Type: application/json');
-
-$Session = new \App\Session();
-
-if($config['require_login']==false){
-    $startDate = time();
+if($GLOBALS['config']['auth_enabled']==false){
     echo json_encode([
         'status'=>true,
-        'expiration'=>date('Y-m-d H:i:s', strtotime('+1 day', $startDate))
+        'expiration'=> date('Y-m-d', strtotime(date('Y-m-d H:i:s'). ' + 1 days'))
     ]);
 }else{
+    $Session = new \App\Session();
     echo json_encode([
-        'status'=>$Session->isLogged(),
+        'status'=>$Session->isLogged(  ),
         'expiration'=>$_SESSION['expires']
     ]);
 }

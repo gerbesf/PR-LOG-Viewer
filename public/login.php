@@ -1,5 +1,4 @@
 <?php
-
 require '../config.php';
 $Session = new \App\Session();
 if($Session->isLogged()!=false or $GLOBALS['config']['require_login']==false){
