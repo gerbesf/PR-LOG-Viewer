@@ -2,7 +2,7 @@
 
 include "../config.php";
 header('Content-Type: application/json');
-if($GLOBALS['config']['auth_enabled']==false){
+if($GLOBALS['config']['require_login']==false){
     echo json_encode([
         'status'=>true,
         'expiration'=> date('Y-m-d', strtotime(date('Y-m-d H:i:s'). ' + 1 days'))
