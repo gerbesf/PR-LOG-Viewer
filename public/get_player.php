@@ -70,7 +70,16 @@ foreach($config['servers_list'] as $server_list){
                 $item['whitelisted']=false;
             }
 
+            if( $GLOBALS['config']['hide_ips']==true){
 
+                $eIp = explode('.',$item['ip']);
+                unset($eIp[2]);
+                unset($eIp[3]);
+                $eIp[2]='000';
+                $eIp[3]='000';
+                $item['ip'] = implode('.',$eIp);
+
+            }
 
             $item['server']=$server_list['name'];
 
@@ -80,6 +89,7 @@ foreach($config['servers_list'] as $server_list){
             }else{
                 $results[$item[$g]][] = $item;
             }
+
 
             $results[$item[$g]][$unique_index] = $item;
         }
