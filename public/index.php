@@ -326,7 +326,7 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                         <th>
                             Player Status
                         </th>
-                        <th>
+                        <th style="min-width:200px;">
                             Nickname
                         </th>
                         <th>
