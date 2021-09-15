@@ -379,11 +379,11 @@ if($Session->isLogged()==false && $GLOBALS['config']['require_login']==true){
                         </td>
                         <td>
                             <span ng-if="line.whitelisted" class="badge badge-success" title="Whitelist">Whitelisted</span>
-                            <span ng-if="line.banned" class="badge badge-danger" title="BANNED">
-                                <span ng-if="line.banned_detail=='Perm'" >
+                            <span ng-if="line.banned" class="badge badge-danger mr-1" title="BANNED">
+                                <span  ng-if="line.banned_detail=='perm'" >
                                     Banned
                                 </span>
-                                <span ng-if="line.banned_detail!='Perm'" >
+                                <span class="ml-1" ng-if="line.banned_detail=='timeban'" >
                                     Temp Ban
                                 </span>
                             </span>
